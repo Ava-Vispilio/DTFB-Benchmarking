@@ -1,0 +1,123 @@
+#!/bin/bash
+#PBS -j oe
+#PBS -N dftb_run
+#PBS -P ${PROJECT_ID:-}
+
+set -euo pipefail
+
+cd "${PBS_O_WORKDIR:?}" || exit $?
+
+source scripts/common.sh
+
+require_env VARIANT_ID
+require_env RUNSET
+
+variant_file_sh="configs/variants/${VARIANT_ID}.sh"
+runset_file_sh="configs/runs/${RUNSET}.sh"
+[[ -f "$variant_file_sh" ]] || die "Variant file not found: $variant_file_sh"
+[[ -f "$runset_file_sh" ]] || die "Runset file not found: $runset_file_sh"
+
+source "$variant_file_sh"
+source "$runset_file_sh"
+
+root="$(ensure_parent_root)"
+run_root="${root}/runs/${VARIANT_ID}/${RUNSET}"
+mkdir -p "$run_root"
+
+# Select case index: 1-based PBS array index, else 1.
+case_idx="${PBS_ARRAY_INDEX:-1}"
+case_idx="${case_idx:-1}"
+
+total_cases="${#CASES[@]}"
+[[ "$case_idx" -ge 1 && "$case_idx" -le "$total_cases" ]] || die "Invalid case index ${case_idx}; total=${total_cases}"
+
+IFS='|' read -r RUN_ID SEL NCPUS MPIPROCS OMPTHREADS NGPUS <<< "${CASES[$((case_idx-1))]}"
+RUN_TS="$(timestamp_utc)"
+RUN_ID_FULL="${RUN_ID}_${RUN_TS}"
+
+out_dir="${run_root}/${RUN_ID_FULL}"
+mkdir -p "$out_dir"
+
+echo "== Variant: ${VARIANT_ID}"
+echo "== Runset:  ${RUNSET}"
+echo "== Case:    ${RUN_ID} (index ${case_idx}/${total_cases})"
+echo "== Out:     ${out_dir}"
+
+# Apply modules for variant (same logic as build)
+for m in "${MODULE_UNLOADS[@]:-}"; do
+  module unload "$m" || true
+done
+for m in "${MODULE_SWAPS[@]:-}"; do
+  module swap PrgEnv-cray "$m" || module swap PrgEnv-gnu "$m" || module swap PrgEnv-intel "$m" || module swap PrgEnv-aocc "$m" || module swap PrgEnv-nvhpc "$m" || module swap PrgEnv-cray "$m" || true
+done
+for m in "${MODULE_LOADS[@]:-}"; do
+  module load "$m"
+done
+
+module -t list 2>&1 | sed 's/^/module: /' > "${out_dir}/modules.txt" || true
+
+# Locate installed binary from build output
+install_dir="${root}/builds/${VARIANT_ID}/install"
+bin="${install_dir}/bin/dftb+"
+[[ -x "$bin" ]] || die "Expected DFTB+ binary not found/executable: ${bin}"
+
+# Benchmark inputs: keep immutable. Copy to working dir (prefer $TMPDIR if available).
+bench_case="${BENCH_CASE:-example_case}"
+input_src="tests/inputs/${bench_case}"
+[[ -d "$input_src" ]] || die "Benchmark case not found: ${input_src}"
+
+work_dir="${TMPDIR:-${out_dir}/work}"
+mkdir_clean "$work_dir"
+cp -R "${input_src}/." "$work_dir/"
+
+echo "== Work dir: ${work_dir}"
+
+{
+  echo "timestamp_utc=${RUN_TS}"
+  echo "variant_id=${VARIANT_ID}"
+  echo "runset=${RUNSET}"
+  echo "run_id=${RUN_ID_FULL}"
+  echo "select=${SEL}"
+  echo "ncpus=${NCPUS}"
+  echo "mpiprocs=${MPIPROCS}"
+  echo "ompthreads=${OMPTHREADS}"
+  echo "ngpus=${NGPUS}"
+  echo "pbs_jobid=${PBS_JOBID:-}"
+  echo "pbs_queue=${PBS_QUEUE:-}"
+  echo "cuda_visible_devices=${CUDA_VISIBLE_DEVICES:-}"
+} > "${out_dir}/run_manifest.env"
+
+if command -v nvidia-smi >/dev/null 2>&1; then
+  nvidia-smi > "${out_dir}/nvidia-smi.txt" || true
+fi
+
+export OMP_NUM_THREADS="${OMPTHREADS}"
+export OMP_PROC_BIND="${OMP_PROC_BIND:-close}"
+export OMP_PLACES="${OMP_PLACES:-cores}"
+
+# Run command: either a case-specific run.sh, or default to running dftb+ on dftb_in.hsd.
+cd "$work_dir"
+
+run_cmd=()
+if [[ -x "./run.sh" ]]; then
+  run_cmd=( "./run.sh" "$bin" )
+else
+  [[ -f "dftb_in.hsd" ]] || die "No run.sh and no dftb_in.hsd found in ${input_src}"
+  run_cmd=( "$bin" )
+fi
+
+echo "== Running 3 trials"
+for trial in 1 2 3; do
+  echo "== Trial ${trial}"
+  if [[ "${MPIPROCS}" -gt 1 ]]; then
+    /usr/bin/time -v mpirun -np "${MPIPROCS}" --cpu-bind depth -d "${OMPTHREADS}" "${run_cmd[@]}" \
+      > "${out_dir}/stdout.t${trial}.txt" 2> "${out_dir}/stderr.t${trial}.txt" || true
+  else
+    /usr/bin/time -v "${run_cmd[@]}" \
+      > "${out_dir}/stdout.t${trial}.txt" 2> "${out_dir}/stderr.t${trial}.txt" || true
+  fi
+done
+
+echo "== Done"
+
+

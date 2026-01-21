@@ -1,0 +1,108 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -j oe
+#PBS -l select=1:ncpus=16:mem=32gb
+#PBS -l walltime=02:00:00
+#PBS -N dftb_build
+#PBS -P ${PROJECT_ID:-}
+
+set -euo pipefail
+
+cd "${PBS_O_WORKDIR:?}" || exit $?
+
+source scripts/common.sh
+
+require_env VARIANT_ID
+
+variant_file_sh="configs/variants/${VARIANT_ID}.sh"
+[[ -f "$variant_file_sh" ]] || die "Variant file not found: $variant_file_sh"
+source "$variant_file_sh"
+
+root="$(ensure_parent_root)"
+build_root="${root}/builds/${VARIANT_ID}"
+src_dir="${build_root}/src"
+bld_dir="${build_root}/build"
+ins_dir="${build_root}/install"
+log_dir="${build_root}/logs"
+
+mkdir -p "$build_root" "$log_dir"
+
+echo "== Build variant: ${VARIANT_ID}"
+echo "== Root: ${root}"
+echo "== Build root: ${build_root}"
+
+# Capture basic provenance
+{
+  echo "timestamp_utc=$(timestamp_utc)"
+  echo "pbs_jobid=${PBS_JOBID:-}"
+  echo "pbs_queue=${PBS_QUEUE:-}"
+  echo "pbs_o_workdir=${PBS_O_WORKDIR:-}"
+  echo "variant_id=${VARIANT_ID}"
+  echo "variant_file=${variant_file_sh}"
+  git rev-parse HEAD 2>/dev/null | awk '{print "git_commit="$1}'
+} > "${log_dir}/build_manifest.env" || true
+
+module -t list 2>&1 | sed 's/^/module: /' > "${log_dir}/modules.before.txt" || true
+
+echo "== This script enforces clean rebuild directories."
+
+mkdir_clean "$src_dir"
+mkdir_clean "$bld_dir"
+mkdir_clean "$ins_dir"
+
+echo "== Applying modules for variant ${VARIANT_ID}"
+for m in "${MODULE_UNLOADS[@]:-}"; do
+  module unload "$m" || true
+done
+for m in "${MODULE_SWAPS[@]:-}"; do
+  module swap PrgEnv-cray "$m" || module swap PrgEnv-gnu "$m" || module swap PrgEnv-intel "$m" || module swap PrgEnv-aocc "$m" || module swap PrgEnv-nvhpc "$m" || module swap PrgEnv-cray "$m" || true
+done
+for m in "${MODULE_LOADS[@]:-}"; do
+  module load "$m"
+done
+
+module -t list 2>&1 | sed 's/^/module: /' > "${log_dir}/modules.after.txt" || true
+
+DFTBPLUS_GIT_URL="${DFTBPLUS_GIT_URL:-}"
+DFTBPLUS_REF="${DFTBPLUS_REF:-}"
+[[ -n "$DFTBPLUS_GIT_URL" ]] || die "Set DFTBPLUS_GIT_URL (e.g. export DFTBPLUS_GIT_URL=...)"
+[[ -n "$DFTBPLUS_REF" ]] || die "Set DFTBPLUS_REF (commit/tag/branch) e.g. export DFTBPLUS_REF=vX.Y.Z"
+
+echo "== Cloning DFTB+ source"
+git clone "$DFTBPLUS_GIT_URL" "$src_dir"
+(
+  cd "$src_dir"
+  git checkout "$DFTBPLUS_REF"
+  git rev-parse HEAD > "${log_dir}/dftbplus.commit"
+)
+
+echo "== Configuring (CMake)"
+(
+  cd "$bld_dir"
+  export CC=cc
+  export CXX=CC
+  export FC=ftn
+  export CFLAGS="${CFLAGS:-}"
+  export CXXFLAGS="${CXXFLAGS:-}"
+  export FCFLAGS="${FCFLAGS:-}"
+
+  cmake -S "$src_dir" -B "$bld_dir" \
+    -DCMAKE_INSTALL_PREFIX="$ins_dir" \
+    "${CMAKE_ARGS[@]:-}"
+)
+
+echo "== Building"
+(
+  cd "$bld_dir"
+  cmake --build . -j "${MAKE_JOBS:-16}"
+)
+
+echo "== Installing"
+(
+  cd "$bld_dir"
+  cmake --install .
+)
+
+echo "== Build done: ${ins_dir}"
+
+

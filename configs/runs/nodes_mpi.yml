@@ -1,0 +1,30 @@
+runset_id: nodes_mpi
+description: "Multi-node scaling (pure MPI or hybrid MPI/OpenMP) on CPU nodes"
+
+queue: normal
+walltime: "02:00:00"
+mem: "110gb"
+
+cases:
+  - run_id: n2_mpi64_omp1
+    select: 2
+    ncpus: 64
+    mpiprocs: 64
+    ompthreads: 1
+    ngpus: 0
+
+  - run_id: n4_mpi64_omp1
+    select: 4
+    ncpus: 64
+    mpiprocs: 64
+    ompthreads: 1
+    ngpus: 0
+
+  - run_id: n8_mpi64_omp1
+    select: 8
+    ncpus: 64
+    mpiprocs: 64
+    ompthreads: 1
+    ngpus: 0
+
+
