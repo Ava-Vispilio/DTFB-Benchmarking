@@ -1,0 +1,280 @@
+
+
+BasicLinuxTutorial
+## Version-0.2
+Date-7-March-2024
+RemotelyconnectingtoLinuxCommandLineInterface(CLI)fromWindows
+1.Youmaydownloadeitherofthesesshclients:-
+PuTTYfromhttp://www.chiark.greenend.org.uk/~sgtatham/putty/
+MobaXterm:-https://mobaxterm.mobatek.net/download-home-edition.html
+2.OncetheSSHConnectionisopen,youshouldseeaterminalpromptaskingforyourusername:
+loginas:
+ConnecttoASPIRE2aloginnodeviarespectivestakeholders(NUS/NTU/ASTARetc..)VPN.
+3.Next,enteryourpassword.PleasenotethatyouwillNOTseeyourcursormoving,orany
+characterstyped(suchas******),whentypingyourpassword.ThisisastandardPuTTYsecurity
+feature.Hitenter.
+## Usingkeyboard-interactiveauthentication.
+## Password:
+4.YouarenowloggedintoyourserverwithSSH.Youshouldseeoutputlikethis:
+example.com@n11:~$
+CommandShells:
+Ashellisacommandinterpreterwhichallowsyoutointeractwiththecomputer.Thebehaviorofthe
+commandlineinterfacewilldifferslightlydependingontheshellprogramthatisbeingused.
+Dependingontheshellused,someextrabehaviorscanbequitenifty.Inthistutorialwewillfocuson
+## Bash,sinceitisthemostwidelyusedandalsooneofthemostpowerfulshellsoutthere.
+## Youcanfindoutwhatshellyouareusingbythecommand:
+$echo$SHELL
+Date-7-March-2024,Version-0.2
+
+Ofcourseyoucancreateafilewithalistofshellcommandsandexecuteitlikeaprogramtoperforma
+task.Thisiscalledashellscript.Thisisinfacttheprimarypurposeofmostshells,nottheinteractive
+commandlinebehavior.Thiscanbedonebyinsertingthefollowinglineattheverytopofyourscript.
+## #!/bin/bash
+LinuxDirectories
+FileanddirectorypathsinLINUXusetheforwardslash"/"toseparatedirectorynamesinapath.
+examples:
+## /"root"directory
+/home/myuseridyourHOMEdirectory
+## /usrdirectoryusr(sub-directoryof/"root"directory)
+/usr/STRIM100STRIM100isasubdirectoryof/usr
+## Movingaroundthefilesystem
+pwdShowthe"presentworkingdirectory",orcurrentdirectory.
+cdChangethecurrentdirectorytoyourHOMEdirectory.
+cd/usr/STRIM100Changethecurrentdirectoryto/usr/STRIM100.
+cdINITChangecurrentdirectorytoINITwhichisasub-directoryofthecurrent
+directory.
+cd..Changecurrentdirectorytotheparentdirectoryofthecurrent
+directory.
+cd$STRMWORKChangecurrentdirectorytothedirectorydefinedbytheenvironment
+variable'STRMWORK'.
+cd~bobChangethecurrentdirectorytotheuserbob'shomedirectory(ifyou
+havepermission).
+## Listingdirectorycontents:
+lslistadirectoryls-llistadirectoryinlong(detailed)format
+forexample:
+## $ls-l
+drwxr-xr-x4cliffuser1024Jun1809:40
+## WAITRON_EARNINGS
+-rw-r--r--1cliffuser767392Jun614:28scanlib.tar.gz
+## ^^^^^^^^^^^
+## |||||||||||
+## |||||ownergroupsizedatetimename
+Date-7-March-2024,Version-0.2
+
+## ||||numberoflinkstofileordirectorycontents
+## |||permissionsforworld
+## ||permissionsformembersofgroup
+## |permissionsforowneroffile:r=read,w=write,x=execute-=no
+permission
+typeoffile:-=normalfile,d=directory,l=symboliclink,and
+others...
+ls-aListthecurrentdirectoryincludinghiddenfiles.Hiddenfilesstart
+with"."
+ls-ld*Listallthefileanddirectorynamesinthecurrentdirectoryusinglongformat.Without
+the"d"option,lswouldlistthecontentsofanysub-directoryofthecurrent.Withthe
+## "d"option,lsjustliststhemlikeregularfiles.
+## Changingfilepermissionsandattributes:
+chmod755filenameChangesthepermissionsoffiletoberwxfortheowner,andrxfor
+thegroupandtheworld.(7=rwx=111binary.5=r-x=101binary)
+chgrpuserfileMakesfilesbelongtothegroupuser.
+chownclifffileMakesclifftheownerofthefile.
+chown-RcliffdirMakesclifftheownerofdirandeverythinginitsdirectorytree.
+## Youmustbetheownerofthefile/directoryorberootbeforeyoucandoanyofthesethings.
+## Moving,renaming,andcopyingfiles
+cpfile1file2copyafile
+mvfile1newnamemoveorrenameafilemvfile1~/AAA/movefile1
+intosub-directoryAAAinyourhomedirectory.rmfile1[file2...]removeor
+deleteafilerm-rdir1[dir2...]recursivelyremoveadirectoryanditscontents
+## BECAREFUL!
+mkdirdir1[dir2...]createdirectories
+mkdir-pdirpathcreatethedirectorydirpath,includingallimplieddirectoriesinthepath.
+rmdirdir1[dir2...]removeanemptydirectory
+## Viewingandeditingfiles
+catfilenameDumpafiletothescreeninascii.
+morefilenameProgressivelydumpafiletothescreen:ENTER=onelinedown
+SPACEBAR=pagedownq=quit
+lessfilenameLikemore,butyoucanusePage-Uptoo.Notonallsystems.
+vifilenameform.Editafileusingthevieditor.AllLINUXsystemswillhaveviinsome
+Date-7-March-2024,Version-0.2
+
+emacsfilenameEditafileusingtheemacseditor.Notallsystemswillhaveemacs.
+headfilenameShowthefirstfewlinesofafile.
+head-nfilenameShowthefirstnlinesofafile.
+tailfilenameShowthelastfewlinesofafile.
+tail-nfilenameShowthelastnlinesofafile.
+## Environmentvariables
+Youcanteachyourshelltorememberthingsforlaterusingenvironmentvariables.For
+exampleunderthebashshell:
+exportCASROOT=/usr/local/CAS3.0DefinesthevariableCASROOTwiththe
+value/usr/local/CAS3.0.
+exportLD_LIBRARY_PATH=$CASROOT/Linux/libDefinesthevariableLD_LIBRARY_PATH
+withthevalueofCASROOTwith
+/Linux/libappended,or
+/usr/local/CAS3.0/Linux/lib
+## Byprefixing$tothevariablename,youcanevaluateitinanycommand:
+cd$CASROOTChangesyourpresentworkingdirectorytothevalueofCASROOT
+echo$CASROOTPrintsoutthevalueofCASROOT,or/usr/local/CAS3.0
+printenvCASROOTDoesthesamethinginbashandsomeothershells.
+InteractiveHistory
+## Afeatureofbashandtcsh(andsometimesothers)youcanusetheup-arrowkeystoaccessyour
+previouscommands,editthem,andre-executethem.
+FilenameandCommandCompletion:
+Afeatureofbashandtcsh(andpossiblyothers)youcanusetheTABkeytocompleteapartiallytyped
+filename.Forexampleifyouhaveafilecalledconstantine-monks-and-willy-wonka.txtinyourdirectory
+andwanttoeditityoucantype'viconst',hittheTABkey,andtheshellwillfillintherestofthename
+foryou(providedthecompletionisunique).
+Bashwillevencompletethenameofcommandsandenvironmentvariables.Andiftherearemultiple
+completions,ifyouhitTABtwicebashwillshowyouallthecompletions.Bashisthedefaultusershellfor
+mostLinuxsystems.
+## Redirection:
+grepstringfilename>newfileRedirectstheoutputoftheabovegrep
+commandtoafile'newfile'.
+Date-7-March-2024,Version-0.2
+
+grepstringfilename>>existfileAppendstheoutputofthegrepcommand
+totheendof'existfile'.
+## Theredirectiondirectives,>and>>canbeusedontheoutputofmostcommandsto
+directtheiroutputtoafile.
+## Pipes:
+## Thepipesymbol"|"isusedtodirecttheoutputofonecommandtotheinputofanother.
+## Forexample:
+ls-l|moreThiscommandstakestheoutputofthelongformat
+directorylistcommand"ls-l"andpipesitthroughthe
+morecommand(alsoknownasafilter).Inthiscasea
+verylonglistoffilescanbeviewedapageatatime.
+du-sc*|sort-n|tailThecommand"du-sc"liststhesizesofallfilesand
+directoriesinthecurrentworkingdirectory.Thatispiped
+through"sort-n"whichorderstheoutputfromsmallest
+tolargestsize.Finally,thatoutputispipedthrough"tail"
+whichdisplaysonlythelastfew(whichjusthappentobe
+thelargest)results.
+CommandSubstitution
+Youcanusetheoutputofonecommandasaninputtoanothercommandinanotherwaycalledcommand
+substitution.Commandsubstitutionisinvokedwhenenclosingthesubstitutedcommandinbackwards
+singlequotes.
+## Forexample:
+cat`find.-nameaaa.txt`
+whichwillcat(dumptothescreen)allthefilesnamedaaa.txtthatexistinthecurrentdirectory
+orinanysubdirectorytree.
+Searchingforstringsinfiles:Thegrepcommand
+grepstringfilenameprintsallthelinesinafilethatcontainthestring
+Searchingforfiles:Thefindcommand
+findsearch_path-namefilename
+Date-7-March-2024,Version-0.2
+
+find.-nameaaa.txtFindsallthefilesnamedaaa.txtinthe
+currentdirectoryoranysubdirectory
+tree.
+find/-namevimrcFindallthefilesnamed'vimrc'
+anywhereonthesystem.
+find/usr/local/games-name"*xpilot*"
+## Findallfileswhosenamescontainthe
+string'xpilot'whichexistwithinthe
+## '/usr/local/games'directorytree.
+Readingandwritingbackupsandarchives:Thetarcommand
+Thetarcommandisthe"standard"waytoreadandwritearchives(collectionsoffilesandwhole
+directorytrees).
+Oftenyouwillfindarchivesofstuffwithnameslikestuff.tar,orstuff.tar.gz.Thisisstuffinatararchive,
+andstuffinatararchivewhichhasbeencompressedusingthegzipcompressionprogramrespectively.
+ChancesarethatifsomeonegivesyouatapewrittenonaLINUXsystem,itwillbeintarformat,andyou
+willusetar(andyourtapedrive)toreadit.
+Likewise,ifyouwanttowriteatapetogivetosomeoneelse,youshouldprobablyusetaraswell.
+## Tarexamples:
+tarxvextracts(x)filesfromthedefaulttapedrive
+whilelisting(v=verbose)thefilenamestothe
+screen.
+tartvliststhefilesfromthedefaulttapedevice
+withoutextractingthem.
+tarcvfile1file2Writefiles'file1'and'file2'tothedefaulttape
+device.
+tarcvfarchive.tarfile1[file2...]createatararchiveasafile"archive.tar"
+containingfile1,file2...etc.
+tarxvfarchive.tarextractfromthearchivefile
+tarcvfzarchive.tar.gzdnamecreateagzipcompressedtararchivecontaining
+everythinginthedirectory'dname'.Thisdoes
+notworkwithallversionsoftar.
+tarxvfzarchive.tar.gzextractagzipcompressedtararchive.Doesnot
+workwithallversionsoftar.
+tarcvfIarchive.tar.bz2dnameCreateabz2compressedtararchive.Doesnot
+workwithallversionsoftar
+Date-7-March-2024,Version-0.2
+
+## Filecompression:compress,gzip,andbzip2
+Acommoncompressionutilityisgzip(andgunzip).ThesearetheGNUcompressanduncompressutilities.
+gzipusuallygivesbettercompressionthanstandardcompress,butmaynotbeinstalledonallsystems.The
+suffixforgzippedfilesis.gz
+gzippartCreatesacompressedfilepart.gzgunzip
+part.gzExtractstheoriginalfilefrompart.gz
+## Thebzip2utilityhas(ingeneral)evenbettercompressionthangzip,butatthecostoflonger
+timestocompressanduncompressthefiles.Itisnotascommonautilityasgzip,butisbecoming
+moregenerallyavailable.
+bzip2partCreateacompressedbzip2filepar.bz2bunzip2
+part.bz2Uncompressthecompressedpartfile.
+Lookingforhelp:Themancommands
+## Mostofthecommandshaveamanualpagewhichgivesometimesuseful,oftenmoreorless
+detailed,sometimescrypticandunfathomabledescriptionsoftheirusage.Somesaythey
+arecalledmanpagesbecausetheyareonlyforrealmen.
+## Example:
+manlsShowsthemanualpageforthelscommand
+## Basicsofthevieditor
+vifilenameOpeningafile
+## Creatingtext
+Editmodes:Thesekeysentereditingmodesandtypeinthetextofyourdocument.
+iInsertbeforecurrentcursorpositionI
+## Insertatbeginningofcurrentlinea
+## Insert(append)aftercurrentcursorposition
+AAppendtoendofliner
+## Replace1character
+Date-7-March-2024,Version-0.2
+
+RReplacemode
+<ESC>Terminateinsertionoroverwritemode
+## Deletionoftext
+xDeletesinglecharacter
+ddDeletecurrentlineandputinbuffer
+nddDeletenlines(nisanumber)andputtheminbuffer
+JAttachesthenextlinetotheendofthecurrentline(deletescarriagereturn).
+uUndolastcommand
+## Cutandpaste
+yyYankcurrentlineintobuffernyyYanknlinesintobuffer
+pPutthecontentsofthebufferafterthecurrentlineP
+## Putthecontentsofthebufferbeforethecurrentline
+## Cursorpositioning
+^dPagedown
+^uPageup
+:nPositioncursoratlinen
+:$Positioncursoratendoffile
+^gDisplaycurrentlinenumber
+h,j,k,lLeft,Down,UpandRightrespectively.Yourarrowkeysshouldalsowork.
+## Stringsubstitution
+:n1,n2:s/string1/string2/[g]Substitutestring2forstring1onlinesn1ton2.Ifgis
+included(meaningglobal),allinstancesofstring1on
+eachlinearesubstituted.Ifgisnotincluded,onlythe
+firstinstancepermatchinglineissubstituted.
+## ^matchesstartofline
+## .matchesanysinglecharacter
+## $matchesendofline
+Theseandother"specialcharacters"(liketheforwardslash)canbe"escaped"with\i.etomatchthe
+string"/usr/STRIM100/SOFT"say"\/usr\/STRIM100\/SOFT"
+## Examples:
+:1,$:s/dog/cat/gSubstitute'cat'for'dog',everyinstancefortheentirefile-lines
+## 1to$(endoffile)
+:23,25:/frog/bird/Substitute'bird'for'frog'onlines23through25.Onlythefirst
+instanceoneachlineissubstituted.
+Date-7-March-2024,Version-0.2
+
+## Savingandquittingandother"ex"commands
+Thesecommandsareallprefixedbypressingcolon(:)andthenenteredinthelowerleftcornerofthe
+window.Theyarecalled"ex"commandsbecausetheyarecommandsoftheextexteditor-theprecursor
+lineeditortothescreeneditorvi.Youcannotenteran"ex"commandwhenyouareineditmode(typing
+textontothescreen)Press<ESC>toexitfromaneditingmode.
+:wWritethecurrentfile.
+:wnew.fileWritethefiletothename'new.file'.
+:w!existing.fileOverwriteanexistingfilewiththefilecurrentlybeingedited.
+:wqWritethefileandquit.
+:qQuit.
+:q!Quitwithnochanges.
+:efilenameOpenthefile'filename'forediting.
+:setnumberTurnsonlinenumbering
+:setnonumberTurnsofflinenumbering
+Date-7-March-2024,Version-0.2
