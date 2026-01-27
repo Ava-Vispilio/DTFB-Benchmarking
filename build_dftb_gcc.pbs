@@ -37,6 +37,12 @@ if [ ! -d "$DFTB_SOURCE" ]; then
     exit 1
 fi
 
+# Load CMake module
+module load cmake || {
+    echo "Error: cmake module not found. DFTB+ requires CMake to build."
+    exit 1
+}
+
 # Load GCC module
 echo "Loading GCC module..."
 module load gcc || {
