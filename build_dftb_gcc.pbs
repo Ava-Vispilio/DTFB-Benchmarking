@@ -82,47 +82,89 @@ module load openblas/0.3.23 || {
 
 # Verify OpenBLAS is loaded and set up library paths
 echo "OpenBLAS module loaded"
+
+# Check what the module sets
+echo "Checking module environment..."
+module show openblas/0.3.23 2>&1 | grep -E "(OPENBLAS|LIB|PATH)" || true
+
+# Try to find OpenBLAS library - check multiple possible locations
+BLAS_LIBRARY=""
 BLAS_LIBRARY_PATH=""
+
+# Method 1: Check OPENBLAS_ROOT if set
 if [ -n "$OPENBLAS_ROOT" ]; then
     echo "  OPENBLAS_ROOT: $OPENBLAS_ROOT"
-    # Export library paths for CMake to find BLAS
-    if [ -d "$OPENBLAS_ROOT/lib" ]; then
-        export LD_LIBRARY_PATH="$OPENBLAS_ROOT/lib:${LD_LIBRARY_PATH:-}"
-        BLAS_LIBRARY_PATH="$OPENBLAS_ROOT/lib"
-    fi
-    if [ -d "$OPENBLAS_ROOT/lib64" ]; then
-        export LD_LIBRARY_PATH="$OPENBLAS_ROOT/lib64:${LD_LIBRARY_PATH:-}"
-        if [ -z "$BLAS_LIBRARY_PATH" ]; then
-            BLAS_LIBRARY_PATH="$OPENBLAS_ROOT/lib64"
+    for libdir in "$OPENBLAS_ROOT/lib" "$OPENBLAS_ROOT/lib64"; do
+        if [ -d "$libdir" ]; then
+            export LD_LIBRARY_PATH="$libdir:${LD_LIBRARY_PATH:-}"
+            if [ -z "$BLAS_LIBRARY_PATH" ]; then
+                BLAS_LIBRARY_PATH="$libdir"
+            fi
+            # Look for library files
+            for libfile in "$libdir"/libopenblas.so* "$libdir"/libopenblas.a; do
+                if [ -f "$libfile" ] && [ -z "$BLAS_LIBRARY" ]; then
+                    BLAS_LIBRARY="$libfile"
+                    break
+                fi
+            done
         fi
-    fi
+    done
 fi
 
-# Find the OpenBLAS library file for CMake
-BLAS_LIBRARY=""
-if [ -n "$BLAS_LIBRARY_PATH" ]; then
-    # Try to find libopenblas.so (shared) or libopenblas.a (static)
-    if [ -f "$BLAS_LIBRARY_PATH/libopenblas.so" ]; then
-        BLAS_LIBRARY="$BLAS_LIBRARY_PATH/libopenblas.so"
-    elif [ -f "$BLAS_LIBRARY_PATH/libopenblas.a" ]; then
-        BLAS_LIBRARY="$BLAS_LIBRARY_PATH/libopenblas.a"
+# Method 2: Check common module paths
+if [ -z "$BLAS_LIBRARY" ]; then
+    echo "  Searching common module paths..."
+    for basepath in /app/libs/openblas /app/apps/openblas /opt/openblas /usr/local; do
+        for libdir in "$basepath/0.3.23/lib" "$basepath/0.3.23/lib64" \
+                     "$basepath/lib" "$basepath/lib64"; do
+            if [ -d "$libdir" ]; then
+                for libfile in "$libdir"/libopenblas.so* "$libdir"/libopenblas.a; do
+                    if [ -f "$libfile" ] && [ -z "$BLAS_LIBRARY" ]; then
+                        BLAS_LIBRARY="$libfile"
+                        BLAS_LIBRARY_PATH="$libdir"
+                        export LD_LIBRARY_PATH="$libdir:${LD_LIBRARY_PATH:-}"
+                        echo "    Found in: $libdir"
+                        break 2
+                    fi
+                done
+            fi
+        done
+    done
+fi
+
+# Method 3: Use find if available (search in /app which is common on HPC systems)
+if [ -z "$BLAS_LIBRARY" ] && command -v find &> /dev/null; then
+    echo "  Searching with find..."
+    FOUND_LIB=$(find /app -name "libopenblas.so*" -o -name "libopenblas.a" 2>/dev/null | head -1)
+    if [ -n "$FOUND_LIB" ] && [ -f "$FOUND_LIB" ]; then
+        BLAS_LIBRARY="$FOUND_LIB"
+        BLAS_LIBRARY_PATH=$(dirname "$FOUND_LIB")
+        export LD_LIBRARY_PATH="$BLAS_LIBRARY_PATH:${LD_LIBRARY_PATH:-}"
+        echo "    Found: $BLAS_LIBRARY"
     fi
 fi
 
 # Display OpenBLAS version if available
 if command -v openblas_version &> /dev/null; then
     echo "  OpenBLAS version: $(openblas_version 2>/dev/null || echo 'unknown')"
-elif [ -f "$OPENBLAS_ROOT/include/openblas_config.h" ]; then
+elif [ -n "$OPENBLAS_ROOT" ] && [ -f "$OPENBLAS_ROOT/include/openblas_config.h" ]; then
     OPENBLAS_VERSION=$(grep -E "^#define OPENBLAS_VERSION" "$OPENBLAS_ROOT/include/openblas_config.h" 2>/dev/null | awk '{print $3}' | tr -d '"')
     if [ -n "$OPENBLAS_VERSION" ]; then
         echo "  OpenBLAS version: $OPENBLAS_VERSION"
     fi
 fi
 
+# Final check and report
 if [ -n "$BLAS_LIBRARY" ]; then
     echo "  BLAS library found: $BLAS_LIBRARY"
+    if [ -n "$BLAS_LIBRARY_PATH" ]; then
+        echo "  BLAS library path: $BLAS_LIBRARY_PATH"
+    fi
 else
-    echo "  Warning: Could not locate OpenBLAS library file"
+    echo "  ERROR: Could not locate OpenBLAS library file"
+    echo "  Please check that openblas/0.3.23 module is correctly loaded"
+    echo "  You can try: module show openblas/0.3.23"
+    exit 1
 fi
 
 # GCC-specific compiler flags
@@ -145,12 +187,8 @@ CMAKE_ARGS=(
     "-DCMAKE_C_FLAGS=$CMAKE_C_FLAGS"
     "-DCMAKE_CXX_FLAGS=$CMAKE_CXX_FLAGS"
     "-DCMAKE_Fortran_FLAGS=$CMAKE_Fortran_FLAGS"
+    "-DBLAS_LIBRARY=$BLAS_LIBRARY"
 )
-
-# Add BLAS_LIBRARY if found (required by FindCustomBlas.cmake)
-if [ -n "$BLAS_LIBRARY" ]; then
-    CMAKE_ARGS+=("-DBLAS_LIBRARY=$BLAS_LIBRARY")
-fi
 
 echo ""
 echo "CMake Configuration:"
