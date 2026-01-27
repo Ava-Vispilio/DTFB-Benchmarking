@@ -71,10 +71,20 @@ export CC=gcc
 export CXX=g++
 export FC=gfortran
 
-# Set compiler environment variables
-export CC=gcc
-export CXX=g++
-export FC=gfortran
+# Load OpenBLAS (includes BLAS and LAPACK, GCC-compatible version)
+echo "Loading OpenBLAS module..."
+module load openblas/0.3.23 || {
+    echo "Error: Failed to load openblas/0.3.23"
+    echo "Available OpenBLAS modules:"
+    module avail openblas 2>&1
+    exit 1
+}
+
+# Verify OpenBLAS is loaded
+echo "OpenBLAS module loaded"
+if [ -n "$OPENBLAS_ROOT" ]; then
+    echo "  OPENBLAS_ROOT: $OPENBLAS_ROOT"
+fi
 
 # GCC-specific compiler flags
 COMPILER_FLAGS="-O3 -march=native"
