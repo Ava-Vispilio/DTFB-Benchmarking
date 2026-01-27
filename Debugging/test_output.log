@@ -14,10 +14,6 @@ test 1
 1: Environment variables: 
 1:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 1: Test timeout computed to be: 10000000
-1: cp: cannot stat 'extcharges/H-H.skf': No such file or directory
-1: cp: cannot stat 'extcharges/H-O.skf': No such file or directory
-1: cp: cannot stat 'extcharges/O-H.skf': No such file or directory
-1: cp: cannot stat 'extcharges/O-O.skf': No such file or directory
 1: extcharges:	Test script returned non-zero exit code: 1
 1:  deleting file 'autotest.tag'
 1:  TODO.
@@ -33,10 +29,6 @@ test 1
 1: ------------------------------------------------------------------------------
 1: Status: FAIL
   1/406 Test   #1: api_extcharges ...................................................***Failed    0.05 sec
-cp: cannot stat 'extcharges/H-H.skf': No such file or directory
-cp: cannot stat 'extcharges/H-O.skf': No such file or directory
-cp: cannot stat 'extcharges/O-H.skf': No such file or directory
-cp: cannot stat 'extcharges/O-O.skf': No such file or directory
 extcharges:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -59,10 +51,6 @@ test 2
 2: Environment variables: 
 2:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 2: Test timeout computed to be: 10000000
-2: cp: cannot stat 'extpot/H-H.skf': No such file or directory
-2: cp: cannot stat 'extpot/H-O.skf': No such file or directory
-2: cp: cannot stat 'extpot/O-H.skf': No such file or directory
-2: cp: cannot stat 'extpot/O-O.skf': No such file or directory
 2: extpot:	Test script returned non-zero exit code: 1
 2:  deleting file 'autotest.tag'
 2:  TODO.
@@ -78,10 +66,6 @@ test 2
 2: ------------------------------------------------------------------------------
 2: Status: FAIL
   2/406 Test   #2: api_extpot .......................................................***Failed    0.05 sec
-cp: cannot stat 'extpot/H-H.skf': No such file or directory
-cp: cannot stat 'extpot/H-O.skf': No such file or directory
-cp: cannot stat 'extpot/O-H.skf': No such file or directory
-cp: cannot stat 'extpot/O-O.skf': No such file or directory
 extpot:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -104,10 +88,6 @@ test 3
 3: Environment variables: 
 3:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 3: Test timeout computed to be: 10000000
-3: cp: cannot stat 'extpot2/H-H.skf': No such file or directory
-3: cp: cannot stat 'extpot2/H-O.skf': No such file or directory
-3: cp: cannot stat 'extpot2/O-H.skf': No such file or directory
-3: cp: cannot stat 'extpot2/O-O.skf': No such file or directory
 3: extpot2:	Test script returned non-zero exit code: 1
 3:  deleting file 'autotest.tag'
 3:  TODO.
@@ -123,10 +103,6 @@ test 3
 3: ------------------------------------------------------------------------------
 3: Status: FAIL
   3/406 Test   #3: api_extpot2 ......................................................***Failed    0.05 sec
-cp: cannot stat 'extpot2/H-H.skf': No such file or directory
-cp: cannot stat 'extpot2/H-O.skf': No such file or directory
-cp: cannot stat 'extpot2/O-H.skf': No such file or directory
-cp: cannot stat 'extpot2/O-O.skf': No such file or directory
 extpot2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -149,10 +125,6 @@ test 4
 4: Environment variables: 
 4:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 4: Test timeout computed to be: 10000000
-4: cp: cannot stat 'extefield/H-H.skf': No such file or directory
-4: cp: cannot stat 'extefield/H-O.skf': No such file or directory
-4: cp: cannot stat 'extefield/O-H.skf': No such file or directory
-4: cp: cannot stat 'extefield/O-O.skf': No such file or directory
 4: extefield:	Test script returned non-zero exit code: 1
 4:  deleting file 'autotest.tag'
 4:  TODO.
@@ -167,11 +139,7 @@ test 4
 4:     extefield
 4: ------------------------------------------------------------------------------
 4: Status: FAIL
-  4/406 Test   #4: api_extefield ....................................................***Failed    0.04 sec
-cp: cannot stat 'extefield/H-H.skf': No such file or directory
-cp: cannot stat 'extefield/H-O.skf': No such file or directory
-cp: cannot stat 'extefield/O-H.skf': No such file or directory
-cp: cannot stat 'extefield/O-O.skf': No such file or directory
+  4/406 Test   #4: api_extefield ....................................................***Failed    0.05 sec
 extefield:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -194,10 +162,6 @@ test 5
 5: Environment variables: 
 5:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 5: Test timeout computed to be: 10000000
-5: cp: cannot stat 'timeprop/C-C.skf': No such file or directory
-5: cp: cannot stat 'timeprop/C-H.skf': No such file or directory
-5: cp: cannot stat 'timeprop/H-C.skf': No such file or directory
-5: cp: cannot stat 'timeprop/H-H.skf': No such file or directory
 5: timeprop:	Test script returned non-zero exit code: 1
 5:  deleting file 'autotest.tag'
 5:  TODO.
@@ -212,11 +176,7 @@ test 5
 5:     timeprop
 5: ------------------------------------------------------------------------------
 5: Status: FAIL
-  5/406 Test   #5: api_timeprop .....................................................***Failed    0.05 sec
-cp: cannot stat 'timeprop/C-C.skf': No such file or directory
-cp: cannot stat 'timeprop/C-H.skf': No such file or directory
-cp: cannot stat 'timeprop/H-C.skf': No such file or directory
-cp: cannot stat 'timeprop/H-H.skf': No such file or directory
+  5/406 Test   #5: api_timeprop .....................................................***Failed    0.06 sec
 timeprop:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -364,7 +324,7 @@ test 9
 9:     fileinitc
 9: ------------------------------------------------------------------------------
 9: Status: FAIL
-  9/406 Test   #9: api_fileinitc ....................................................***Failed    0.05 sec
+  9/406 Test   #9: api_fileinitc ....................................................***Failed    0.04 sec
 fileinitc:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -387,10 +347,6 @@ test 10
 10: Environment variables: 
 10:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 10: Test timeout computed to be: 10000000
-10: cp: cannot stat 'qdepextpot/H-H.skf': No such file or directory
-10: cp: cannot stat 'qdepextpot/H-O.skf': No such file or directory
-10: cp: cannot stat 'qdepextpot/O-H.skf': No such file or directory
-10: cp: cannot stat 'qdepextpot/O-O.skf': No such file or directory
 10: qdepextpot:	Test script returned non-zero exit code: 1
 10:  deleting file 'autotest.tag'
 10:  TODO.
@@ -406,10 +362,6 @@ test 10
 10: ------------------------------------------------------------------------------
 10: Status: FAIL
  10/406 Test  #10: api_qdepextpot ...................................................***Failed    0.05 sec
-cp: cannot stat 'qdepextpot/H-H.skf': No such file or directory
-cp: cannot stat 'qdepextpot/H-O.skf': No such file or directory
-cp: cannot stat 'qdepextpot/O-H.skf': No such file or directory
-cp: cannot stat 'qdepextpot/O-O.skf': No such file or directory
 qdepextpot:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -432,10 +384,6 @@ test 11
 11: Environment variables: 
 11:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 11: Test timeout computed to be: 10000000
-11: cp: cannot stat 'qdepextpotc/H-H.skf': No such file or directory
-11: cp: cannot stat 'qdepextpotc/H-O.skf': No such file or directory
-11: cp: cannot stat 'qdepextpotc/O-H.skf': No such file or directory
-11: cp: cannot stat 'qdepextpotc/O-O.skf': No such file or directory
 11: qdepextpotc:	Test script returned non-zero exit code: 1
 11:  deleting file 'autotest.tag'
 11:  TODO.
@@ -450,11 +398,7 @@ test 11
 11:     qdepextpotc
 11: ------------------------------------------------------------------------------
 11: Status: FAIL
- 11/406 Test  #11: api_qdepextpotc ..................................................***Failed    0.06 sec
-cp: cannot stat 'qdepextpotc/H-H.skf': No such file or directory
-cp: cannot stat 'qdepextpotc/H-O.skf': No such file or directory
-cp: cannot stat 'qdepextpotc/O-H.skf': No such file or directory
-cp: cannot stat 'qdepextpotc/O-O.skf': No such file or directory
+ 11/406 Test  #11: api_qdepextpotc ..................................................***Failed    0.05 sec
 qdepextpotc:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -477,10 +421,6 @@ test 12
 12: Environment variables: 
 12:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 12: Test timeout computed to be: 10000000
-12: cp: cannot stat 'resetspecies_NaCl/Cl-Cl.skf': No such file or directory
-12: cp: cannot stat 'resetspecies_NaCl/Cl-Na.skf': No such file or directory
-12: cp: cannot stat 'resetspecies_NaCl/Na-Cl.skf': No such file or directory
-12: cp: cannot stat 'resetspecies_NaCl/Na-Na.skf': No such file or directory
 12: resetspecies_NaCl:	Test script returned non-zero exit code: 1
 12:  deleting file 'autotest.tag'
 12:  TODO.
@@ -495,11 +435,7 @@ test 12
 12:     resetspecies_NaCl
 12: ------------------------------------------------------------------------------
 12: Status: FAIL
- 12/406 Test  #12: api_resetspecies_NaCl ............................................***Failed    0.05 sec
-cp: cannot stat 'resetspecies_NaCl/Cl-Cl.skf': No such file or directory
-cp: cannot stat 'resetspecies_NaCl/Cl-Na.skf': No such file or directory
-cp: cannot stat 'resetspecies_NaCl/Na-Cl.skf': No such file or directory
-cp: cannot stat 'resetspecies_NaCl/Na-Na.skf': No such file or directory
+ 12/406 Test  #12: api_resetspecies_NaCl ............................................***Failed    0.06 sec
 resetspecies_NaCl:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -522,10 +458,6 @@ test 13
 13: Environment variables: 
 13:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 13: Test timeout computed to be: 10000000
-13: cp: cannot stat 'resetspecies_C2H6/C-C.skf': No such file or directory
-13: cp: cannot stat 'resetspecies_C2H6/C-H.skf': No such file or directory
-13: cp: cannot stat 'resetspecies_C2H6/H-C.skf': No such file or directory
-13: cp: cannot stat 'resetspecies_C2H6/H-H.skf': No such file or directory
 13: resetspecies_C2H6:	Test script returned non-zero exit code: 1
 13:  deleting file 'autotest.tag'
 13:  TODO.
@@ -540,11 +472,7 @@ test 13
 13:     resetspecies_C2H6
 13: ------------------------------------------------------------------------------
 13: Status: FAIL
- 13/406 Test  #13: api_resetspecies_C2H6 ............................................***Failed    0.05 sec
-cp: cannot stat 'resetspecies_C2H6/C-C.skf': No such file or directory
-cp: cannot stat 'resetspecies_C2H6/C-H.skf': No such file or directory
-cp: cannot stat 'resetspecies_C2H6/H-C.skf': No such file or directory
-cp: cannot stat 'resetspecies_C2H6/H-H.skf': No such file or directory
+ 13/406 Test  #13: api_resetspecies_C2H6 ............................................***Failed    0.06 sec
 resetspecies_C2H6:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -567,7 +495,6 @@ test 14
 14: Environment variables: 
 14:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 14: Test timeout computed to be: 10000000
-14: cp: cannot stat 'treeinit/Si-Si.skf': No such file or directory
 14: treeinit:	Test script returned non-zero exit code: 1
 14:  deleting file 'autotest.tag'
 14:  TODO.
@@ -583,7 +510,6 @@ test 14
 14: ------------------------------------------------------------------------------
 14: Status: FAIL
  14/406 Test  #14: api_treeinit .....................................................***Failed    0.04 sec
-cp: cannot stat 'treeinit/Si-Si.skf': No such file or directory
 treeinit:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -606,7 +532,6 @@ test 15
 15: Environment variables: 
 15:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 15: Test timeout computed to be: 10000000
-15: cp: cannot stat 'expdmhs-si2/Si-Si.skf': No such file or directory
 15: expdmhs-si2:	Test script returned non-zero exit code: 1
 15:  deleting file 'autotest.tag'
 15:  TODO.
@@ -622,7 +547,6 @@ test 15
 15: ------------------------------------------------------------------------------
 15: Status: FAIL
  15/406 Test  #15: api_expdmhs-si2 ..................................................***Failed    0.05 sec
-cp: cannot stat 'expdmhs-si2/Si-Si.skf': No such file or directory
 expdmhs-si2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -645,10 +569,6 @@ test 16
 16: Environment variables: 
 16:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 16: Test timeout computed to be: 10000000
-16: cp: cannot stat 'imp_ham/H-H.skf': No such file or directory
-16: cp: cannot stat 'imp_ham/H-O.skf': No such file or directory
-16: cp: cannot stat 'imp_ham/O-H.skf': No such file or directory
-16: cp: cannot stat 'imp_ham/O-O.skf': No such file or directory
 16: imp_ham:	Test script returned non-zero exit code: 1
 16:  deleting file 'autotest.tag'
 16:  TODO.
@@ -664,10 +584,6 @@ test 16
 16: ------------------------------------------------------------------------------
 16: Status: FAIL
  16/406 Test  #16: api_imp_ham ......................................................***Failed    0.05 sec
-cp: cannot stat 'imp_ham/H-H.skf': No such file or directory
-cp: cannot stat 'imp_ham/H-O.skf': No such file or directory
-cp: cannot stat 'imp_ham/O-H.skf': No such file or directory
-cp: cannot stat 'imp_ham/O-O.skf': No such file or directory
 imp_ham:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -690,7 +606,6 @@ test 17
 17: Environment variables: 
 17:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 17: Test timeout computed to be: 10000000
-17: cp: cannot stat 'neighbour_list/Si-Si.skf': No such file or directory
 17: neighbour_list:	Test script returned non-zero exit code: 1
 17:  deleting file 'autotest.tag'
 17:  TODO.
@@ -705,8 +620,7 @@ test 17
 17:     neighbour_list
 17: ------------------------------------------------------------------------------
 17: Status: FAIL
- 17/406 Test  #17: api_neighbour_list ...............................................***Failed    0.05 sec
-cp: cannot stat 'neighbour_list/Si-Si.skf': No such file or directory
+ 17/406 Test  #17: api_neighbour_list ...............................................***Failed    0.04 sec
 neighbour_list:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -729,7 +643,6 @@ test 18
 18: Environment variables: 
 18:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 18: Test timeout computed to be: 10000000
-18: cp: cannot stat 'neighbour_list_c/Si-Si.skf': No such file or directory
 18: neighbour_list_c:	Test script returned non-zero exit code: 1
 18:  deleting file 'autotest.tag'
 18:  TODO.
@@ -745,7 +658,6 @@ test 18
 18: ------------------------------------------------------------------------------
 18: Status: FAIL
  18/406 Test  #18: api_neighbour_list_c .............................................***Failed    0.04 sec
-cp: cannot stat 'neighbour_list_c/Si-Si.skf': No such file or directory
 neighbour_list_c:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -768,10 +680,6 @@ test 19
 19: Environment variables: 
 19:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 19: Test timeout computed to be: 10000000
-19: cp: cannot stat 'intcharges/H-H.skf': No such file or directory
-19: cp: cannot stat 'intcharges/H-O.skf': No such file or directory
-19: cp: cannot stat 'intcharges/O-H.skf': No such file or directory
-19: cp: cannot stat 'intcharges/O-O.skf': No such file or directory
 19: intcharges:	Test script returned non-zero exit code: 1
 19:  deleting file 'autotest.tag'
 19:  TODO.
@@ -787,10 +695,6 @@ test 19
 19: ------------------------------------------------------------------------------
 19: Status: FAIL
  19/406 Test  #19: api_intcharges ...................................................***Failed    0.05 sec
-cp: cannot stat 'intcharges/H-H.skf': No such file or directory
-cp: cannot stat 'intcharges/H-O.skf': No such file or directory
-cp: cannot stat 'intcharges/O-H.skf': No such file or directory
-cp: cannot stat 'intcharges/O-O.skf': No such file or directory
 intcharges:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -827,7 +731,7 @@ test 20
 20:     extpot/CH4_gross
 20: ------------------------------------------------------------------------------
 20: Status: FAIL
- 20/406 Test  #20: app/dftb+/extpot/CH4_gross .......................................***Failed    0.05 sec
+ 20/406 Test  #20: app/dftb+/extpot/CH4_gross .......................................***Failed    0.04 sec
 extpot/CH4_gross:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -864,7 +768,7 @@ test 21
 21:     extpot/CH4_net
 21: ------------------------------------------------------------------------------
 21: Status: FAIL
- 21/406 Test  #21: app/dftb+/extpot/CH4_net .........................................***Failed    0.05 sec
+ 21/406 Test  #21: app/dftb+/extpot/CH4_net .........................................***Failed    0.04 sec
 extpot/CH4_net:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -901,7 +805,7 @@ test 22
 22:     extpot/CH4_gross2
 22: ------------------------------------------------------------------------------
 22: Status: FAIL
- 22/406 Test  #22: app/dftb+/extpot/CH4_gross2 ......................................***Failed    0.05 sec
+ 22/406 Test  #22: app/dftb+/extpot/CH4_gross2 ......................................***Failed    0.04 sec
 extpot/CH4_gross2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -938,7 +842,7 @@ test 23
 23:     extpot/CH4_net2
 23: ------------------------------------------------------------------------------
 23: Status: FAIL
- 23/406 Test  #23: app/dftb+/extpot/CH4_net2 ........................................***Failed    0.05 sec
+ 23/406 Test  #23: app/dftb+/extpot/CH4_net2 ........................................***Failed    0.04 sec
 extpot/CH4_net2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1035,10 +939,6 @@ test 26
 26: Environment variables: 
 26:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 26: Test timeout computed to be: 10000000
-26: cp: cannot stat 'deltadftb/C2H4/C-C.skf': No such file or directory
-26: cp: cannot stat 'deltadftb/C2H4/C-H.skf': No such file or directory
-26: cp: cannot stat 'deltadftb/C2H4/H-C.skf': No such file or directory
-26: cp: cannot stat 'deltadftb/C2H4/H-H.skf': No such file or directory
 26: deltadftb/C2H4:	Test script returned non-zero exit code: 1
 26:  deleting file 'autotest.tag'
 26:  TODO.
@@ -1054,10 +954,6 @@ test 26
 26: ------------------------------------------------------------------------------
 26: Status: FAIL
  26/406 Test  #26: app/dftb+/deltadftb/C2H4 .........................................***Failed    0.05 sec
-cp: cannot stat 'deltadftb/C2H4/C-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4/C-H.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4/H-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4/H-H.skf': No such file or directory
 deltadftb/C2H4:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1080,10 +976,6 @@ test 27
 27: Environment variables: 
 27:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 27: Test timeout computed to be: 10000000
-27: cp: cannot stat 'deltadftb/C2H4_noground/C-C.skf': No such file or directory
-27: cp: cannot stat 'deltadftb/C2H4_noground/C-H.skf': No such file or directory
-27: cp: cannot stat 'deltadftb/C2H4_noground/H-C.skf': No such file or directory
-27: cp: cannot stat 'deltadftb/C2H4_noground/H-H.skf': No such file or directory
 27: deltadftb/C2H4_noground:	Test script returned non-zero exit code: 1
 27:  deleting file 'autotest.tag'
 27:  TODO.
@@ -1099,10 +991,6 @@ test 27
 27: ------------------------------------------------------------------------------
 27: Status: FAIL
  27/406 Test  #27: app/dftb+/deltadftb/C2H4_noground ................................***Failed    0.05 sec
-cp: cannot stat 'deltadftb/C2H4_noground/C-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4_noground/C-H.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4_noground/H-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4_noground/H-H.skf': No such file or directory
 deltadftb/C2H4_noground:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1125,10 +1013,6 @@ test 28
 28: Environment variables: 
 28:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 28: Test timeout computed to be: 10000000
-28: cp: cannot stat 'deltadftb/C2H4_unpurified/C-C.skf': No such file or directory
-28: cp: cannot stat 'deltadftb/C2H4_unpurified/C-H.skf': No such file or directory
-28: cp: cannot stat 'deltadftb/C2H4_unpurified/H-C.skf': No such file or directory
-28: cp: cannot stat 'deltadftb/C2H4_unpurified/H-H.skf': No such file or directory
 28: deltadftb/C2H4_unpurified:	Test script returned non-zero exit code: 1
 28:  deleting file 'autotest.tag'
 28:  TODO.
@@ -1144,10 +1028,6 @@ test 28
 28: ------------------------------------------------------------------------------
 28: Status: FAIL
  28/406 Test  #28: app/dftb+/deltadftb/C2H4_unpurified ..............................***Failed    0.05 sec
-cp: cannot stat 'deltadftb/C2H4_unpurified/C-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4_unpurified/C-H.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4_unpurified/H-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/C2H4_unpurified/H-H.skf': No such file or directory
 deltadftb/C2H4_unpurified:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1170,22 +1050,6 @@ test 29
 29: Environment variables: 
 29:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 29: Test timeout computed to be: 10000000
-29: cp: cannot stat 'deltadftb/indigo/C-C.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/C-H.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/C-N.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/C-O.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/H-C.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/H-H.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/H-N.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/H-O.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/N-C.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/N-H.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/N-N.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/N-O.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/O-C.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/O-H.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/O-N.skf': No such file or directory
-29: cp: cannot stat 'deltadftb/indigo/O-O.skf': No such file or directory
 29: deltadftb/indigo:	Test script returned non-zero exit code: 1
 29:  deleting file 'autotest.tag'
 29:  TODO.
@@ -1200,23 +1064,7 @@ test 29
 29:     deltadftb/indigo
 29: ------------------------------------------------------------------------------
 29: Status: FAIL
- 29/406 Test  #29: app/dftb+/deltadftb/indigo .......................................***Failed    0.07 sec
-cp: cannot stat 'deltadftb/indigo/C-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/C-H.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/C-N.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/C-O.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/H-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/H-H.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/H-N.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/H-O.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/N-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/N-H.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/N-N.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/N-O.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/O-C.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/O-H.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/O-N.skf': No such file or directory
-cp: cannot stat 'deltadftb/indigo/O-O.skf': No such file or directory
+ 29/406 Test  #29: app/dftb+/deltadftb/indigo .......................................***Failed    0.09 sec
 deltadftb/indigo:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1253,7 +1101,7 @@ test 30
 30:     deltadftb/H2O
 30: ------------------------------------------------------------------------------
 30: Status: FAIL
- 30/406 Test  #30: app/dftb+/deltadftb/H2O ..........................................***Failed    0.05 sec
+ 30/406 Test  #30: app/dftb+/deltadftb/H2O ..........................................***Failed    0.04 sec
 deltadftb/H2O:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1646,7 +1494,6 @@ test 41
 41: Environment variables: 
 41:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 41: Test timeout computed to be: 10000000
-41: cp: cannot stat 'timeprop/H2_singlet/H-H.skf': No such file or directory
 41: timeprop/H2_singlet:	Test script returned non-zero exit code: 1
 41:  deleting file 'autotest.tag'
 41:  TODO.
@@ -1662,7 +1509,6 @@ test 41
 41: ------------------------------------------------------------------------------
 41: Status: FAIL
  41/406 Test  #41: app/dftb+/timeprop/H2_singlet ....................................***Failed    0.04 sec
-cp: cannot stat 'timeprop/H2_singlet/H-H.skf': No such file or directory
 timeprop/H2_singlet:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1685,7 +1531,6 @@ test 42
 42: Environment variables: 
 42:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 42: Test timeout computed to be: 10000000
-42: cp: cannot stat 'timeprop/H2_triplet/H-H.skf': No such file or directory
 42: timeprop/H2_triplet:	Test script returned non-zero exit code: 1
 42:  deleting file 'autotest.tag'
 42:  TODO.
@@ -1700,8 +1545,7 @@ test 42
 42:     timeprop/H2_triplet
 42: ------------------------------------------------------------------------------
 42: Status: FAIL
- 42/406 Test  #42: app/dftb+/timeprop/H2_triplet ....................................***Failed    0.04 sec
-cp: cannot stat 'timeprop/H2_triplet/H-H.skf': No such file or directory
+ 42/406 Test  #42: app/dftb+/timeprop/H2_triplet ....................................***Failed    0.05 sec
 timeprop/H2_triplet:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -1724,7 +1568,6 @@ test 43
 43: Environment variables: 
 43:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 43: Test timeout computed to be: 10000000
-43: cp: cannot stat 'timeprop/H2_exc_atoms/H-H.skf': No such file or directory
 43: timeprop/H2_exc_atoms:	Test script returned non-zero exit code: 1
 43:  deleting file 'autotest.tag'
 43:  TODO.
@@ -1739,8 +1582,7 @@ test 43
 43:     timeprop/H2_exc_atoms
 43: ------------------------------------------------------------------------------
 43: Status: FAIL
- 43/406 Test  #43: app/dftb+/timeprop/H2_exc_atoms ..................................***Failed    0.04 sec
-cp: cannot stat 'timeprop/H2_exc_atoms/H-H.skf': No such file or directory
+ 43/406 Test  #43: app/dftb+/timeprop/H2_exc_atoms ..................................***Failed    0.05 sec
 timeprop/H2_exc_atoms:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -2281,7 +2123,6 @@ test 58
 58: Environment variables: 
 58:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 58: Test timeout computed to be: 10000000
-58: cp: cannot stat 'helical/10-0Ctube/C-C.skf': No such file or directory
 58: helical/10-0Ctube:	Test script returned non-zero exit code: 1
 58:  deleting file 'autotest.tag'
 58:  TODO.
@@ -2297,7 +2138,6 @@ test 58
 58: ------------------------------------------------------------------------------
 58: Status: FAIL
  58/406 Test  #58: app/dftb+/helical/10-0Ctube ......................................***Failed    0.04 sec
-cp: cannot stat 'helical/10-0Ctube/C-C.skf': No such file or directory
 helical/10-0Ctube:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -2320,7 +2160,6 @@ test 59
 59: Environment variables: 
 59:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 59: Test timeout computed to be: 10000000
-59: cp: cannot stat 'helical/10-0CtubeC_10/C-C.skf': No such file or directory
 59: helical/10-0CtubeC_10:	Test script returned non-zero exit code: 1
 59:  deleting file 'autotest.tag'
 59:  TODO.
@@ -2336,7 +2175,6 @@ test 59
 59: ------------------------------------------------------------------------------
 59: Status: FAIL
  59/406 Test  #59: app/dftb+/helical/10-0CtubeC_10 ..................................***Failed    0.04 sec
-cp: cannot stat 'helical/10-0CtubeC_10/C-C.skf': No such file or directory
 helical/10-0CtubeC_10:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -2359,7 +2197,6 @@ test 60
 60: Environment variables: 
 60:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 60: Test timeout computed to be: 10000000
-60: cp: cannot stat 'helical/10-0CtubeC_10_origin/C-C.skf': No such file or directory
 60: helical/10-0CtubeC_10_origin:	Test script returned non-zero exit code: 1
 60:  deleting file 'autotest.tag'
 60:  TODO.
@@ -2375,7 +2212,6 @@ test 60
 60: ------------------------------------------------------------------------------
 60: Status: FAIL
  60/406 Test  #60: app/dftb+/helical/10-0CtubeC_10_origin ...........................***Failed    0.04 sec
-cp: cannot stat 'helical/10-0CtubeC_10_origin/C-C.skf': No such file or directory
 helical/10-0CtubeC_10_origin:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -2398,7 +2234,6 @@ test 61
 61: Environment variables: 
 61:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 61: Test timeout computed to be: 10000000
-61: cp: cannot stat 'helical/10-0CtubeC_10_sampled/C-C.skf': No such file or directory
 61: helical/10-0CtubeC_10_sampled:	Test script returned non-zero exit code: 1
 61:  deleting file 'autotest.tag'
 61:  TODO.
@@ -2414,7 +2249,6 @@ test 61
 61: ------------------------------------------------------------------------------
 61: Status: FAIL
  61/406 Test  #61: app/dftb+/helical/10-0CtubeC_10_sampled ..........................***Failed    0.04 sec
-cp: cannot stat 'helical/10-0CtubeC_10_sampled/C-C.skf': No such file or directory
 helical/10-0CtubeC_10_sampled:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -2474,10 +2308,6 @@ test 63
 63: Environment variables: 
 63:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 63: Test timeout computed to be: 10000000
-63: cp: cannot stat 'helical/C6H6_stack/C-C.skf': No such file or directory
-63: cp: cannot stat 'helical/C6H6_stack/C-H.skf': No such file or directory
-63: cp: cannot stat 'helical/C6H6_stack/H-C.skf': No such file or directory
-63: cp: cannot stat 'helical/C6H6_stack/H-H.skf': No such file or directory
 63: helical/C6H6_stack:	Test script returned non-zero exit code: 1
 63:  deleting file 'autotest.tag'
 63:  TODO.
@@ -2493,10 +2323,6 @@ test 63
 63: ------------------------------------------------------------------------------
 63: Status: FAIL
  63/406 Test  #63: app/dftb+/helical/C6H6_stack .....................................***Failed    0.05 sec
-cp: cannot stat 'helical/C6H6_stack/C-C.skf': No such file or directory
-cp: cannot stat 'helical/C6H6_stack/C-H.skf': No such file or directory
-cp: cannot stat 'helical/C6H6_stack/H-C.skf': No such file or directory
-cp: cannot stat 'helical/C6H6_stack/H-H.skf': No such file or directory
 helical/C6H6_stack:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -2644,7 +2470,7 @@ test 67
 67:     elecconstraints/Si8_spin
 67: ------------------------------------------------------------------------------
 67: Status: FAIL
- 67/406 Test  #67: app/dftb+/elecconstraints/Si8_spin ...............................***Failed    0.05 sec
+ 67/406 Test  #67: app/dftb+/elecconstraints/Si8_spin ...............................***Failed    0.04 sec
 elecconstraints/Si8_spin:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -2977,7 +2803,7 @@ test 76
 76:     hybrid/cluster/C18H12-force-cam
 76: ------------------------------------------------------------------------------
 76: Status: FAIL
- 76/406 Test  #76: app/dftb+/hybrid/cluster/C18H12-force-cam ........................***Failed    0.05 sec
+ 76/406 Test  #76: app/dftb+/hybrid/cluster/C18H12-force-cam ........................***Failed    0.04 sec
 hybrid/cluster/C18H12-force-cam:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3199,7 +3025,7 @@ test 82
 82:     hybrid/cluster/CH3-matrix
 82: ------------------------------------------------------------------------------
 82: Status: FAIL
- 82/406 Test  #82: app/dftb+/hybrid/cluster/CH3-matrix ..............................***Failed    0.05 sec
+ 82/406 Test  #82: app/dftb+/hybrid/cluster/CH3-matrix ..............................***Failed    0.04 sec
 hybrid/cluster/CH3-matrix:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3273,7 +3099,7 @@ test 84
 84:     hybrid/cluster/C60-nb-cutoff
 84: ------------------------------------------------------------------------------
 84: Status: FAIL
- 84/406 Test  #84: app/dftb+/hybrid/cluster/C60-nb-cutoff ...........................***Failed    0.06 sec
+ 84/406 Test  #84: app/dftb+/hybrid/cluster/C60-nb-cutoff ...........................***Failed    0.07 sec
 hybrid/cluster/C60-nb-cutoff:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3569,7 +3395,7 @@ test 92
 92:     hybrid/cluster/Benzene-Spinpol-matr
 92: ------------------------------------------------------------------------------
 92: Status: FAIL
- 92/406 Test  #92: app/dftb+/hybrid/cluster/Benzene-Spinpol-matrix ..................***Failed    0.05 sec
+ 92/406 Test  #92: app/dftb+/hybrid/cluster/Benzene-Spinpol-matrix ..................***Failed    0.04 sec
 hybrid/cluster/Benzene-Spinpol-matrix:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3606,7 +3432,7 @@ test 93
 93:     hybrid/cluster/Benzene-Casida-S5-Fo
 93: ------------------------------------------------------------------------------
 93: Status: FAIL
- 93/406 Test  #93: app/dftb+/hybrid/cluster/Benzene-Casida-S5-Force .................***Failed    0.05 sec
+ 93/406 Test  #93: app/dftb+/hybrid/cluster/Benzene-Casida-S5-Force .................***Failed    0.04 sec
 hybrid/cluster/Benzene-Casida-S5-Force:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3643,7 +3469,7 @@ test 94
 94:     hybrid/cluster/C4H6-TD-LC-Triplet
 94: ------------------------------------------------------------------------------
 94: Status: FAIL
- 94/406 Test  #94: app/dftb+/hybrid/cluster/C4H6-TD-LC-Triplet ......................***Failed    0.04 sec
+ 94/406 Test  #94: app/dftb+/hybrid/cluster/C4H6-TD-LC-Triplet ......................***Failed    0.05 sec
 hybrid/cluster/C4H6-TD-LC-Triplet:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3717,7 +3543,7 @@ test 96
 96:     hybrid/cluster/Benzene-TD-LC-Spinpo
 96: ------------------------------------------------------------------------------
 96: Status: FAIL
- 96/406 Test  #96: app/dftb+/hybrid/cluster/Benzene-TD-LC-Spinpol-Force .............***Failed    0.05 sec
+ 96/406 Test  #96: app/dftb+/hybrid/cluster/Benzene-TD-LC-Spinpol-Force .............***Failed    0.04 sec
 hybrid/cluster/Benzene-TD-LC-Spinpol-Force:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3791,7 +3617,7 @@ test 98
 98:     hybrid/cluster/As
 98: ------------------------------------------------------------------------------
 98: Status: FAIL
- 98/406 Test  #98: app/dftb+/hybrid/cluster/As ......................................***Failed    0.05 sec
+ 98/406 Test  #98: app/dftb+/hybrid/cluster/As ......................................***Failed    0.04 sec
 hybrid/cluster/As:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3828,7 +3654,7 @@ test 99
 99:     hybrid/periodic/Acene-gamma-matrix-
 99: ------------------------------------------------------------------------------
 99: Status: FAIL
- 99/406 Test  #99: app/dftb+/hybrid/periodic/Acene-gamma-matrix-force-cam ...........***Failed    0.05 sec
+ 99/406 Test  #99: app/dftb+/hybrid/periodic/Acene-gamma-matrix-force-cam ...........***Failed    0.04 sec
 hybrid/periodic/Acene-gamma-matrix-force-cam:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3939,7 +3765,7 @@ test 102
 102:     hybrid/periodic/Acene-gamma-neigh-f
 102: ------------------------------------------------------------------------------
 102: Status: FAIL
-102/406 Test #102: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-cam ............***Failed    0.04 sec
+102/406 Test #102: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-cam ............***Failed    0.05 sec
 hybrid/periodic/Acene-gamma-neigh-force-cam:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -3976,7 +3802,7 @@ test 103
 103:     hybrid/periodic/Acene-gamma-neigh-f
 103: ------------------------------------------------------------------------------
 103: Status: FAIL
-103/406 Test #103: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-hyb ............***Failed    0.04 sec
+103/406 Test #103: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-hyb ............***Failed    0.05 sec
 hybrid/periodic/Acene-gamma-neigh-force-hyb:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -4235,7 +4061,7 @@ test 110
 110:     hybrid/periodic/Acene-kpts-matrix-f
 110: ------------------------------------------------------------------------------
 110: Status: FAIL
-110/406 Test #110: app/dftb+/hybrid/periodic/Acene-kpts-matrix-force-lc .............***Failed    0.04 sec
+110/406 Test #110: app/dftb+/hybrid/periodic/Acene-kpts-matrix-force-lc .............***Failed    0.05 sec
 hybrid/periodic/Acene-kpts-matrix-force-lc:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -4309,7 +4135,7 @@ test 112
 112:     hybrid/periodic/Acene-kpts-neigh-fo
 112: ------------------------------------------------------------------------------
 112: Status: FAIL
-112/406 Test #112: app/dftb+/hybrid/periodic/Acene-kpts-neigh-force-lc ..............***Failed    0.04 sec
+112/406 Test #112: app/dftb+/hybrid/periodic/Acene-kpts-neigh-force-lc ..............***Failed    0.05 sec
 hybrid/periodic/Acene-kpts-neigh-force-lc:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -4457,7 +4283,7 @@ test 116
 116:     hybrid/periodic/Benzene-box-spin-ne
 116: ------------------------------------------------------------------------------
 116: Status: FAIL
-116/406 Test #116: app/dftb+/hybrid/periodic/Benzene-box-spin-neigh-ct-kpts .........***Failed    0.04 sec
+116/406 Test #116: app/dftb+/hybrid/periodic/Benzene-box-spin-neigh-ct-kpts .........***Failed    0.05 sec
 hybrid/periodic/Benzene-box-spin-neigh-ct-kpts:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -4531,7 +4357,7 @@ test 118
 118:     hybrid/periodic/Benzene-gamma-neigh
 118: ------------------------------------------------------------------------------
 118: Status: FAIL
-118/406 Test #118: app/dftb+/hybrid/periodic/Benzene-gamma-neigh-spin-force .........***Failed    0.05 sec
+118/406 Test #118: app/dftb+/hybrid/periodic/Benzene-gamma-neigh-spin-force .........***Failed    0.06 sec
 hybrid/periodic/Benzene-gamma-neigh-spin-force:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -4790,7 +4616,7 @@ test 125
 125:     hybrid/periodic/GaAs-kpts-matrix-ct
 125: ------------------------------------------------------------------------------
 125: Status: FAIL
-125/406 Test #125: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-anderson ...........***Failed    0.04 sec
+125/406 Test #125: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-anderson ...........***Failed    0.05 sec
 hybrid/periodic/GaAs-kpts-matrix-ct-anderson:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -5197,7 +5023,7 @@ test 136
 136:     reks/C6H8_rangesep_extchrg_nosave
 136: ------------------------------------------------------------------------------
 136: Status: FAIL
-136/406 Test #136: app/dftb+/reks/C6H8_rangesep_extchrg_nosave ......................***Failed    0.05 sec
+136/406 Test #136: app/dftb+/reks/C6H8_rangesep_extchrg_nosave ......................***Failed    0.04 sec
 reks/C6H8_rangesep_extchrg_nosave:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -5345,7 +5171,7 @@ test 140
 140:     reks/HBI+H2O_periodic_stress
 140: ------------------------------------------------------------------------------
 140: Status: FAIL
-140/406 Test #140: app/dftb+/reks/HBI+H2O_periodic_stress ...........................***Failed    0.05 sec
+140/406 Test #140: app/dftb+/reks/HBI+H2O_periodic_stress ...........................***Failed    0.04 sec
 reks/HBI+H2O_periodic_stress:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -5382,7 +5208,7 @@ test 141
 141:     reks/HBI+H2O_periodic_stress_disp
 141: ------------------------------------------------------------------------------
 141: Status: FAIL
-141/406 Test #141: app/dftb+/reks/HBI+H2O_periodic_stress_disp ......................***Failed    0.05 sec
+141/406 Test #141: app/dftb+/reks/HBI+H2O_periodic_stress_disp ......................***Failed    0.04 sec
 reks/HBI+H2O_periodic_stress_disp:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -5752,7 +5578,7 @@ test 151
 151:     reks/Thymine_T1
 151: ------------------------------------------------------------------------------
 151: Status: FAIL
-151/406 Test #151: app/dftb+/reks/Thymine_T1 ........................................***Failed    0.04 sec
+151/406 Test #151: app/dftb+/reks/Thymine_T1 ........................................***Failed    0.05 sec
 reks/Thymine_T1:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6515,7 +6341,6 @@ test 172
 172: Environment variables: 
 172:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 172: Test timeout computed to be: 10000000
-172: cp: cannot stat 'derivatives/Si_2_Delta/Si-Si.skf': No such file or directory
 172: derivatives/Si_2_Delta:	Test script returned non-zero exit code: 1
 172:  deleting file 'autotest.tag'
 172:  TODO.
@@ -6530,8 +6355,7 @@ test 172
 172:     derivatives/Si_2_Delta
 172: ------------------------------------------------------------------------------
 172: Status: FAIL
-172/406 Test #172: app/dftb+/derivatives/Si_2_Delta .................................***Failed    0.05 sec
-cp: cannot stat 'derivatives/Si_2_Delta/Si-Si.skf': No such file or directory
+172/406 Test #172: app/dftb+/derivatives/Si_2_Delta .................................***Failed    0.04 sec
 derivatives/Si_2_Delta:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6741,10 +6565,6 @@ test 178
 178: Environment variables: 
 178:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 178: Test timeout computed to be: 10000000
-178: cp: cannot stat 'derivatives/C18H12_rangesepPol/C-C.skf': No such file or directory
-178: cp: cannot stat 'derivatives/C18H12_rangesepPol/C-H.skf': No such file or directory
-178: cp: cannot stat 'derivatives/C18H12_rangesepPol/H-C.skf': No such file or directory
-178: cp: cannot stat 'derivatives/C18H12_rangesepPol/H-H.skf': No such file or directory
 178: derivatives/C18H12_rangesepPol:	Test script returned non-zero exit code: 1
 178:  deleting file 'autotest.tag'
 178:  TODO.
@@ -6760,10 +6580,6 @@ test 178
 178: ------------------------------------------------------------------------------
 178: Status: FAIL
 178/406 Test #178: app/dftb+/derivatives/C18H12_rangesepPol .........................***Failed    0.05 sec
-cp: cannot stat 'derivatives/C18H12_rangesepPol/C-C.skf': No such file or directory
-cp: cannot stat 'derivatives/C18H12_rangesepPol/C-H.skf': No such file or directory
-cp: cannot stat 'derivatives/C18H12_rangesepPol/H-C.skf': No such file or directory
-cp: cannot stat 'derivatives/C18H12_rangesepPol/H-H.skf': No such file or directory
 derivatives/C18H12_rangesepPol:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6786,7 +6602,6 @@ test 179
 179: Environment variables: 
 179:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 179: Test timeout computed to be: 10000000
-179: cp: cannot stat 'derivatives/C60/C-C.skf': No such file or directory
 179: derivatives/C60:	Test script returned non-zero exit code: 1
 179:  deleting file 'autotest.tag'
 179:  TODO.
@@ -6801,8 +6616,7 @@ test 179
 179:     derivatives/C60
 179: ------------------------------------------------------------------------------
 179: Status: FAIL
-179/406 Test #179: app/dftb+/derivatives/C60 ........................................***Failed    0.04 sec
-cp: cannot stat 'derivatives/C60/C-C.skf': No such file or directory
+179/406 Test #179: app/dftb+/derivatives/C60 ........................................***Failed    0.05 sec
 derivatives/C60:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6825,7 +6639,6 @@ test 180
 180: Environment variables: 
 180:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 180: Test timeout computed to be: 10000000
-180: cp: cannot stat 'derivatives/C60+/C-C.skf': No such file or directory
 180: derivatives/C60+:	Test script returned non-zero exit code: 1
 180:  deleting file 'autotest.tag'
 180:  TODO.
@@ -6841,7 +6654,6 @@ test 180
 180: ------------------------------------------------------------------------------
 180: Status: FAIL
 180/406 Test #180: app/dftb+/derivatives/C60+ .......................................***Failed    0.05 sec
-cp: cannot stat 'derivatives/C60+/C-C.skf': No such file or directory
 derivatives/C60+:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6864,10 +6676,6 @@ test 181
 181: Environment variables: 
 181:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 181: Test timeout computed to be: 10000000
-181: cp: cannot stat 'derivatives/CH4_onsite/C-C.skf': No such file or directory
-181: cp: cannot stat 'derivatives/CH4_onsite/C-H.skf': No such file or directory
-181: cp: cannot stat 'derivatives/CH4_onsite/H-C.skf': No such file or directory
-181: cp: cannot stat 'derivatives/CH4_onsite/H-H.skf': No such file or directory
 181: derivatives/CH4_onsite:	Test script returned non-zero exit code: 1
 181:  deleting file 'autotest.tag'
 181:  TODO.
@@ -6883,10 +6691,6 @@ test 181
 181: ------------------------------------------------------------------------------
 181: Status: FAIL
 181/406 Test #181: app/dftb+/derivatives/CH4_onsite .................................***Failed    0.05 sec
-cp: cannot stat 'derivatives/CH4_onsite/C-C.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_onsite/C-H.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_onsite/H-C.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_onsite/H-H.skf': No such file or directory
 derivatives/CH4_onsite:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6909,10 +6713,6 @@ test 182
 182: Environment variables: 
 182:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 182: Test timeout computed to be: 10000000
-182: cp: cannot stat 'derivatives/CH4_kpt_ons/C-C.skf': No such file or directory
-182: cp: cannot stat 'derivatives/CH4_kpt_ons/C-H.skf': No such file or directory
-182: cp: cannot stat 'derivatives/CH4_kpt_ons/H-C.skf': No such file or directory
-182: cp: cannot stat 'derivatives/CH4_kpt_ons/H-H.skf': No such file or directory
 182: derivatives/CH4_kpt_ons:	Test script returned non-zero exit code: 1
 182:  deleting file 'autotest.tag'
 182:  TODO.
@@ -6928,10 +6728,6 @@ test 182
 182: ------------------------------------------------------------------------------
 182: Status: FAIL
 182/406 Test #182: app/dftb+/derivatives/CH4_kpt_ons ................................***Failed    0.05 sec
-cp: cannot stat 'derivatives/CH4_kpt_ons/C-C.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_kpt_ons/C-H.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_kpt_ons/H-C.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_kpt_ons/H-H.skf': No such file or directory
 derivatives/CH4_kpt_ons:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6957,7 +6753,6 @@ test 183
 183: cp: cannot stat 'derivatives/As4S4_LS_ons/As-As.skf': No such file or directory
 183: cp: cannot stat 'derivatives/As4S4_LS_ons/As-S.skf': No such file or directory
 183: cp: cannot stat 'derivatives/As4S4_LS_ons/S-As.skf': No such file or directory
-183: cp: cannot stat 'derivatives/As4S4_LS_ons/S-S.skf': No such file or directory
 183: derivatives/As4S4_LS_ons:	Test script returned non-zero exit code: 1
 183:  deleting file 'autotest.tag'
 183:  TODO.
@@ -6976,7 +6771,6 @@ test 183
 cp: cannot stat 'derivatives/As4S4_LS_ons/As-As.skf': No such file or directory
 cp: cannot stat 'derivatives/As4S4_LS_ons/As-S.skf': No such file or directory
 cp: cannot stat 'derivatives/As4S4_LS_ons/S-As.skf': No such file or directory
-cp: cannot stat 'derivatives/As4S4_LS_ons/S-S.skf': No such file or directory
 derivatives/As4S4_LS_ons:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -6999,7 +6793,6 @@ test 184
 184: Environment variables: 
 184:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 184: Test timeout computed to be: 10000000
-184: cp: cannot stat 'derivatives/10-0Ctube_onsite/C-C.skf': No such file or directory
 184: derivatives/10-0Ctube_onsite:	Test script returned non-zero exit code: 1
 184:  deleting file 'autotest.tag'
 184:  TODO.
@@ -7015,7 +6808,6 @@ test 184
 184: ------------------------------------------------------------------------------
 184: Status: FAIL
 184/406 Test #184: app/dftb+/derivatives/10-0Ctube_onsite ...........................***Failed    0.04 sec
-cp: cannot stat 'derivatives/10-0Ctube_onsite/C-C.skf': No such file or directory
 derivatives/10-0Ctube_onsite:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7038,10 +6830,6 @@ test 185
 185: Environment variables: 
 185:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 185: Test timeout computed to be: 10000000
-185: cp: cannot stat 'derivatives/C6H6_onsite/C-C.skf': No such file or directory
-185: cp: cannot stat 'derivatives/C6H6_onsite/C-H.skf': No such file or directory
-185: cp: cannot stat 'derivatives/C6H6_onsite/H-C.skf': No such file or directory
-185: cp: cannot stat 'derivatives/C6H6_onsite/H-H.skf': No such file or directory
 185: derivatives/C6H6_onsite:	Test script returned non-zero exit code: 1
 185:  deleting file 'autotest.tag'
 185:  TODO.
@@ -7057,10 +6845,6 @@ test 185
 185: ------------------------------------------------------------------------------
 185: Status: FAIL
 185/406 Test #185: app/dftb+/derivatives/C6H6_onsite ................................***Failed    0.05 sec
-cp: cannot stat 'derivatives/C6H6_onsite/C-C.skf': No such file or directory
-cp: cannot stat 'derivatives/C6H6_onsite/C-H.skf': No such file or directory
-cp: cannot stat 'derivatives/C6H6_onsite/H-C.skf': No such file or directory
-cp: cannot stat 'derivatives/C6H6_onsite/H-H.skf': No such file or directory
 derivatives/C6H6_onsite:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7120,10 +6904,6 @@ test 187
 187: Environment variables: 
 187:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 187: Test timeout computed to be: 10000000
-187: cp: cannot stat 'derivatives/CH4_RPA/C-C.skf': No such file or directory
-187: cp: cannot stat 'derivatives/CH4_RPA/C-H.skf': No such file or directory
-187: cp: cannot stat 'derivatives/CH4_RPA/H-C.skf': No such file or directory
-187: cp: cannot stat 'derivatives/CH4_RPA/H-H.skf': No such file or directory
 187: derivatives/CH4_RPA:	Test script returned non-zero exit code: 1
 187:  deleting file 'autotest.tag'
 187:  TODO.
@@ -7139,10 +6919,6 @@ test 187
 187: ------------------------------------------------------------------------------
 187: Status: FAIL
 187/406 Test #187: app/dftb+/derivatives/CH4_RPA ....................................***Failed    0.05 sec
-cp: cannot stat 'derivatives/CH4_RPA/C-C.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_RPA/C-H.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_RPA/H-C.skf': No such file or directory
-cp: cannot stat 'derivatives/CH4_RPA/H-H.skf': No such file or directory
 derivatives/CH4_RPA:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7428,7 +7204,6 @@ test 195
 195: Environment variables: 
 195:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 195: Test timeout computed to be: 10000000
-195: cp: cannot stat 'legacy/Si2_oldSKinterp/Si-Si.skf': No such file or directory
 195: legacy/Si2_oldSKinterp:	Test script returned non-zero exit code: 1
 195:  deleting file 'autotest.tag'
 195:  TODO.
@@ -7444,7 +7219,6 @@ test 195
 195: ------------------------------------------------------------------------------
 195: Status: FAIL
 195/406 Test #195: app/dftb+/legacy/Si2_oldSKinterp .................................***Failed    0.04 sec
-cp: cannot stat 'legacy/Si2_oldSKinterp/Si-Si.skf': No such file or directory
 legacy/Si2_oldSKinterp:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7467,7 +7241,6 @@ test 196
 196: Environment variables: 
 196:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 196: Test timeout computed to be: 10000000
-196: cp: cannot stat 'legacy/Si2_polyRep/Si-Si.skf': No such file or directory
 196: legacy/Si2_polyRep:	Test script returned non-zero exit code: 1
 196:  deleting file 'autotest.tag'
 196:  TODO.
@@ -7483,7 +7256,6 @@ test 196
 196: ------------------------------------------------------------------------------
 196: Status: FAIL
 196/406 Test #196: app/dftb+/legacy/Si2_polyRep .....................................***Failed    0.04 sec
-cp: cannot stat 'legacy/Si2_polyRep/Si-Si.skf': No such file or directory
 legacy/Si2_polyRep:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7580,7 +7352,6 @@ test 199
 199: Environment variables: 
 199:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 199: Test timeout computed to be: 10000000
-199: cp: cannot stat 'non-scc/Si_2_origin/Si-Si.skf': No such file or directory
 199: non-scc/Si_2_origin:	Test script returned non-zero exit code: 1
 199:  deleting file 'autotest.tag'
 199:  TODO.
@@ -7596,7 +7367,6 @@ test 199
 199: ------------------------------------------------------------------------------
 199: Status: FAIL
 199/406 Test #199: app/dftb+/non-scc/Si_2_origin ....................................***Failed    0.04 sec
-cp: cannot stat 'non-scc/Si_2_origin/Si-Si.skf': No such file or directory
 non-scc/Si_2_origin:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7619,7 +7389,6 @@ test 200
 200: Environment variables: 
 200:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 200: Test timeout computed to be: 10000000
-200: cp: cannot stat 'non-scc/Si_2_originF/Si-Si.skf': No such file or directory
 200: non-scc/Si_2_originF:	Test script returned non-zero exit code: 1
 200:  deleting file 'autotest.tag'
 200:  TODO.
@@ -7634,8 +7403,7 @@ test 200
 200:     non-scc/Si_2_originF
 200: ------------------------------------------------------------------------------
 200: Status: FAIL
-200/406 Test #200: app/dftb+/non-scc/Si_2_originF ...................................***Failed    0.04 sec
-cp: cannot stat 'non-scc/Si_2_originF/Si-Si.skf': No such file or directory
+200/406 Test #200: app/dftb+/non-scc/Si_2_originF ...................................***Failed    0.05 sec
 non-scc/Si_2_originF:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7658,7 +7426,6 @@ test 201
 201: Environment variables: 
 201:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 201: Test timeout computed to be: 10000000
-201: cp: cannot stat 'non-scc/Si_2_independentk/Si-Si.skf': No such file or directory
 201: non-scc/Si_2_independentk:	Test script returned non-zero exit code: 1
 201:  deleting file 'autotest.tag'
 201:  TODO.
@@ -7674,7 +7441,6 @@ test 201
 201: ------------------------------------------------------------------------------
 201: Status: FAIL
 201/406 Test #201: app/dftb+/non-scc/Si_2_independentk ..............................***Failed    0.04 sec
-cp: cannot stat 'non-scc/Si_2_independentk/Si-Si.skf': No such file or directory
 non-scc/Si_2_independentk:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7808,7 +7574,6 @@ test 205
 205: Environment variables: 
 205:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 205: Test timeout computed to be: 10000000
-205: cp: cannot stat 'spin/H2/H-H.skf': No such file or directory
 205: spin/H2:	Test script returned non-zero exit code: 1
 205:  deleting file 'autotest.tag'
 205:  TODO.
@@ -7823,8 +7588,7 @@ test 205
 205:     spin/H2
 205: ------------------------------------------------------------------------------
 205: Status: FAIL
-205/406 Test #205: app/dftb+/spin/H2 ................................................***Failed    0.04 sec
-cp: cannot stat 'spin/H2/H-H.skf': No such file or directory
+205/406 Test #205: app/dftb+/spin/H2 ................................................***Failed    0.05 sec
 spin/H2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7861,7 +7625,7 @@ test 206
 206:     scc/CH4_nonconverged
 206: ------------------------------------------------------------------------------
 206: Status: FAIL
-206/406 Test #206: app/dftb+/scc/CH4_nonconverged ...................................***Failed    0.04 sec
+206/406 Test #206: app/dftb+/scc/CH4_nonconverged ...................................***Failed    0.05 sec
 scc/CH4_nonconverged:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -7972,7 +7736,7 @@ test 209
 209:     onsite/H2O
 209: ------------------------------------------------------------------------------
 209: Status: FAIL
-209/406 Test #209: app/dftb+/onsite/H2O .............................................***Failed    0.05 sec
+209/406 Test #209: app/dftb+/onsite/H2O .............................................***Failed    0.04 sec
 onsite/H2O:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -8120,7 +7884,7 @@ test 213
 213:     dispersion/GaAs_sdftd3
 213: ------------------------------------------------------------------------------
 213: Status: FAIL
-213/406 Test #213: app/dftb+/dispersion/GaAs_sdftd3 .................................***Failed    0.05 sec
+213/406 Test #213: app/dftb+/dispersion/GaAs_sdftd3 .................................***Failed    0.04 sec
 dispersion/GaAs_sdftd3:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -8217,10 +7981,6 @@ test 216
 216: Environment variables: 
 216:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 216: Test timeout computed to be: 10000000
-216: cp: cannot stat 'dispersion/specieslist_dftd4/D-D.skf': No such file or directory
-216: cp: cannot stat 'dispersion/specieslist_dftd4/D-O.skf': No such file or directory
-216: cp: cannot stat 'dispersion/specieslist_dftd4/O-D.skf': No such file or directory
-216: cp: cannot stat 'dispersion/specieslist_dftd4/O-O.skf': No such file or directory
 216: dispersion/specieslist_dftd4:	Test script returned non-zero exit code: 1
 216:  deleting file 'autotest.tag'
 216:  TODO.
@@ -8236,10 +7996,6 @@ test 216
 216: ------------------------------------------------------------------------------
 216: Status: FAIL
 216/406 Test #216: app/dftb+/dispersion/specieslist_dftd4 ...........................***Failed    0.05 sec
-cp: cannot stat 'dispersion/specieslist_dftd4/D-D.skf': No such file or directory
-cp: cannot stat 'dispersion/specieslist_dftd4/D-O.skf': No such file or directory
-cp: cannot stat 'dispersion/specieslist_dftd4/O-D.skf': No such file or directory
-cp: cannot stat 'dispersion/specieslist_dftd4/O-O.skf': No such file or directory
 dispersion/specieslist_dftd4:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -8276,7 +8032,7 @@ test 217
 217:     dispersion/charged_dftd4
 217: ------------------------------------------------------------------------------
 217: Status: FAIL
-217/406 Test #217: app/dftb+/dispersion/charged_dftd4 ...............................***Failed    0.05 sec
+217/406 Test #217: app/dftb+/dispersion/charged_dftd4 ...............................***Failed    0.04 sec
 dispersion/charged_dftd4:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -8350,7 +8106,7 @@ test 219
 219:     dispersion/GaAs_dftd4
 219: ------------------------------------------------------------------------------
 219: Status: FAIL
-219/406 Test #219: app/dftb+/dispersion/GaAs_dftd4 ..................................***Failed    0.05 sec
+219/406 Test #219: app/dftb+/dispersion/GaAs_dftd4 ..................................***Failed    0.04 sec
 dispersion/GaAs_dftd4:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -8461,7 +8217,7 @@ test 222
 222:     dispersion/GaAs_dftd4_sc
 222: ------------------------------------------------------------------------------
 222: Status: FAIL
-222/406 Test #222: app/dftb+/dispersion/GaAs_dftd4_sc ...............................***Failed    0.05 sec
+222/406 Test #222: app/dftb+/dispersion/GaAs_dftd4_sc ...............................***Failed    0.04 sec
 dispersion/GaAs_dftd4_sc:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -8484,10 +8240,6 @@ test 223
 223: Environment variables: 
 223:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 223: Test timeout computed to be: 10000000
-223: cp: cannot stat 'geoopt/H2O-nonscc/H-H.skf': No such file or directory
-223: cp: cannot stat 'geoopt/H2O-nonscc/H-O.skf': No such file or directory
-223: cp: cannot stat 'geoopt/H2O-nonscc/O-H.skf': No such file or directory
-223: cp: cannot stat 'geoopt/H2O-nonscc/O-O.skf': No such file or directory
 223: geoopt/H2O-nonscc:	Test script returned non-zero exit code: 1
 223:  deleting file 'autotest.tag'
 223:  TODO.
@@ -8503,10 +8255,6 @@ test 223
 223: ------------------------------------------------------------------------------
 223: Status: FAIL
 223/406 Test #223: app/dftb+/geoopt/H2O-nonscc ......................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/H2O-nonscc/H-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O-nonscc/H-O.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O-nonscc/O-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O-nonscc/O-O.skf': No such file or directory
 geoopt/H2O-nonscc:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -8876,7 +8624,7 @@ test 233
 233:     scc/H2O2-3rdfull-ldep
 233: ------------------------------------------------------------------------------
 233: Status: FAIL
-233/406 Test #233: app/dftb+/scc/H2O2-3rdfull-ldep ..................................***Failed    0.04 sec
+233/406 Test #233: app/dftb+/scc/H2O2-3rdfull-ldep ..................................***Failed    0.05 sec
 scc/H2O2-3rdfull-ldep:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9158,7 +8906,6 @@ test 241
 241: Environment variables: 
 241:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 241: Test timeout computed to be: 10000000
-241: cp: cannot stat 'derivatives/Si_2_Richardson/Si-Si.skf': No such file or directory
 241: derivatives/Si_2_Richardson:	Test script returned non-zero exit code: 1
 241:  deleting file 'autotest.tag'
 241:  TODO.
@@ -9174,7 +8921,6 @@ test 241
 241: ------------------------------------------------------------------------------
 241: Status: FAIL
 241/406 Test #241: app/dftb+/derivatives/Si_2_Richardson ............................***Failed    0.04 sec
-cp: cannot stat 'derivatives/Si_2_Richardson/Si-Si.skf': No such file or directory
 derivatives/Si_2_Richardson:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9197,10 +8943,6 @@ test 242
 242: Environment variables: 
 242:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 242: Test timeout computed to be: 10000000
-242: cp: cannot stat 'geoopt/H2O-constr/H-H.skf': No such file or directory
-242: cp: cannot stat 'geoopt/H2O-constr/H-O.skf': No such file or directory
-242: cp: cannot stat 'geoopt/H2O-constr/O-H.skf': No such file or directory
-242: cp: cannot stat 'geoopt/H2O-constr/O-O.skf': No such file or directory
 242: geoopt/H2O-constr:	Test script returned non-zero exit code: 1
 242:  deleting file 'autotest.tag'
 242:  TODO.
@@ -9216,10 +8958,6 @@ test 242
 242: ------------------------------------------------------------------------------
 242: Status: FAIL
 242/406 Test #242: app/dftb+/geoopt/H2O-constr ......................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/H2O-constr/H-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O-constr/H-O.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O-constr/O-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O-constr/O-O.skf': No such file or directory
 geoopt/H2O-constr:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9242,10 +8980,6 @@ test 243
 243: Environment variables: 
 243:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 243: Test timeout computed to be: 10000000
-243: cp: cannot stat 'legacy/SiC_polyRep/C-C.skf': No such file or directory
-243: cp: cannot stat 'legacy/SiC_polyRep/C-Si.skf': No such file or directory
-243: cp: cannot stat 'legacy/SiC_polyRep/Si-C.skf': No such file or directory
-243: cp: cannot stat 'legacy/SiC_polyRep/Si-Si.skf': No such file or directory
 243: legacy/SiC_polyRep:	Test script returned non-zero exit code: 1
 243:  deleting file 'autotest.tag'
 243:  TODO.
@@ -9261,10 +8995,6 @@ test 243
 243: ------------------------------------------------------------------------------
 243: Status: FAIL
 243/406 Test #243: app/dftb+/legacy/SiC_polyRep .....................................***Failed    0.05 sec
-cp: cannot stat 'legacy/SiC_polyRep/C-C.skf': No such file or directory
-cp: cannot stat 'legacy/SiC_polyRep/C-Si.skf': No such file or directory
-cp: cannot stat 'legacy/SiC_polyRep/Si-C.skf': No such file or directory
-cp: cannot stat 'legacy/SiC_polyRep/Si-Si.skf': No such file or directory
 legacy/SiC_polyRep:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9486,7 +9216,7 @@ test 249
 249:     scc/GaAs_2_restart
 249: ------------------------------------------------------------------------------
 249: Status: FAIL
-249/406 Test #249: app/dftb+/scc/GaAs_2_restart .....................................***Failed    0.07 sec
+249/406 Test #249: app/dftb+/scc/GaAs_2_restart .....................................***Failed    0.06 sec
 scc/GaAs_2_restart:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9523,7 +9253,7 @@ test 250
 250:     scc/SiH_custom-ref
 250: ------------------------------------------------------------------------------
 250: Status: FAIL
-250/406 Test #250: app/dftb+/scc/SiH_custom-ref .....................................***Failed    0.05 sec
+250/406 Test #250: app/dftb+/scc/SiH_custom-ref .....................................***Failed    0.04 sec
 scc/SiH_custom-ref:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9583,7 +9313,6 @@ test 252
 252: Environment variables: 
 252:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 252: Test timeout computed to be: 10000000
-252: cp: cannot stat 'spin/Fe4/Fe-Fe.skf': No such file or directory
 252: spin/Fe4:	Test script returned non-zero exit code: 1
 252:  deleting file 'autotest.tag'
 252:  TODO.
@@ -9599,7 +9328,6 @@ test 252
 252: ------------------------------------------------------------------------------
 252: Status: FAIL
 252/406 Test #252: app/dftb+/spin/Fe4 ...............................................***Failed    0.04 sec
-cp: cannot stat 'spin/Fe4/Fe-Fe.skf': No such file or directory
 spin/Fe4:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9622,7 +9350,6 @@ test 253
 253: Environment variables: 
 253:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 253: Test timeout computed to be: 10000000
-253: cp: cannot stat 'spin/Fe4_commonFermi/Fe-Fe.skf': No such file or directory
 253: spin/Fe4_commonFermi:	Test script returned non-zero exit code: 1
 253:  deleting file 'autotest.tag'
 253:  TODO.
@@ -9638,7 +9365,6 @@ test 253
 253: ------------------------------------------------------------------------------
 253: Status: FAIL
 253/406 Test #253: app/dftb+/spin/Fe4_commonFermi ...................................***Failed    0.04 sec
-cp: cannot stat 'spin/Fe4_commonFermi/Fe-Fe.skf': No such file or directory
 spin/Fe4_commonFermi:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9675,7 +9401,7 @@ test 254
 254:     solvation/sasa_i10e
 254: ------------------------------------------------------------------------------
 254: Status: FAIL
-254/406 Test #254: app/dftb+/solvation/sasa_i10e ....................................***Failed    0.05 sec
+254/406 Test #254: app/dftb+/solvation/sasa_i10e ....................................***Failed    0.04 sec
 solvation/sasa_i10e:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9749,7 +9475,7 @@ test 256
 256:     solvation/gb_reference
 256: ------------------------------------------------------------------------------
 256: Status: FAIL
-256/406 Test #256: app/dftb+/solvation/gb_reference .................................***Failed    0.04 sec
+256/406 Test #256: app/dftb+/solvation/gb_reference .................................***Failed    0.05 sec
 solvation/gb_reference:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9786,7 +9512,7 @@ test 257
 257:     solvation/gb_mol1bar
 257: ------------------------------------------------------------------------------
 257: Status: FAIL
-257/406 Test #257: app/dftb+/solvation/gb_mol1bar ...................................***Failed    0.04 sec
+257/406 Test #257: app/dftb+/solvation/gb_mol1bar ...................................***Failed    0.05 sec
 solvation/gb_mol1bar:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9846,10 +9572,6 @@ test 259
 259: Environment variables: 
 259:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 259: Test timeout computed to be: 10000000
-259: cp: cannot stat 'solvation/gb_specieslist/D-D.skf': No such file or directory
-259: cp: cannot stat 'solvation/gb_specieslist/D-O.skf': No such file or directory
-259: cp: cannot stat 'solvation/gb_specieslist/O-D.skf': No such file or directory
-259: cp: cannot stat 'solvation/gb_specieslist/O-O.skf': No such file or directory
 259: solvation/gb_specieslist:	Test script returned non-zero exit code: 1
 259:  deleting file 'autotest.tag'
 259:  TODO.
@@ -9865,10 +9587,6 @@ test 259
 259: ------------------------------------------------------------------------------
 259: Status: FAIL
 259/406 Test #259: app/dftb+/solvation/gb_specieslist ...............................***Failed    0.05 sec
-cp: cannot stat 'solvation/gb_specieslist/D-D.skf': No such file or directory
-cp: cannot stat 'solvation/gb_specieslist/D-O.skf': No such file or directory
-cp: cannot stat 'solvation/gb_specieslist/O-D.skf': No such file or directory
-cp: cannot stat 'solvation/gb_specieslist/O-O.skf': No such file or directory
 solvation/gb_specieslist:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9942,7 +9660,7 @@ test 261
 261:     solvation/gb_inf
 261: ------------------------------------------------------------------------------
 261: Status: FAIL
-261/406 Test #261: app/dftb+/solvation/gb_inf .......................................***Failed    0.05 sec
+261/406 Test #261: app/dftb+/solvation/gb_inf .......................................***Failed    0.04 sec
 solvation/gb_inf:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -9979,7 +9697,7 @@ test 262
 262:     solvation/gbsa_e35
 262: ------------------------------------------------------------------------------
 262: Status: FAIL
-262/406 Test #262: app/dftb+/solvation/gbsa_e35 .....................................***Failed    0.05 sec
+262/406 Test #262: app/dftb+/solvation/gbsa_e35 .....................................***Failed    0.04 sec
 solvation/gbsa_e35:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10154,22 +9872,6 @@ test 267
 267: Environment variables: 
 267:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 267: Test timeout computed to be: 10000000
-267: cp: cannot stat 'solvation/gbsa_param3/C-C.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/C-D.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/C-N.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/C-O.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/D-C.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/D-D.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/D-N.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/D-O.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/N-C.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/N-D.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/N-N.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/N-O.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/O-C.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/O-D.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/O-N.skf': No such file or directory
-267: cp: cannot stat 'solvation/gbsa_param3/O-O.skf': No such file or directory
 267: cp: cannot stat 'solvation/gbsa_param3/param_gbsa_dmso.txt': No such file or directory
 267: solvation/gbsa_param3:	Test script returned non-zero exit code: 1
 267:  deleting file 'autotest.tag'
@@ -10185,23 +9887,7 @@ test 267
 267:     solvation/gbsa_param3
 267: ------------------------------------------------------------------------------
 267: Status: FAIL
-267/406 Test #267: app/dftb+/solvation/gbsa_param3 ..................................***Failed    0.07 sec
-cp: cannot stat 'solvation/gbsa_param3/C-C.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/C-D.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/C-N.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/C-O.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/D-C.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/D-D.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/D-N.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/D-O.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/N-C.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/N-D.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/N-N.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/N-O.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/O-C.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/O-D.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/O-N.skf': No such file or directory
-cp: cannot stat 'solvation/gbsa_param3/O-O.skf': No such file or directory
+267/406 Test #267: app/dftb+/solvation/gbsa_param3 ..................................***Failed    0.09 sec
 cp: cannot stat 'solvation/gbsa_param3/param_gbsa_dmso.txt': No such file or directory
 solvation/gbsa_param3:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
@@ -10276,7 +9962,7 @@ test 269
 269:     solvation/alpb_anion
 269: ------------------------------------------------------------------------------
 269: Status: FAIL
-269/406 Test #269: app/dftb+/solvation/alpb_anion ...................................***Failed    0.05 sec
+269/406 Test #269: app/dftb+/solvation/alpb_anion ...................................***Failed    0.04 sec
 solvation/alpb_anion:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10313,7 +9999,7 @@ test 270
 270:     solvation/alpb_p16
 270: ------------------------------------------------------------------------------
 270: Status: FAIL
-270/406 Test #270: app/dftb+/solvation/alpb_p16 .....................................***Failed    0.05 sec
+270/406 Test #270: app/dftb+/solvation/alpb_p16 .....................................***Failed    0.04 sec
 solvation/alpb_p16:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10461,7 +10147,7 @@ test 274
 274:     solvation/cosmo_444
 274: ------------------------------------------------------------------------------
 274: Status: FAIL
-274/406 Test #274: app/dftb+/solvation/cosmo_444 ....................................***Failed    0.05 sec
+274/406 Test #274: app/dftb+/solvation/cosmo_444 ....................................***Failed    0.04 sec
 solvation/cosmo_444:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10535,7 +10221,7 @@ test 276
 276:     solvation/cosmo_quinoline
 276: ------------------------------------------------------------------------------
 276: Status: FAIL
-276/406 Test #276: app/dftb+/solvation/cosmo_quinoline ..............................***Failed    0.05 sec
+276/406 Test #276: app/dftb+/solvation/cosmo_quinoline ..............................***Failed    0.04 sec
 solvation/cosmo_quinoline:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10572,7 +10258,7 @@ test 277
 277:     solvation/cosmo_nitralin
 277: ------------------------------------------------------------------------------
 277: Status: FAIL
-277/406 Test #277: app/dftb+/solvation/cosmo_nitralin ...............................***Failed    0.05 sec
+277/406 Test #277: app/dftb+/solvation/cosmo_nitralin ...............................***Failed    0.04 sec
 solvation/cosmo_nitralin:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10743,10 +10429,6 @@ test 282
 282: Environment variables: 
 282:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 282: Test timeout computed to be: 10000000
-282: cp: cannot stat 'geoopt/H2O_lbfgs/H-H.skf': No such file or directory
-282: cp: cannot stat 'geoopt/H2O_lbfgs/H-O.skf': No such file or directory
-282: cp: cannot stat 'geoopt/H2O_lbfgs/O-H.skf': No such file or directory
-282: cp: cannot stat 'geoopt/H2O_lbfgs/O-O.skf': No such file or directory
 282: geoopt/H2O_lbfgs:	Test script returned non-zero exit code: 1
 282:  deleting file 'autotest.tag'
 282:  TODO.
@@ -10762,10 +10444,6 @@ test 282
 282: ------------------------------------------------------------------------------
 282: Status: FAIL
 282/406 Test #282: app/dftb+/geoopt/H2O_lbfgs .......................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/H2O_lbfgs/H-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgs/H-O.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgs/O-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgs/O-O.skf': No such file or directory
 geoopt/H2O_lbfgs:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10788,10 +10466,6 @@ test 283
 283: Environment variables: 
 283:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 283: Test timeout computed to be: 10000000
-283: cp: cannot stat 'geoopt/H2O_lbfgsStep/H-H.skf': No such file or directory
-283: cp: cannot stat 'geoopt/H2O_lbfgsStep/H-O.skf': No such file or directory
-283: cp: cannot stat 'geoopt/H2O_lbfgsStep/O-H.skf': No such file or directory
-283: cp: cannot stat 'geoopt/H2O_lbfgsStep/O-O.skf': No such file or directory
 283: geoopt/H2O_lbfgsStep:	Test script returned non-zero exit code: 1
 283:  deleting file 'autotest.tag'
 283:  TODO.
@@ -10807,10 +10481,6 @@ test 283
 283: ------------------------------------------------------------------------------
 283: Status: FAIL
 283/406 Test #283: app/dftb+/geoopt/H2O_lbfgsStep ...................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/H2O_lbfgsStep/H-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgsStep/H-O.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgsStep/O-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgsStep/O-O.skf': No such file or directory
 geoopt/H2O_lbfgsStep:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10833,10 +10503,6 @@ test 284
 284: Environment variables: 
 284:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 284: Test timeout computed to be: 10000000
-284: cp: cannot stat 'geoopt/H2O_lbfgsLineMin/H-H.skf': No such file or directory
-284: cp: cannot stat 'geoopt/H2O_lbfgsLineMin/H-O.skf': No such file or directory
-284: cp: cannot stat 'geoopt/H2O_lbfgsLineMin/O-H.skf': No such file or directory
-284: cp: cannot stat 'geoopt/H2O_lbfgsLineMin/O-O.skf': No such file or directory
 284: geoopt/H2O_lbfgsLineMin:	Test script returned non-zero exit code: 1
 284:  deleting file 'autotest.tag'
 284:  TODO.
@@ -10852,10 +10518,6 @@ test 284
 284: ------------------------------------------------------------------------------
 284: Status: FAIL
 284/406 Test #284: app/dftb+/geoopt/H2O_lbfgsLineMin ................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/H2O_lbfgsLineMin/H-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgsLineMin/H-O.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgsLineMin/O-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_lbfgsLineMin/O-O.skf': No such file or directory
 geoopt/H2O_lbfgsLineMin:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10915,10 +10577,6 @@ test 286
 286: Environment variables: 
 286:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 286: Test timeout computed to be: 10000000
-286: cp: cannot stat 'geoopt/H2O/H-H.skf': No such file or directory
-286: cp: cannot stat 'geoopt/H2O/H-O.skf': No such file or directory
-286: cp: cannot stat 'geoopt/H2O/O-H.skf': No such file or directory
-286: cp: cannot stat 'geoopt/H2O/O-O.skf': No such file or directory
 286: geoopt/H2O:	Test script returned non-zero exit code: 1
 286:  deleting file 'autotest.tag'
 286:  TODO.
@@ -10934,10 +10592,6 @@ test 286
 286: ------------------------------------------------------------------------------
 286: Status: FAIL
 286/406 Test #286: app/dftb+/geoopt/H2O .............................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/H2O/H-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O/H-O.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O/O-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O/O-O.skf': No such file or directory
 geoopt/H2O:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -10960,10 +10614,6 @@ test 287
 287: Environment variables: 
 287:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 287: Test timeout computed to be: 10000000
-287: cp: cannot stat 'geoopt/H2O_fire/H-H.skf': No such file or directory
-287: cp: cannot stat 'geoopt/H2O_fire/H-O.skf': No such file or directory
-287: cp: cannot stat 'geoopt/H2O_fire/O-H.skf': No such file or directory
-287: cp: cannot stat 'geoopt/H2O_fire/O-O.skf': No such file or directory
 287: geoopt/H2O_fire:	Test script returned non-zero exit code: 1
 287:  deleting file 'autotest.tag'
 287:  TODO.
@@ -10979,10 +10629,6 @@ test 287
 287: ------------------------------------------------------------------------------
 287: Status: FAIL
 287/406 Test #287: app/dftb+/geoopt/H2O_fire ........................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/H2O_fire/H-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_fire/H-O.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_fire/O-H.skf': No such file or directory
-cp: cannot stat 'geoopt/H2O_fire/O-O.skf': No such file or directory
 geoopt/H2O_fire:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11005,7 +10651,6 @@ test 288
 288: Environment variables: 
 288:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 288: Test timeout computed to be: 10000000
-288: cp: cannot stat 'md/Si_8_NHC_restart/Si-Si.skf': No such file or directory
 288: md/Si_8_NHC_restart:	Test script returned non-zero exit code: 1
 288:  deleting file 'autotest.tag'
 288:  TODO.
@@ -11021,7 +10666,6 @@ test 288
 288: ------------------------------------------------------------------------------
 288: Status: FAIL
 288/406 Test #288: app/dftb+/md/Si_8_NHC_restart ....................................***Failed    0.04 sec
-cp: cannot stat 'md/Si_8_NHC_restart/Si-Si.skf': No such file or directory
 md/Si_8_NHC_restart:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11163,7 +10807,6 @@ test 292
 292: Environment variables: 
 292:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 292: Test timeout computed to be: 10000000
-292: cp: cannot stat 'spinorbit/Fe2_dual/Fe-Fe.skf': No such file or directory
 292: spinorbit/Fe2_dual:	Test script returned non-zero exit code: 1
 292:  deleting file 'autotest.tag'
 292:  TODO.
@@ -11179,7 +10822,6 @@ test 292
 292: ------------------------------------------------------------------------------
 292: Status: FAIL
 292/406 Test #292: app/dftb+/spinorbit/Fe2_dual .....................................***Failed    0.04 sec
-cp: cannot stat 'spinorbit/Fe2_dual/Fe-Fe.skf': No such file or directory
 spinorbit/Fe2_dual:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11202,7 +10844,6 @@ test 293
 293: Environment variables: 
 293:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 293: Test timeout computed to be: 10000000
-293: cp: cannot stat 'spinorbit/Fe2_dual_field/Fe-Fe.skf': No such file or directory
 293: spinorbit/Fe2_dual_field:	Test script returned non-zero exit code: 1
 293:  deleting file 'autotest.tag'
 293:  TODO.
@@ -11218,7 +10859,6 @@ test 293
 293: ------------------------------------------------------------------------------
 293: Status: FAIL
 293/406 Test #293: app/dftb+/spinorbit/Fe2_dual_field ...............................***Failed    0.04 sec
-cp: cannot stat 'spinorbit/Fe2_dual_field/Fe-Fe.skf': No such file or directory
 spinorbit/Fe2_dual_field:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11241,7 +10881,6 @@ test 294
 294: Environment variables: 
 294:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 294: Test timeout computed to be: 10000000
-294: cp: cannot stat 'spinorbit/Fe2_dual_Fermi/Fe-Fe.skf': No such file or directory
 294: spinorbit/Fe2_dual_Fermi:	Test script returned non-zero exit code: 1
 294:  deleting file 'autotest.tag'
 294:  TODO.
@@ -11257,7 +10896,6 @@ test 294
 294: ------------------------------------------------------------------------------
 294: Status: FAIL
 294/406 Test #294: app/dftb+/spinorbit/Fe2_dual_Fermi ...............................***Failed    0.04 sec
-cp: cannot stat 'spinorbit/Fe2_dual_Fermi/Fe-Fe.skf': No such file or directory
 spinorbit/Fe2_dual_Fermi:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11280,7 +10918,6 @@ test 295
 295: Environment variables: 
 295:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 295: Test timeout computed to be: 10000000
-295: cp: cannot stat 'spinorbit/Si_2/Si-Si.skf': No such file or directory
 295: spinorbit/Si_2:	Test script returned non-zero exit code: 1
 295:  deleting file 'autotest.tag'
 295:  TODO.
@@ -11296,7 +10933,6 @@ test 295
 295: ------------------------------------------------------------------------------
 295: Status: FAIL
 295/406 Test #295: app/dftb+/spinorbit/Si_2 .........................................***Failed    0.04 sec
-cp: cannot stat 'spinorbit/Si_2/Si-Si.skf': No such file or directory
 spinorbit/Si_2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11444,7 +11080,7 @@ test 299
 299:     timedep/C4H6-S1-Force_uncache-Strat
 299: ------------------------------------------------------------------------------
 299: Status: FAIL
-299/406 Test #299: app/dftb+/timedep/C4H6-S1-Force_uncache-Stratmann ................***Failed    0.05 sec
+299/406 Test #299: app/dftb+/timedep/C4H6-S1-Force_uncache-Stratmann ................***Failed    0.04 sec
 timedep/C4H6-S1-Force_uncache-Stratmann:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11518,7 +11154,7 @@ test 301
 301:     timedep/Furan-NACV-LC
 301: ------------------------------------------------------------------------------
 301: Status: FAIL
-301/406 Test #301: app/dftb+/timedep/Furan-NACV-LC ..................................***Failed    0.05 sec
+301/406 Test #301: app/dftb+/timedep/Furan-NACV-LC ..................................***Failed    0.04 sec
 timedep/Furan-NACV-LC:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11666,7 +11302,7 @@ test 305
 305:     timedep/C4H6-Triplet-Stratmann
 305: ------------------------------------------------------------------------------
 305: Status: FAIL
-305/406 Test #305: app/dftb+/timedep/C4H6-Triplet-Stratmann .........................***Failed    0.05 sec
+305/406 Test #305: app/dftb+/timedep/C4H6-Triplet-Stratmann .........................***Failed    0.04 sec
 timedep/C4H6-Triplet-Stratmann:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11800,7 +11436,6 @@ test 309
 309: Environment variables: 
 309:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 309: Test timeout computed to be: 10000000
-309: cp: cannot stat 'dftb+u/Fe4/Fe-Fe.skf': No such file or directory
 309: dftb+u/Fe4:	Test script returned non-zero exit code: 1
 309:  deleting file 'autotest.tag'
 309:  TODO.
@@ -11815,8 +11450,7 @@ test 309
 309:     dftb+u/Fe4
 309: ------------------------------------------------------------------------------
 309: Status: FAIL
-309/406 Test #309: app/dftb+/dftb+u/Fe4 .............................................***Failed    0.05 sec
-cp: cannot stat 'dftb+u/Fe4/Fe-Fe.skf': No such file or directory
+309/406 Test #309: app/dftb+/dftb+u/Fe4 .............................................***Failed    0.04 sec
 dftb+u/Fe4:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -11839,7 +11473,6 @@ test 310
 310: Environment variables: 
 310:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 310: Test timeout computed to be: 10000000
-310: cp: cannot stat 'dftb+u/Fe4_read/Fe-Fe.skf': No such file or directory
 310: dftb+u/Fe4_read:	Test script returned non-zero exit code: 1
 310:  deleting file 'autotest.tag'
 310:  TODO.
@@ -11855,7 +11488,6 @@ test 310
 310: ------------------------------------------------------------------------------
 310: Status: FAIL
 310/406 Test #310: app/dftb+/dftb+u/Fe4_read ........................................***Failed    0.05 sec
-cp: cannot stat 'dftb+u/Fe4_read/Fe-Fe.skf': No such file or directory
 dftb+u/Fe4_read:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12026,7 +11658,6 @@ test 315
 315: Environment variables: 
 315:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 315: Test timeout computed to be: 10000000
-315: cp: cannot stat 'spinorbit/Fe2/Fe-Fe.skf': No such file or directory
 315: spinorbit/Fe2:	Test script returned non-zero exit code: 1
 315:  deleting file 'autotest.tag'
 315:  TODO.
@@ -12042,7 +11673,6 @@ test 315
 315: ------------------------------------------------------------------------------
 315: Status: FAIL
 315/406 Test #315: app/dftb+/spinorbit/Fe2 ..........................................***Failed    0.04 sec
-cp: cannot stat 'spinorbit/Fe2/Fe-Fe.skf': No such file or directory
 spinorbit/Fe2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12065,7 +11695,6 @@ test 316
 316: Environment variables: 
 316:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 316: Test timeout computed to be: 10000000
-316: cp: cannot stat 'analysis/Fe2_antiferromagnetic/Fe-Fe.skf': No such file or directory
 316: analysis/Fe2_antiferromagnetic:	Test script returned non-zero exit code: 1
 316:  deleting file 'autotest.tag'
 316:  TODO.
@@ -12081,7 +11710,6 @@ test 316
 316: ------------------------------------------------------------------------------
 316: Status: FAIL
 316/406 Test #316: app/dftb+/analysis/Fe2_antiferromagnetic .........................***Failed    0.04 sec
-cp: cannot stat 'analysis/Fe2_antiferromagnetic/Fe-Fe.skf': No such file or directory
 analysis/Fe2_antiferromagnetic:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12104,7 +11732,6 @@ test 317
 317: Environment variables: 
 317:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 317: Test timeout computed to be: 10000000
-317: cp: cannot stat 'non-scc/10-0Ctube_Efield/C-C.skf': No such file or directory
 317: non-scc/10-0Ctube_Efield:	Test script returned non-zero exit code: 1
 317:  deleting file 'autotest.tag'
 317:  TODO.
@@ -12119,8 +11746,7 @@ test 317
 317:     non-scc/10-0Ctube_Efield
 317: ------------------------------------------------------------------------------
 317: Status: FAIL
-317/406 Test #317: app/dftb+/non-scc/10-0Ctube_Efield ...............................***Failed    0.04 sec
-cp: cannot stat 'non-scc/10-0Ctube_Efield/C-C.skf': No such file or directory
+317/406 Test #317: app/dftb+/non-scc/10-0Ctube_Efield ...............................***Failed    0.05 sec
 non-scc/10-0Ctube_Efield:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12143,7 +11769,6 @@ test 318
 318: Environment variables: 
 318:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 318: Test timeout computed to be: 10000000
-318: cp: cannot stat 'non-scc/10-10Ctube/C-C.skf': No such file or directory
 318: non-scc/10-10Ctube:	Test script returned non-zero exit code: 1
 318:  deleting file 'autotest.tag'
 318:  TODO.
@@ -12159,7 +11784,6 @@ test 318
 318: ------------------------------------------------------------------------------
 318: Status: FAIL
 318/406 Test #318: app/dftb+/non-scc/10-10Ctube .....................................***Failed    0.04 sec
-cp: cannot stat 'non-scc/10-10Ctube/C-C.skf': No such file or directory
 non-scc/10-10Ctube:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12182,7 +11806,6 @@ test 319
 319: Environment variables: 
 319:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 319: Test timeout computed to be: 10000000
-319: cp: cannot stat 'non-scc/10-10Ctube_MP/C-C.skf': No such file or directory
 319: non-scc/10-10Ctube_MP:	Test script returned non-zero exit code: 1
 319:  deleting file 'autotest.tag'
 319:  TODO.
@@ -12198,7 +11821,6 @@ test 319
 319: ------------------------------------------------------------------------------
 319: Status: FAIL
 319/406 Test #319: app/dftb+/non-scc/10-10Ctube_MP ..................................***Failed    0.04 sec
-cp: cannot stat 'non-scc/10-10Ctube_MP/C-C.skf': No such file or directory
 non-scc/10-10Ctube_MP:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12332,7 +11954,6 @@ test 323
 323: Environment variables: 
 323:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 323: Test timeout computed to be: 10000000
-323: cp: cannot stat 'non-scc/Ctube_Fermi/C-C.skf': No such file or directory
 323: non-scc/Ctube_Fermi:	Test script returned non-zero exit code: 1
 323:  deleting file 'autotest.tag'
 323:  TODO.
@@ -12348,7 +11969,6 @@ test 323
 323: ------------------------------------------------------------------------------
 323: Status: FAIL
 323/406 Test #323: app/dftb+/non-scc/Ctube_Fermi ....................................***Failed    0.04 sec
-cp: cannot stat 'non-scc/Ctube_Fermi/C-C.skf': No such file or directory
 non-scc/Ctube_Fermi:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12371,7 +11991,6 @@ test 324
 324: Environment variables: 
 324:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 324: Test timeout computed to be: 10000000
-324: cp: cannot stat 'analysis/10-0Ctube_ESP/C-C.skf': No such file or directory
 324: analysis/10-0Ctube_ESP:	Test script returned non-zero exit code: 1
 324:  deleting file 'autotest.tag'
 324:  TODO.
@@ -12387,7 +12006,6 @@ test 324
 324: ------------------------------------------------------------------------------
 324: Status: FAIL
 324/406 Test #324: app/dftb+/analysis/10-0Ctube_ESP .................................***Failed    0.04 sec
-cp: cannot stat 'analysis/10-0Ctube_ESP/C-C.skf': No such file or directory
 analysis/10-0Ctube_ESP:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12447,7 +12065,6 @@ test 326
 326: Environment variables: 
 326:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 326: Test timeout computed to be: 10000000
-326: cp: cannot stat 'non-scc/10-0Ctube/C-C.skf': No such file or directory
 326: non-scc/10-0Ctube:	Test script returned non-zero exit code: 1
 326:  deleting file 'autotest.tag'
 326:  TODO.
@@ -12463,7 +12080,6 @@ test 326
 326: ------------------------------------------------------------------------------
 326: Status: FAIL
 326/406 Test #326: app/dftb+/non-scc/10-0Ctube ......................................***Failed    0.04 sec
-cp: cannot stat 'non-scc/10-0Ctube/C-C.skf': No such file or directory
 non-scc/10-0Ctube:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12486,7 +12102,6 @@ test 327
 327: Environment variables: 
 327:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 327: Test timeout computed to be: 10000000
-327: cp: cannot stat 'spin/Fe4_noncolinear/Fe-Fe.skf': No such file or directory
 327: spin/Fe4_noncolinear:	Test script returned non-zero exit code: 1
 327:  deleting file 'autotest.tag'
 327:  TODO.
@@ -12502,7 +12117,6 @@ test 327
 327: ------------------------------------------------------------------------------
 327: Status: FAIL
 327/406 Test #327: app/dftb+/spin/Fe4_noncolinear ...................................***Failed    0.04 sec
-cp: cannot stat 'spin/Fe4_noncolinear/Fe-Fe.skf': No such file or directory
 spin/Fe4_noncolinear:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12636,7 +12250,6 @@ test 331
 331: Environment variables: 
 331:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 331: Test timeout computed to be: 10000000
-331: cp: cannot stat 'analysis/C60_ESP/C-C.skf': No such file or directory
 331: analysis/C60_ESP:	Test script returned non-zero exit code: 1
 331:  deleting file 'autotest.tag'
 331:  TODO.
@@ -12652,7 +12265,6 @@ test 331
 331: ------------------------------------------------------------------------------
 331: Status: FAIL
 331/406 Test #331: app/dftb+/analysis/C60_ESP .......................................***Failed    0.04 sec
-cp: cannot stat 'analysis/C60_ESP/C-C.skf': No such file or directory
 analysis/C60_ESP:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12712,7 +12324,6 @@ test 333
 333: Environment variables: 
 333:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 333: Test timeout computed to be: 10000000
-333: cp: cannot stat 'dangerous/C_SkCutoff_soft_default/C-C.skf': No such file or directory
 333: dangerous/C_SkCutoff_soft_default:	Test script returned non-zero exit code: 1
 333:  deleting file 'autotest.tag'
 333:  TODO.
@@ -12727,8 +12338,7 @@ test 333
 333:     dangerous/C_SkCutoff_soft_default
 333: ------------------------------------------------------------------------------
 333: Status: FAIL
-333/406 Test #333: app/dftb+/dangerous/C_SkCutoff_soft_default ......................***Failed    0.06 sec
-cp: cannot stat 'dangerous/C_SkCutoff_soft_default/C-C.skf': No such file or directory
+333/406 Test #333: app/dftb+/dangerous/C_SkCutoff_soft_default ......................***Failed    0.04 sec
 dangerous/C_SkCutoff_soft_default:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12751,7 +12361,6 @@ test 334
 334: Environment variables: 
 334:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 334: Test timeout computed to be: 10000000
-334: cp: cannot stat 'dangerous/C_SkCutoff_hard_default/C-C.skf': No such file or directory
 334: dangerous/C_SkCutoff_hard_default:	Test script returned non-zero exit code: 1
 334:  deleting file 'autotest.tag'
 334:  TODO.
@@ -12767,7 +12376,6 @@ test 334
 334: ------------------------------------------------------------------------------
 334: Status: FAIL
 334/406 Test #334: app/dftb+/dangerous/C_SkCutoff_hard_default ......................***Failed    0.04 sec
-cp: cannot stat 'dangerous/C_SkCutoff_hard_default/C-C.skf': No such file or directory
 dangerous/C_SkCutoff_hard_default:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12790,7 +12398,6 @@ test 335
 335: Environment variables: 
 335:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 335: Test timeout computed to be: 10000000
-335: cp: cannot stat 'dangerous/C_SkCutoff_soft_old/C-C.skf': No such file or directory
 335: dangerous/C_SkCutoff_soft_old:	Test script returned non-zero exit code: 1
 335:  deleting file 'autotest.tag'
 335:  TODO.
@@ -12806,7 +12413,6 @@ test 335
 335: ------------------------------------------------------------------------------
 335: Status: FAIL
 335/406 Test #335: app/dftb+/dangerous/C_SkCutoff_soft_old ..........................***Failed    0.04 sec
-cp: cannot stat 'dangerous/C_SkCutoff_soft_old/C-C.skf': No such file or directory
 dangerous/C_SkCutoff_soft_old:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -12829,7 +12435,6 @@ test 336
 336: Environment variables: 
 336:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 336: Test timeout computed to be: 10000000
-336: cp: cannot stat 'dangerous/C_SkCutoff_hard_old/C-C.skf': No such file or directory
 336: dangerous/C_SkCutoff_hard_old:	Test script returned non-zero exit code: 1
 336:  deleting file 'autotest.tag'
 336:  TODO.
@@ -12844,8 +12449,7 @@ test 336
 336:     dangerous/C_SkCutoff_hard_old
 336: ------------------------------------------------------------------------------
 336: Status: FAIL
-336/406 Test #336: app/dftb+/dangerous/C_SkCutoff_hard_old ..........................***Failed    0.04 sec
-cp: cannot stat 'dangerous/C_SkCutoff_hard_old/C-C.skf': No such file or directory
+336/406 Test #336: app/dftb+/dangerous/C_SkCutoff_hard_old ..........................***Failed    0.05 sec
 dangerous/C_SkCutoff_hard_old:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13084,7 +12688,7 @@ test 342
 342:     spin/GaAs-spin-ext
 342: ------------------------------------------------------------------------------
 342: Status: FAIL
-342/406 Test #342: app/dftb+/spin/GaAs-spin-ext .....................................***Failed    0.06 sec
+342/406 Test #342: app/dftb+/spin/GaAs-spin-ext .....................................***Failed    0.05 sec
 cp: cannot stat 'spin/GaAs-spin-ext/As-As.skf': No such file or directory
 cp: cannot stat 'spin/GaAs-spin-ext/As-Ga1.skf': No such file or directory
 cp: cannot stat 'spin/GaAs-spin-ext/As-Ga2.skf': No such file or directory
@@ -13119,7 +12723,6 @@ test 343
 343: cp: cannot stat 'spinorbit/As4S4/As-As.skf': No such file or directory
 343: cp: cannot stat 'spinorbit/As4S4/As-S.skf': No such file or directory
 343: cp: cannot stat 'spinorbit/As4S4/S-As.skf': No such file or directory
-343: cp: cannot stat 'spinorbit/As4S4/S-S.skf': No such file or directory
 343: spinorbit/As4S4:	Test script returned non-zero exit code: 1
 343:  deleting file 'autotest.tag'
 343:  TODO.
@@ -13138,7 +12741,6 @@ test 343
 cp: cannot stat 'spinorbit/As4S4/As-As.skf': No such file or directory
 cp: cannot stat 'spinorbit/As4S4/As-S.skf': No such file or directory
 cp: cannot stat 'spinorbit/As4S4/S-As.skf': No such file or directory
-cp: cannot stat 'spinorbit/As4S4/S-S.skf': No such file or directory
 spinorbit/As4S4:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13531,7 +13133,6 @@ test 354
 354: Environment variables: 
 354:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 354: Test timeout computed to be: 10000000
-354: cp: cannot stat 'md/H3/H-H.skf': No such file or directory
 354: md/H3:	Test script returned non-zero exit code: 1
 354:  deleting file 'autotest.tag'
 354:  TODO.
@@ -13547,7 +13148,6 @@ test 354
 354: ------------------------------------------------------------------------------
 354: Status: FAIL
 354/406 Test #354: app/dftb+/md/H3 ..................................................***Failed    0.04 sec
-cp: cannot stat 'md/H3/H-H.skf': No such file or directory
 md/H3:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13607,7 +13207,6 @@ test 356
 356: Environment variables: 
 356:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 356: Test timeout computed to be: 10000000
-356: cp: cannot stat 'geoopt/Si_2_latconst/Si-Si.skf': No such file or directory
 356: geoopt/Si_2_latconst:	Test script returned non-zero exit code: 1
 356:  deleting file 'autotest.tag'
 356:  TODO.
@@ -13622,8 +13221,7 @@ test 356
 356:     geoopt/Si_2_latconst
 356: ------------------------------------------------------------------------------
 356: Status: FAIL
-356/406 Test #356: app/dftb+/geoopt/Si_2_latconst ...................................***Failed    0.04 sec
-cp: cannot stat 'geoopt/Si_2_latconst/Si-Si.skf': No such file or directory
+356/406 Test #356: app/dftb+/geoopt/Si_2_latconst ...................................***Failed    0.05 sec
 geoopt/Si_2_latconst:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13683,7 +13281,6 @@ test 358
 358: Environment variables: 
 358:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 358: Test timeout computed to be: 10000000
-358: cp: cannot stat 'geoopt/Si_2_lattice_lbfgs/Si-Si.skf': No such file or directory
 358: geoopt/Si_2_lattice_lbfgs:	Test script returned non-zero exit code: 1
 358:  deleting file 'autotest.tag'
 358:  TODO.
@@ -13699,7 +13296,6 @@ test 358
 358: ------------------------------------------------------------------------------
 358: Status: FAIL
 358/406 Test #358: app/dftb+/geoopt/Si_2_lattice_lbfgs ..............................***Failed    0.04 sec
-cp: cannot stat 'geoopt/Si_2_lattice_lbfgs/Si-Si.skf': No such file or directory
 geoopt/Si_2_lattice_lbfgs:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13722,7 +13318,6 @@ test 359
 359: Environment variables: 
 359:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 359: Test timeout computed to be: 10000000
-359: cp: cannot stat 'geoopt/Si_2_lattice/Si-Si.skf': No such file or directory
 359: geoopt/Si_2_lattice:	Test script returned non-zero exit code: 1
 359:  deleting file 'autotest.tag'
 359:  TODO.
@@ -13737,8 +13332,7 @@ test 359
 359:     geoopt/Si_2_lattice
 359: ------------------------------------------------------------------------------
 359: Status: FAIL
-359/406 Test #359: app/dftb+/geoopt/Si_2_lattice ....................................***Failed    0.04 sec
-cp: cannot stat 'geoopt/Si_2_lattice/Si-Si.skf': No such file or directory
+359/406 Test #359: app/dftb+/geoopt/Si_2_lattice ....................................***Failed    0.05 sec
 geoopt/Si_2_lattice:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13798,7 +13392,6 @@ test 361
 361: Environment variables: 
 361:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 361: Test timeout computed to be: 10000000
-361: cp: cannot stat 'md/Si_8_NHC/Si-Si.skf': No such file or directory
 361: md/Si_8_NHC:	Test script returned non-zero exit code: 1
 361:  deleting file 'autotest.tag'
 361:  TODO.
@@ -13813,8 +13406,7 @@ test 361
 361:     md/Si_8_NHC
 361: ------------------------------------------------------------------------------
 361: Status: FAIL
-361/406 Test #361: app/dftb+/md/Si_8_NHC ............................................***Failed    0.04 sec
-cp: cannot stat 'md/Si_8_NHC/Si-Si.skf': No such file or directory
+361/406 Test #361: app/dftb+/md/Si_8_NHC ............................................***Failed    0.05 sec
 md/Si_8_NHC:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13837,7 +13429,6 @@ test 362
 362: Environment variables: 
 362:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 362: Test timeout computed to be: 10000000
-362: cp: cannot stat 'spin/Fe4_Fermi/Fe-Fe.skf': No such file or directory
 362: spin/Fe4_Fermi:	Test script returned non-zero exit code: 1
 362:  deleting file 'autotest.tag'
 362:  TODO.
@@ -13852,8 +13443,7 @@ test 362
 362:     spin/Fe4_Fermi
 362: ------------------------------------------------------------------------------
 362: Status: FAIL
-362/406 Test #362: app/dftb+/spin/Fe4_Fermi .........................................***Failed    0.04 sec
-cp: cannot stat 'spin/Fe4_Fermi/Fe-Fe.skf': No such file or directory
+362/406 Test #362: app/dftb+/spin/Fe4_Fermi .........................................***Failed    0.05 sec
 spin/Fe4_Fermi:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -13987,7 +13577,6 @@ test 366
 366: Environment variables: 
 366:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 366: Test timeout computed to be: 10000000
-366: cp: cannot stat 'geoopt/Si_6/Si-Si.skf': No such file or directory
 366: geoopt/Si_6:	Test script returned non-zero exit code: 1
 366:  deleting file 'autotest.tag'
 366:  TODO.
@@ -14003,7 +13592,6 @@ test 366
 366: ------------------------------------------------------------------------------
 366: Status: FAIL
 366/406 Test #366: app/dftb+/geoopt/Si_6 ............................................***Failed    0.04 sec
-cp: cannot stat 'geoopt/Si_6/Si-Si.skf': No such file or directory
 geoopt/Si_6:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14174,7 +13762,6 @@ test 371
 371: Environment variables: 
 371:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 371: Test timeout computed to be: 10000000
-371: cp: cannot stat 'spinorbit/Si2_dual/Si-Si.skf': No such file or directory
 371: spinorbit/Si2_dual:	Test script returned non-zero exit code: 1
 371:  deleting file 'autotest.tag'
 371:  TODO.
@@ -14190,7 +13777,6 @@ test 371
 371: ------------------------------------------------------------------------------
 371: Status: FAIL
 371/406 Test #371: app/dftb+/spinorbit/Si2_dual .....................................***Failed    0.04 sec
-cp: cannot stat 'spinorbit/Si2_dual/Si-Si.skf': No such file or directory
 spinorbit/Si2_dual:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14213,7 +13799,6 @@ test 372
 372: Environment variables: 
 372:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 372: Test timeout computed to be: 10000000
-372: cp: cannot stat 'md/Si_8/Si-Si.skf': No such file or directory
 372: md/Si_8:	Test script returned non-zero exit code: 1
 372:  deleting file 'autotest.tag'
 372:  TODO.
@@ -14229,7 +13814,6 @@ test 372
 372: ------------------------------------------------------------------------------
 372: Status: FAIL
 372/406 Test #372: app/dftb+/md/Si_8 ................................................***Failed    0.04 sec
-cp: cannot stat 'md/Si_8/Si-Si.skf': No such file or directory
 md/Si_8:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14252,7 +13836,6 @@ test 373
 373: Environment variables: 
 373:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 373: Test timeout computed to be: 10000000
-373: cp: cannot stat 'md/Si_8-thermostat2/Si-Si.skf': No such file or directory
 373: md/Si_8-thermostat2:	Test script returned non-zero exit code: 1
 373:  deleting file 'autotest.tag'
 373:  TODO.
@@ -14268,7 +13851,6 @@ test 373
 373: ------------------------------------------------------------------------------
 373: Status: FAIL
 373/406 Test #373: app/dftb+/md/Si_8-thermostat2 ....................................***Failed    0.04 sec
-cp: cannot stat 'md/Si_8-thermostat2/Si-Si.skf': No such file or directory
 md/Si_8-thermostat2:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14402,7 +13984,6 @@ test 377
 377: Environment variables: 
 377:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 377: Test timeout computed to be: 10000000
-377: cp: cannot stat 'md/Si_8-thermostat/Si-Si.skf': No such file or directory
 377: md/Si_8-thermostat:	Test script returned non-zero exit code: 1
 377:  deleting file 'autotest.tag'
 377:  TODO.
@@ -14418,7 +13999,6 @@ test 377
 377: ------------------------------------------------------------------------------
 377: Status: FAIL
 377/406 Test #377: app/dftb+/md/Si_8-thermostat .....................................***Failed    0.04 sec
-cp: cannot stat 'md/Si_8-thermostat/Si-Si.skf': No such file or directory
 md/Si_8-thermostat:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14455,7 +14035,7 @@ test 378
 378:     md/ptcda-xlbomdfast-ldep
 378: ------------------------------------------------------------------------------
 378: Status: FAIL
-378/406 Test #378: app/dftb+/md/ptcda-xlbomdfast-ldep ...............................***Failed    0.05 sec
+378/406 Test #378: app/dftb+/md/ptcda-xlbomdfast-ldep ...............................***Failed    0.04 sec
 md/ptcda-xlbomdfast-ldep:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14478,7 +14058,6 @@ test 379
 379: Environment variables: 
 379:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 379: Test timeout computed to be: 10000000
-379: cp: cannot stat 'md/Si_8-tempprofile/Si-Si.skf': No such file or directory
 379: md/Si_8-tempprofile:	Test script returned non-zero exit code: 1
 379:  deleting file 'autotest.tag'
 379:  TODO.
@@ -14494,7 +14073,6 @@ test 379
 379: ------------------------------------------------------------------------------
 379: Status: FAIL
 379/406 Test #379: app/dftb+/md/Si_8-tempprofile ....................................***Failed    0.04 sec
-cp: cannot stat 'md/Si_8-tempprofile/Si-Si.skf': No such file or directory
 md/Si_8-tempprofile:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14517,7 +14095,6 @@ test 380
 380: Environment variables: 
 380:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 380: Test timeout computed to be: 10000000
-380: cp: cannot stat 'md/Si_8-tempprofile0/Si-Si.skf': No such file or directory
 380: md/Si_8-tempprofile0:	Test script returned non-zero exit code: 1
 380:  deleting file 'autotest.tag'
 380:  TODO.
@@ -14533,7 +14110,6 @@ test 380
 380: ------------------------------------------------------------------------------
 380: Status: FAIL
 380/406 Test #380: app/dftb+/md/Si_8-tempprofile0 ...................................***Failed    0.04 sec
-cp: cannot stat 'md/Si_8-tempprofile0/Si-Si.skf': No such file or directory
 md/Si_8-tempprofile0:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14556,10 +14132,6 @@ test 381
 381: Environment variables: 
 381:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 381: Test timeout computed to be: 10000000
-381: cp: cannot stat 'geoopt/Vsi+O-nonscc/O-O.skf': No such file or directory
-381: cp: cannot stat 'geoopt/Vsi+O-nonscc/O-Si.skf': No such file or directory
-381: cp: cannot stat 'geoopt/Vsi+O-nonscc/Si-O.skf': No such file or directory
-381: cp: cannot stat 'geoopt/Vsi+O-nonscc/Si-Si.skf': No such file or directory
 381: geoopt/Vsi+O-nonscc:	Test script returned non-zero exit code: 1
 381:  deleting file 'autotest.tag'
 381:  TODO.
@@ -14575,10 +14147,6 @@ test 381
 381: ------------------------------------------------------------------------------
 381: Status: FAIL
 381/406 Test #381: app/dftb+/geoopt/Vsi+O-nonscc ....................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/Vsi+O-nonscc/O-O.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O-nonscc/O-Si.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O-nonscc/Si-O.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O-nonscc/Si-Si.skf': No such file or directory
 geoopt/Vsi+O-nonscc:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14601,7 +14169,6 @@ test 382
 382: Environment variables: 
 382:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 382: Test timeout computed to be: 10000000
-382: cp: cannot stat 'non-scc/Si_384/Si-Si.skf': No such file or directory
 382: non-scc/Si_384:	Test script returned non-zero exit code: 1
 382:  deleting file 'autotest.tag'
 382:  TODO.
@@ -14616,8 +14183,7 @@ test 382
 382:     non-scc/Si_384
 382: ------------------------------------------------------------------------------
 382: Status: FAIL
-382/406 Test #382: app/dftb+/non-scc/Si_384 .........................................***Failed    0.05 sec
-cp: cannot stat 'non-scc/Si_384/Si-Si.skf': No such file or directory
+382/406 Test #382: app/dftb+/non-scc/Si_384 .........................................***Failed    0.04 sec
 non-scc/Si_384:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14654,7 +14220,7 @@ test 383
 383:     md/DNA
 383: ------------------------------------------------------------------------------
 383: Status: FAIL
-383/406 Test #383: app/dftb+/md/DNA .................................................***Failed    0.06 sec
+383/406 Test #383: app/dftb+/md/DNA .................................................***Failed    0.04 sec
 md/DNA:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14728,7 +14294,7 @@ test 385
 385:     md/ptcda-xlbomd
 385: ------------------------------------------------------------------------------
 385: Status: FAIL
-385/406 Test #385: app/dftb+/md/ptcda-xlbomd ........................................***Failed    0.06 sec
+385/406 Test #385: app/dftb+/md/ptcda-xlbomd ........................................***Failed    0.05 sec
 md/ptcda-xlbomd:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14899,7 +14465,6 @@ test 390
 390: Environment variables: 
 390:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 390: Test timeout computed to be: 10000000
-390: cp: cannot stat 'non-scc/Si_216/Si-Si.skf': No such file or directory
 390: non-scc/Si_216:	Test script returned non-zero exit code: 1
 390:  deleting file 'autotest.tag'
 390:  TODO.
@@ -14914,8 +14479,7 @@ test 390
 390:     non-scc/Si_216
 390: ------------------------------------------------------------------------------
 390: Status: FAIL
-390/406 Test #390: app/dftb+/non-scc/Si_216 .........................................***Failed    0.04 sec
-cp: cannot stat 'non-scc/Si_216/Si-Si.skf': No such file or directory
+390/406 Test #390: app/dftb+/non-scc/Si_216 .........................................***Failed    0.05 sec
 non-scc/Si_216:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -14975,10 +14539,6 @@ test 392
 392: Environment variables: 
 392:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 392: Test timeout computed to be: 10000000
-392: cp: cannot stat 'geoopt/Vsi+O_lbfgs/O-O.skf': No such file or directory
-392: cp: cannot stat 'geoopt/Vsi+O_lbfgs/O-Si.skf': No such file or directory
-392: cp: cannot stat 'geoopt/Vsi+O_lbfgs/Si-O.skf': No such file or directory
-392: cp: cannot stat 'geoopt/Vsi+O_lbfgs/Si-Si.skf': No such file or directory
 392: geoopt/Vsi+O_lbfgs:	Test script returned non-zero exit code: 1
 392:  deleting file 'autotest.tag'
 392:  TODO.
@@ -14994,10 +14554,6 @@ test 392
 392: ------------------------------------------------------------------------------
 392: Status: FAIL
 392/406 Test #392: app/dftb+/geoopt/Vsi+O_lbfgs .....................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/Vsi+O_lbfgs/O-O.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O_lbfgs/O-Si.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O_lbfgs/Si-O.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O_lbfgs/Si-Si.skf': No such file or directory
 geoopt/Vsi+O_lbfgs:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -15020,10 +14576,6 @@ test 393
 393: Environment variables: 
 393:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
 393: Test timeout computed to be: 10000000
-393: cp: cannot stat 'geoopt/Vsi+O/O-O.skf': No such file or directory
-393: cp: cannot stat 'geoopt/Vsi+O/O-Si.skf': No such file or directory
-393: cp: cannot stat 'geoopt/Vsi+O/Si-O.skf': No such file or directory
-393: cp: cannot stat 'geoopt/Vsi+O/Si-Si.skf': No such file or directory
 393: geoopt/Vsi+O:	Test script returned non-zero exit code: 1
 393:  deleting file 'autotest.tag'
 393:  TODO.
@@ -15039,10 +14591,6 @@ test 393
 393: ------------------------------------------------------------------------------
 393: Status: FAIL
 393/406 Test #393: app/dftb+/geoopt/Vsi+O ...........................................***Failed    0.05 sec
-cp: cannot stat 'geoopt/Vsi+O/O-O.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O/O-Si.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O/Si-O.skf': No such file or directory
-cp: cannot stat 'geoopt/Vsi+O/Si-Si.skf': No such file or directory
 geoopt/Vsi+O:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -15079,7 +14627,7 @@ test 394
 394:     scc/SiC64+V_dynforce_groups
 394: ------------------------------------------------------------------------------
 394: Status: FAIL
-394/406 Test #394: app/dftb+/scc/SiC64+V_dynforce_groups ............................***Failed    0.05 sec
+394/406 Test #394: app/dftb+/scc/SiC64+V_dynforce_groups ............................***Failed    0.04 sec
 scc/SiC64+V_dynforce_groups:	Test script returned non-zero exit code: 1
  deleting file 'autotest.tag'
  TODO.
@@ -15295,7 +14843,7 @@ test 400
 400:     C6H6_ir
 400: ------------------------------------------------------------------------------
 400: Status: FAIL
-400/406 Test #400: app/modes/C6H6_ir ................................................***Failed    0.05 sec
+400/406 Test #400: app/modes/C6H6_ir ................................................***Failed    0.04 sec
 C6H6_ir:	 TODO.
 
 ==============================================================================
@@ -15510,7 +15058,7 @@ Status: FAIL
 
 0% tests passed, 406 tests failed out of 406
 
-Total Test time (real) =  18.59 sec
+Total Test time (real) =  18.55 sec
 
 The following tests FAILED:
 	  1 - api_extcharges (Failed)

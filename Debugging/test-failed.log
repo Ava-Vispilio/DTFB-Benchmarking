@@ -1,0 +1,1502 @@
+test 73
+        Start  73: app/dftb+/input/unsorted_contcar
+
+73: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "input/unsorted_contcar"
+73: Environment variables: 
+73:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+73: Test timeout computed to be: 10000000
+73: input/unsorted_contcar:	Test script returned non-zero exit code: 1
+73:  deleting file 'autotest.tag'
+73:  TODO.
+73: 
+73: ==============================================================================
+73: TEST SUMMARY
+73: ------------------------------------------------------------------------------
+73: Match:
+73:     None
+73: 
+73: Not run:
+73:     input/unsorted_contcar
+73: ------------------------------------------------------------------------------
+73: Status: FAIL
+ 73/406 Test  #73: app/dftb+/input/unsorted_contcar .................................***Failed    0.20 sec
+
+test 74
+        Start  74: app/dftb+/hybrid/cluster/C18H12-force-hyb
+
+74: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/cluster/C18H12-force-hyb"
+74: Environment variables: 
+74:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+74: Test timeout computed to be: 10000000
+74: hybrid/cluster/C18H12-force-hyb:	Test script returned non-zero exit code: 1
+74:  deleting file 'autotest.tag'
+74:  TODO.
+74: 
+74: ==============================================================================
+74: TEST SUMMARY
+74: ------------------------------------------------------------------------------
+74: Match:
+74:     None
+74: 
+74: Not run:
+74:     hybrid/cluster/C18H12-force-hyb
+74: ------------------------------------------------------------------------------
+74: Status: FAIL
+ 74/406 Test  #74: app/dftb+/hybrid/cluster/C18H12-force-hyb ........................***Failed    0.07 sec
+
+test 76
+        Start  76: app/dftb+/hybrid/cluster/C18H12-force-cam
+
+76: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/cluster/C18H12-force-cam"
+76: Environment variables: 
+76:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+76: Test timeout computed to be: 10000000
+76: hybrid/cluster/C18H12-force-cam:	Test script returned non-zero exit code: 1
+76:  deleting file 'autotest.tag'
+76:  TODO.
+76: 
+76: ==============================================================================
+76: TEST SUMMARY
+76: ------------------------------------------------------------------------------
+76: Match:
+76:     None
+76: 
+76: Not run:
+76:     hybrid/cluster/C18H12-force-cam
+76: ------------------------------------------------------------------------------
+76: Status: FAIL
+ 76/406 Test  #76: app/dftb+/hybrid/cluster/C18H12-force-cam ........................***Failed    0.07 sec
+
+test 77
+        Start  77: app/dftb+/legacy/parser/v4
+
+77: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "legacy/parser/v4"
+77: Environment variables: 
+77:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+77: Test timeout computed to be: 10000000
+77: legacy/parser/v4:	Test script returned non-zero exit code: 1
+77:  deleting file 'autotest.tag'
+77:  TODO.
+77: 
+77: ==============================================================================
+77: TEST SUMMARY
+77: ------------------------------------------------------------------------------
+77: Match:
+77:     None
+77: 
+77: Not run:
+77:     legacy/parser/v4
+77: ------------------------------------------------------------------------------
+77: Status: FAIL
+ 77/406 Test  #77: app/dftb+/legacy/parser/v4 .......................................***Failed    0.11 sec
+
+test 98
+        Start  98: app/dftb+/hybrid/cluster/As
+
+98: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/cluster/As"
+98: Environment variables: 
+98:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+98: Test timeout computed to be: 10000000
+98: hybrid/cluster/As:	Test script returned non-zero exit code: 1
+98:  deleting file 'autotest.tag'
+98:  TODO.
+98: 
+98: ==============================================================================
+98: TEST SUMMARY
+98: ------------------------------------------------------------------------------
+98: Match:
+98:     None
+98: 
+98: Not run:
+98:     hybrid/cluster/As
+98: ------------------------------------------------------------------------------
+98: Status: FAIL
+ 98/406 Test  #98: app/dftb+/hybrid/cluster/As ......................................***Failed    0.07 sec
+
+test 99
+        Start  99: app/dftb+/hybrid/periodic/Acene-gamma-matrix-force-cam
+
+99: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/Acene-gamma-matrix-force-cam"
+99: Environment variables: 
+99:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+99: Test timeout computed to be: 10000000
+99: hybrid/periodic/Acene-gamma-matrix-force-cam:	Test script returned non-zero exit code: 1
+99:  deleting file 'autotest.tag'
+99:  TODO.
+99: 
+99: ==============================================================================
+99: TEST SUMMARY
+99: ------------------------------------------------------------------------------
+99: Match:
+99:     None
+99: 
+99: Not run:
+99:     hybrid/periodic/Acene-gamma-matrix-
+99: ------------------------------------------------------------------------------
+99: Status: FAIL
+ 99/406 Test  #99: app/dftb+/hybrid/periodic/Acene-gamma-matrix-force-cam ...........***Failed    0.07 sec
+
+test 102
+        Start 102: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-cam
+
+102: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/Acene-gamma-neigh-force-cam"
+102: Environment variables: 
+102:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+102: Test timeout computed to be: 10000000
+102: hybrid/periodic/Acene-gamma-neigh-force-cam:	Test script returned non-zero exit code: 1
+102:  deleting file 'autotest.tag'
+102:  TODO.
+102: 
+102: ==============================================================================
+102: TEST SUMMARY
+102: ------------------------------------------------------------------------------
+102: Match:
+102:     None
+102: 
+102: Not run:
+102:     hybrid/periodic/Acene-gamma-neigh-f
+102: ------------------------------------------------------------------------------
+102: Status: FAIL
+102/406 Test #102: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-cam ............***Failed    0.07 sec
+
+test 103
+        Start 103: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-hyb
+
+103: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/Acene-gamma-neigh-force-hyb"
+103: Environment variables: 
+103:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+103: Test timeout computed to be: 10000000
+103: hybrid/periodic/Acene-gamma-neigh-force-hyb:	Test script returned non-zero exit code: 1
+103:  deleting file 'autotest.tag'
+103:  TODO.
+103: 
+103: ==============================================================================
+103: TEST SUMMARY
+103: ------------------------------------------------------------------------------
+103: Match:
+103:     None
+103: 
+103: Not run:
+103:     hybrid/periodic/Acene-gamma-neigh-f
+103: ------------------------------------------------------------------------------
+103: Status: FAIL
+103/406 Test #103: app/dftb+/hybrid/periodic/Acene-gamma-neigh-force-hyb ............***Failed    0.07 sec
+
+test 121
+        Start 121: app/dftb+/hybrid/periodic/GaAs-gamma-matrix
+
+121: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-gamma-matrix"
+121: Environment variables: 
+121:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+121: Test timeout computed to be: 10000000
+121: hybrid/periodic/GaAs-gamma-matrix:	Test script returned non-zero exit code: 1
+121:  deleting file 'autotest.tag'
+121:  TODO.
+121: 
+121: ==============================================================================
+121: TEST SUMMARY
+121: ------------------------------------------------------------------------------
+121: Match:
+121:     None
+121: 
+121: Not run:
+121:     hybrid/periodic/GaAs-gamma-matrix
+121: ------------------------------------------------------------------------------
+121: Status: FAIL
+121/406 Test #121: app/dftb+/hybrid/periodic/GaAs-gamma-matrix ......................***Failed    0.07 sec
+
+test 122
+        Start 122: app/dftb+/hybrid/periodic/GaAs-gamma-neigh
+
+122: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-gamma-neigh"
+122: Environment variables: 
+122:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+122: Test timeout computed to be: 10000000
+122: hybrid/periodic/GaAs-gamma-neigh:	Test script returned non-zero exit code: 1
+122:  deleting file 'autotest.tag'
+122:  TODO.
+122: 
+122: ==============================================================================
+122: TEST SUMMARY
+122: ------------------------------------------------------------------------------
+122: Match:
+122:     None
+122: 
+122: Not run:
+122:     hybrid/periodic/GaAs-gamma-neigh
+122: ------------------------------------------------------------------------------
+122: Status: FAIL
+122/406 Test #122: app/dftb+/hybrid/periodic/GaAs-gamma-neigh .......................***Failed    0.07 sec
+
+test 123
+        Start 123: app/dftb+/hybrid/periodic/GaAs-gamma-restart
+
+123: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-gamma-restart"
+123: Environment variables: 
+123:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+123: Test timeout computed to be: 10000000
+123: hybrid/periodic/GaAs-gamma-restart:	Test script returned non-zero exit code: 1
+123:  deleting file 'autotest.tag'
+123:  TODO.
+123: 
+123: ==============================================================================
+123: TEST SUMMARY
+123: ------------------------------------------------------------------------------
+123: Match:
+123:     None
+123: 
+123: Not run:
+123:     hybrid/periodic/GaAs-gamma-restart
+123: ------------------------------------------------------------------------------
+123: Status: FAIL
+123/406 Test #123: app/dftb+/hybrid/periodic/GaAs-gamma-restart .....................***Failed    0.11 sec
+
+test 124
+        Start 124: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct
+
+124: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-kpts-matrix-ct"
+124: Environment variables: 
+124:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+124: Test timeout computed to be: 10000000
+124: hybrid/periodic/GaAs-kpts-matrix-ct:	Test script returned non-zero exit code: 1
+124:  deleting file 'autotest.tag'
+124:  TODO.
+124: 
+124: ==============================================================================
+124: TEST SUMMARY
+124: ------------------------------------------------------------------------------
+124: Match:
+124:     None
+124: 
+124: Not run:
+124:     hybrid/periodic/GaAs-kpts-matrix-ct
+124: ------------------------------------------------------------------------------
+124: Status: FAIL
+124/406 Test #124: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct ....................***Failed    0.07 sec
+
+test 125
+        Start 125: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-anderson
+
+125: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-kpts-matrix-ct-anderson"
+125: Environment variables: 
+125:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+125: Test timeout computed to be: 10000000
+125: hybrid/periodic/GaAs-kpts-matrix-ct-anderson:	Test script returned non-zero exit code: 1
+125:  deleting file 'autotest.tag'
+125:  TODO.
+125: 
+125: ==============================================================================
+125: TEST SUMMARY
+125: ------------------------------------------------------------------------------
+125: Match:
+125:     None
+125: 
+125: Not run:
+125:     hybrid/periodic/GaAs-kpts-matrix-ct
+125: ------------------------------------------------------------------------------
+125: Status: FAIL
+125/406 Test #125: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-anderson ...........***Failed    0.07 sec
+
+test 126
+        Start 126: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-diis
+
+126: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-kpts-matrix-ct-diis"
+126: Environment variables: 
+126:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+126: Test timeout computed to be: 10000000
+126: hybrid/periodic/GaAs-kpts-matrix-ct-diis:	Test script returned non-zero exit code: 1
+126:  deleting file 'autotest.tag'
+126:  TODO.
+126: 
+126: ==============================================================================
+126: TEST SUMMARY
+126: ------------------------------------------------------------------------------
+126: Match:
+126:     None
+126: 
+126: Not run:
+126:     hybrid/periodic/GaAs-kpts-matrix-ct
+126: ------------------------------------------------------------------------------
+126: Status: FAIL
+126/406 Test #126: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-diis ...............***Failed    0.07 sec
+
+test 127
+        Start 127: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-simple
+
+127: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-kpts-matrix-ct-simple"
+127: Environment variables: 
+127:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+127: Test timeout computed to be: 10000000
+127: hybrid/periodic/GaAs-kpts-matrix-ct-simple:	Test script returned non-zero exit code: 1
+127:  deleting file 'autotest.tag'
+127:  TODO.
+127: 
+127: ==============================================================================
+127: TEST SUMMARY
+127: ------------------------------------------------------------------------------
+127: Match:
+127:     None
+127: 
+127: Not run:
+127:     hybrid/periodic/GaAs-kpts-matrix-ct
+127: ------------------------------------------------------------------------------
+127: Status: FAIL
+127/406 Test #127: app/dftb+/hybrid/periodic/GaAs-kpts-matrix-ct-simple .............***Failed    0.07 sec
+
+test 128
+        Start 128: app/dftb+/hybrid/periodic/GaAs-kpts-neigh-ct
+
+128: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-kpts-neigh-ct"
+128: Environment variables: 
+128:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+128: Test timeout computed to be: 10000000
+128: hybrid/periodic/GaAs-kpts-neigh-ct:	Test script returned non-zero exit code: 1
+128:  deleting file 'autotest.tag'
+128:  TODO.
+128: 
+128: ==============================================================================
+128: TEST SUMMARY
+128: ------------------------------------------------------------------------------
+128: Match:
+128:     None
+128: 
+128: Not run:
+128:     hybrid/periodic/GaAs-kpts-neigh-ct
+128: ------------------------------------------------------------------------------
+128: Status: FAIL
+128/406 Test #128: app/dftb+/hybrid/periodic/GaAs-kpts-neigh-ct .....................***Failed    0.07 sec
+
+test 129
+        Start 129: app/dftb+/hybrid/periodic/GaAs-kpts-neigh-mic
+
+129: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "hybrid/periodic/GaAs-kpts-neigh-mic"
+129: Environment variables: 
+129:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+129: Test timeout computed to be: 10000000
+129: hybrid/periodic/GaAs-kpts-neigh-mic:	Test script returned non-zero exit code: 1
+129:  deleting file 'autotest.tag'
+129:  TODO.
+129: 
+129: ==============================================================================
+129: TEST SUMMARY
+129: ------------------------------------------------------------------------------
+129: Match:
+129:     None
+129: 
+129: Not run:
+129:     hybrid/periodic/GaAs-kpts-neigh-mic
+129: ------------------------------------------------------------------------------
+129: Status: FAIL
+129/406 Test #129: app/dftb+/hybrid/periodic/GaAs-kpts-neigh-mic ....................***Failed    0.08 sec
+
+test 153
+        Start 153: app/dftb+/mdftb/2H2O
+
+153: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/2H2O"
+153: Environment variables: 
+153:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+153: Test timeout computed to be: 10000000
+153: mdftb/2H2O:	Test script returned non-zero exit code: 1
+153:  deleting file 'autotest.tag'
+153:  TODO.
+153: 
+153: ==============================================================================
+153: TEST SUMMARY
+153: ------------------------------------------------------------------------------
+153: Match:
+153:     None
+153: 
+153: Not run:
+153:     mdftb/2H2O
+153: ------------------------------------------------------------------------------
+153: Status: FAIL
+153/406 Test #153: app/dftb+/mdftb/2H2O .............................................***Failed    0.07 sec
+
+test 154
+        Start 154: app/dftb+/mdftb/2H2O-extfield
+
+154: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/2H2O-extfield"
+154: Environment variables: 
+154:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+154: Test timeout computed to be: 10000000
+154: mdftb/2H2O-extfield:	Test script returned non-zero exit code: 1
+154:  deleting file 'autotest.tag'
+154:  TODO.
+154: 
+154: ==============================================================================
+154: TEST SUMMARY
+154: ------------------------------------------------------------------------------
+154: Match:
+154:     None
+154: 
+154: Not run:
+154:     mdftb/2H2O-extfield
+154: ------------------------------------------------------------------------------
+154: Status: FAIL
+154/406 Test #154: app/dftb+/mdftb/2H2O-extfield ....................................***Failed    0.07 sec
+
+test 155
+        Start 155: app/dftb+/mdftb/32H2O
+
+155: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/32H2O"
+155: Environment variables: 
+155:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+155: Test timeout computed to be: 10000000
+155: mdftb/32H2O:	Test script returned non-zero exit code: 1
+155:  deleting file 'autotest.tag'
+155:  TODO.
+155: 
+155: ==============================================================================
+155: TEST SUMMARY
+155: ------------------------------------------------------------------------------
+155: Match:
+155:     None
+155: 
+155: Not run:
+155:     mdftb/32H2O
+155: ------------------------------------------------------------------------------
+155: Status: FAIL
+155/406 Test #155: app/dftb+/mdftb/32H2O ............................................***Failed    0.07 sec
+
+test 156
+        Start 156: app/dftb+/mdftb/Glycine
+
+156: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine"
+156: Environment variables: 
+156:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+156: Test timeout computed to be: 10000000
+156: mdftb/Glycine:	Test script returned non-zero exit code: 1
+156:  deleting file 'autotest.tag'
+156:  TODO.
+156: 
+156: ==============================================================================
+156: TEST SUMMARY
+156: ------------------------------------------------------------------------------
+156: Match:
+156:     None
+156: 
+156: Not run:
+156:     mdftb/Glycine
+156: ------------------------------------------------------------------------------
+156: Status: FAIL
+156/406 Test #156: app/dftb+/mdftb/Glycine ..........................................***Failed    0.07 sec
+
+test 157
+        Start 157: app/dftb+/mdftb/Glycine_mDFTBoff1
+
+157: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine_mDFTBoff1"
+157: Environment variables: 
+157:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+157: Test timeout computed to be: 10000000
+157: mdftb/Glycine_mDFTBoff1:	Test script returned non-zero exit code: 1
+157:  deleting file 'autotest.tag'
+157:  TODO.
+157: 
+157: ==============================================================================
+157: TEST SUMMARY
+157: ------------------------------------------------------------------------------
+157: Match:
+157:     None
+157: 
+157: Not run:
+157:     mdftb/Glycine_mDFTBoff1
+157: ------------------------------------------------------------------------------
+157: Status: FAIL
+157/406 Test #157: app/dftb+/mdftb/Glycine_mDFTBoff1 ................................***Failed    0.07 sec
+
+test 158
+        Start 158: app/dftb+/mdftb/Glycine_mDFTBoff2
+
+158: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine_mDFTBoff2"
+158: Environment variables: 
+158:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+158: Test timeout computed to be: 10000000
+158: mdftb/Glycine_mDFTBoff2:	Test script returned non-zero exit code: 1
+158:  deleting file 'autotest.tag'
+158:  TODO.
+158: 
+158: ==============================================================================
+158: TEST SUMMARY
+158: ------------------------------------------------------------------------------
+158: Match:
+158:     None
+158: 
+158: Not run:
+158:     mdftb/Glycine_mDFTBoff2
+158: ------------------------------------------------------------------------------
+158: Status: FAIL
+158/406 Test #158: app/dftb+/mdftb/Glycine_mDFTBoff2 ................................***Failed    0.07 sec
+
+test 159
+        Start 159: app/dftb+/mdftb/Glycine_mDFTBoff3
+
+159: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine_mDFTBoff3"
+159: Environment variables: 
+159:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+159: Test timeout computed to be: 10000000
+159: mdftb/Glycine_mDFTBoff3:	Test script returned non-zero exit code: 1
+159:  deleting file 'autotest.tag'
+159:  TODO.
+159: 
+159: ==============================================================================
+159: TEST SUMMARY
+159: ------------------------------------------------------------------------------
+159: Match:
+159:     None
+159: 
+159: Not run:
+159:     mdftb/Glycine_mDFTBoff3
+159: ------------------------------------------------------------------------------
+159: Status: FAIL
+159/406 Test #159: app/dftb+/mdftb/Glycine_mDFTBoff3 ................................***Failed    0.07 sec
+
+test 160
+        Start 160: app/dftb+/mdftb/Glycine_Ordering
+
+160: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine_Ordering"
+160: Environment variables: 
+160:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+160: Test timeout computed to be: 10000000
+160: mdftb/Glycine_Ordering:	Test script returned non-zero exit code: 1
+160:  deleting file 'autotest.tag'
+160:  TODO.
+160: 
+160: ==============================================================================
+160: TEST SUMMARY
+160: ------------------------------------------------------------------------------
+160: Match:
+160:     None
+160: 
+160: Not run:
+160:     mdftb/Glycine_Ordering
+160: ------------------------------------------------------------------------------
+160: Status: FAIL
+160/406 Test #160: app/dftb+/mdftb/Glycine_Ordering .................................***Failed    0.07 sec
+
+test 161
+        Start 161: app/dftb+/mdftb/Glycine_RotTran1
+
+161: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine_RotTran1"
+161: Environment variables: 
+161:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+161: Test timeout computed to be: 10000000
+161: mdftb/Glycine_RotTran1:	Test script returned non-zero exit code: 1
+161:  deleting file 'autotest.tag'
+161:  TODO.
+161: 
+161: ==============================================================================
+161: TEST SUMMARY
+161: ------------------------------------------------------------------------------
+161: Match:
+161:     None
+161: 
+161: Not run:
+161:     mdftb/Glycine_RotTran1
+161: ------------------------------------------------------------------------------
+161: Status: FAIL
+161/406 Test #161: app/dftb+/mdftb/Glycine_RotTran1 .................................***Failed    0.07 sec
+
+test 162
+        Start 162: app/dftb+/mdftb/Glycine_RotTran2
+
+162: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine_RotTran2"
+162: Environment variables: 
+162:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+162: Test timeout computed to be: 10000000
+162: mdftb/Glycine_RotTran2:	Test script returned non-zero exit code: 1
+162:  deleting file 'autotest.tag'
+162:  TODO.
+162: 
+162: ==============================================================================
+162: TEST SUMMARY
+162: ------------------------------------------------------------------------------
+162: Match:
+162:     None
+162: 
+162: Not run:
+162:     mdftb/Glycine_RotTran2
+162: ------------------------------------------------------------------------------
+162: Status: FAIL
+162/406 Test #162: app/dftb+/mdftb/Glycine_RotTran2 .................................***Failed    0.07 sec
+
+test 163
+        Start 163: app/dftb+/mdftb/Glycine_RotTran3
+
+163: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/Glycine_RotTran3"
+163: Environment variables: 
+163:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+163: Test timeout computed to be: 10000000
+163: mdftb/Glycine_RotTran3:	Test script returned non-zero exit code: 1
+163:  deleting file 'autotest.tag'
+163:  TODO.
+163: 
+163: ==============================================================================
+163: TEST SUMMARY
+163: ------------------------------------------------------------------------------
+163: Match:
+163:     None
+163: 
+163: Not run:
+163:     mdftb/Glycine_RotTran3
+163: ------------------------------------------------------------------------------
+163: Status: FAIL
+163/406 Test #163: app/dftb+/mdftb/Glycine_RotTran3 .................................***Failed    0.07 sec
+
+test 164
+        Start 164: app/dftb+/mdftb/OH-H2O
+
+164: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/OH-H2O"
+164: Environment variables: 
+164:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+164: Test timeout computed to be: 10000000
+164: mdftb/OH-H2O:	Test script returned non-zero exit code: 1
+164:  deleting file 'autotest.tag'
+164:  TODO.
+164: 
+164: ==============================================================================
+164: TEST SUMMARY
+164: ------------------------------------------------------------------------------
+164: Match:
+164:     None
+164: 
+164: Not run:
+164:     mdftb/OH-H2O
+164: ------------------------------------------------------------------------------
+164: Status: FAIL
+164/406 Test #164: app/dftb+/mdftb/OH-H2O ...........................................***Failed    0.07 sec
+
+test 165
+        Start 165: app/dftb+/mdftb/OH-H2O_RotTran1
+
+165: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/OH-H2O_RotTran1"
+165: Environment variables: 
+165:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+165: Test timeout computed to be: 10000000
+165: mdftb/OH-H2O_RotTran1:	Test script returned non-zero exit code: 1
+165:  deleting file 'autotest.tag'
+165:  TODO.
+165: 
+165: ==============================================================================
+165: TEST SUMMARY
+165: ------------------------------------------------------------------------------
+165: Match:
+165:     None
+165: 
+165: Not run:
+165:     mdftb/OH-H2O_RotTran1
+165: ------------------------------------------------------------------------------
+165: Status: FAIL
+165/406 Test #165: app/dftb+/mdftb/OH-H2O_RotTran1 ..................................***Failed    0.07 sec
+
+test 166
+        Start 166: app/dftb+/mdftb/OH-H2O_RotTran2
+
+166: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/OH-H2O_RotTran2"
+166: Environment variables: 
+166:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+166: Test timeout computed to be: 10000000
+166: mdftb/OH-H2O_RotTran2:	Test script returned non-zero exit code: 1
+166:  deleting file 'autotest.tag'
+166:  TODO.
+166: 
+166: ==============================================================================
+166: TEST SUMMARY
+166: ------------------------------------------------------------------------------
+166: Match:
+166:     None
+166: 
+166: Not run:
+166:     mdftb/OH-H2O_RotTran2
+166: ------------------------------------------------------------------------------
+166: Status: FAIL
+166/406 Test #166: app/dftb+/mdftb/OH-H2O_RotTran2 ..................................***Failed    0.07 sec
+
+test 167
+        Start 167: app/dftb+/mdftb/OH-H2O_RotTran3
+
+167: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/OH-H2O_RotTran3"
+167: Environment variables: 
+167:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+167: Test timeout computed to be: 10000000
+167: mdftb/OH-H2O_RotTran3:	Test script returned non-zero exit code: 1
+167:  deleting file 'autotest.tag'
+167:  TODO.
+167: 
+167: ==============================================================================
+167: TEST SUMMARY
+167: ------------------------------------------------------------------------------
+167: Match:
+167:     None
+167: 
+167: Not run:
+167:     mdftb/OH-H2O_RotTran3
+167: ------------------------------------------------------------------------------
+167: Status: FAIL
+167/406 Test #167: app/dftb+/mdftb/OH-H2O_RotTran3 ..................................***Failed    0.07 sec
+
+test 168
+        Start 168: app/dftb+/mdftb/NH4+H2O
+
+168: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/NH4+H2O"
+168: Environment variables: 
+168:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+168: Test timeout computed to be: 10000000
+168: mdftb/NH4+H2O:	Test script returned non-zero exit code: 1
+168:  deleting file 'autotest.tag'
+168:  TODO.
+168: 
+168: ==============================================================================
+168: TEST SUMMARY
+168: ------------------------------------------------------------------------------
+168: Match:
+168:     None
+168: 
+168: Not run:
+168:     mdftb/NH4+H2O
+168: ------------------------------------------------------------------------------
+168: Status: FAIL
+168/406 Test #168: app/dftb+/mdftb/NH4+H2O ..........................................***Failed    0.07 sec
+
+test 169
+        Start 169: app/dftb+/mdftb/NH4+H2O_RotTran1
+
+169: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/NH4+H2O_RotTran1"
+169: Environment variables: 
+169:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+169: Test timeout computed to be: 10000000
+169: mdftb/NH4+H2O_RotTran1:	Test script returned non-zero exit code: 1
+169:  deleting file 'autotest.tag'
+169:  TODO.
+169: 
+169: ==============================================================================
+169: TEST SUMMARY
+169: ------------------------------------------------------------------------------
+169: Match:
+169:     None
+169: 
+169: Not run:
+169:     mdftb/NH4+H2O_RotTran1
+169: ------------------------------------------------------------------------------
+169: Status: FAIL
+169/406 Test #169: app/dftb+/mdftb/NH4+H2O_RotTran1 .................................***Failed    0.07 sec
+
+test 170
+        Start 170: app/dftb+/mdftb/NH4+H2O_RotTran2
+
+170: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/NH4+H2O_RotTran2"
+170: Environment variables: 
+170:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+170: Test timeout computed to be: 10000000
+170: mdftb/NH4+H2O_RotTran2:	Test script returned non-zero exit code: 1
+170:  deleting file 'autotest.tag'
+170:  TODO.
+170: 
+170: ==============================================================================
+170: TEST SUMMARY
+170: ------------------------------------------------------------------------------
+170: Match:
+170:     None
+170: 
+170: Not run:
+170:     mdftb/NH4+H2O_RotTran2
+170: ------------------------------------------------------------------------------
+170: Status: FAIL
+170/406 Test #170: app/dftb+/mdftb/NH4+H2O_RotTran2 .................................***Failed    0.07 sec
+
+test 171
+        Start 171: app/dftb+/mdftb/NH4+H2O_RotTran3
+
+171: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "mdftb/NH4+H2O_RotTran3"
+171: Environment variables: 
+171:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+171: Test timeout computed to be: 10000000
+171: mdftb/NH4+H2O_RotTran3:	Test script returned non-zero exit code: 1
+171:  deleting file 'autotest.tag'
+171:  TODO.
+171: 
+171: ==============================================================================
+171: TEST SUMMARY
+171: ------------------------------------------------------------------------------
+171: Match:
+171:     None
+171: 
+171: Not run:
+171:     mdftb/NH4+H2O_RotTran3
+171: ------------------------------------------------------------------------------
+171: Status: FAIL
+171/406 Test #171: app/dftb+/mdftb/NH4+H2O_RotTran3 .................................***Failed    0.07 sec
+
+test 177
+        Start 177: app/dftb+/derivatives/Au2_LSmetalPol
+
+177: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "derivatives/Au2_LSmetalPol"
+177: Environment variables: 
+177:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+177: Test timeout computed to be: 10000000
+177: cp: cannot stat 'derivatives/Au2_LSmetalPol/Au-Au.skf': No such file or directory
+177: derivatives/Au2_LSmetalPol:	Test script returned non-zero exit code: 1
+177:  deleting file 'autotest.tag'
+177:  TODO.
+177: 
+177: ==============================================================================
+177: TEST SUMMARY
+177: ------------------------------------------------------------------------------
+177: Match:
+177:     None
+177: 
+177: Not run:
+177:     derivatives/Au2_LSmetalPol
+177: ------------------------------------------------------------------------------
+177: Status: FAIL
+177/406 Test #177: app/dftb+/derivatives/Au2_LSmetalPol .............................***Failed    0.07 sec
+
+test 183
+        Start 183: app/dftb+/derivatives/As4S4_LS_ons
+
+183: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "derivatives/As4S4_LS_ons"
+183: Environment variables: 
+183:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+183: Test timeout computed to be: 10000000
+183: cp: cannot stat 'derivatives/As4S4_LS_ons/As-As.skf': No such file or directory
+183: cp: cannot stat 'derivatives/As4S4_LS_ons/As-S.skf': No such file or directory
+183: cp: cannot stat 'derivatives/As4S4_LS_ons/S-As.skf': No such file or directory
+183: derivatives/As4S4_LS_ons:	Test script returned non-zero exit code: 1
+183:  deleting file 'autotest.tag'
+183:  TODO.
+183: 
+183: ==============================================================================
+183: TEST SUMMARY
+183: ------------------------------------------------------------------------------
+183: Match:
+183:     None
+183: 
+183: Not run:
+183:     derivatives/As4S4_LS_ons
+183: ------------------------------------------------------------------------------
+183: Status: FAIL
+183/406 Test #183: app/dftb+/derivatives/As4S4_LS_ons ...............................***Failed    0.10 sec
+
+test 188
+        Start 188: app/dftb+/derivatives/Au2_Polfreq
+
+188: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "derivatives/Au2_Polfreq"
+188: Environment variables: 
+188:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+188: Test timeout computed to be: 10000000
+188: cp: cannot stat 'derivatives/Au2_Polfreq/Au-Au.skf': No such file or directory
+188: derivatives/Au2_Polfreq:	Test script returned non-zero exit code: 1
+188:  deleting file 'autotest.tag'
+188:  TODO.
+188: 
+188: ==============================================================================
+188: TEST SUMMARY
+188: ------------------------------------------------------------------------------
+188: Match:
+188:     None
+188: 
+188: Not run:
+188:     derivatives/Au2_Polfreq
+188: ------------------------------------------------------------------------------
+188: Status: FAIL
+188/406 Test #188: app/dftb+/derivatives/Au2_Polfreq ................................***Failed    0.07 sec
+
+test 192
+        Start 192: app/dftb+/derivatives/Au2_LSmetalPolfreq
+
+192: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "derivatives/Au2_LSmetalPolfreq"
+192: Environment variables: 
+192:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+192: Test timeout computed to be: 10000000
+192: cp: cannot stat 'derivatives/Au2_LSmetalPolfreq/Au-Au.skf': No such file or directory
+192: derivatives/Au2_LSmetalPolfreq:	Test script returned non-zero exit code: 1
+192:  deleting file 'autotest.tag'
+192:  TODO.
+192: 
+192: ==============================================================================
+192: TEST SUMMARY
+192: ------------------------------------------------------------------------------
+192: Match:
+192:     None
+192: 
+192: Not run:
+192:     derivatives/Au2_LSmetalPolfreq
+192: ------------------------------------------------------------------------------
+192: Status: FAIL
+192/406 Test #192: app/dftb+/derivatives/Au2_LSmetalPolfreq .........................***Failed    0.07 sec
+
+test 213
+        Start 213: app/dftb+/dispersion/GaAs_sdftd3
+
+213: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "dispersion/GaAs_sdftd3"
+213: Environment variables: 
+213:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+213: Test timeout computed to be: 10000000
+213: dispersion/GaAs_sdftd3:	Test script returned non-zero exit code: 1
+213:  deleting file 'autotest.tag'
+213:  TODO.
+213: 
+213: ==============================================================================
+213: TEST SUMMARY
+213: ------------------------------------------------------------------------------
+213: Match:
+213:     None
+213: 
+213: Not run:
+213:     dispersion/GaAs_sdftd3
+213: ------------------------------------------------------------------------------
+213: Status: FAIL
+213/406 Test #213: app/dftb+/dispersion/GaAs_sdftd3 .................................***Failed    0.07 sec
+
+test 219
+        Start 219: app/dftb+/dispersion/GaAs_dftd4
+
+219: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "dispersion/GaAs_dftd4"
+219: Environment variables: 
+219:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+219: Test timeout computed to be: 10000000
+219: dispersion/GaAs_dftd4:	Test script returned non-zero exit code: 1
+219:  deleting file 'autotest.tag'
+219:  TODO.
+219: 
+219: ==============================================================================
+219: TEST SUMMARY
+219: ------------------------------------------------------------------------------
+219: Match:
+219:     None
+219: 
+219: Not run:
+219:     dispersion/GaAs_dftd4
+219: ------------------------------------------------------------------------------
+219: Status: FAIL
+219/406 Test #219: app/dftb+/dispersion/GaAs_dftd4 ..................................***Failed    0.07 sec
+
+test 222
+        Start 222: app/dftb+/dispersion/GaAs_dftd4_sc
+
+222: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "dispersion/GaAs_dftd4_sc"
+222: Environment variables: 
+222:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+222: Test timeout computed to be: 10000000
+222: dispersion/GaAs_dftd4_sc:	Test script returned non-zero exit code: 1
+222:  deleting file 'autotest.tag'
+222:  TODO.
+222: 
+222: ==============================================================================
+222: TEST SUMMARY
+222: ------------------------------------------------------------------------------
+222: Match:
+222:     None
+222: 
+222: Not run:
+222:     dispersion/GaAs_dftd4_sc
+222: ------------------------------------------------------------------------------
+222: Status: FAIL
+222/406 Test #222: app/dftb+/dispersion/GaAs_dftd4_sc ...............................***Failed    0.07 sec
+
+test 249
+        Start 249: app/dftb+/scc/GaAs_2_restart
+
+249: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "scc/GaAs_2_restart"
+249: Environment variables: 
+249:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+249: Test timeout computed to be: 10000000
+249: scc/GaAs_2_restart:	Test script returned non-zero exit code: 1
+249:  deleting file 'autotest.tag'
+249:  TODO.
+249: 
+249: ==============================================================================
+249: TEST SUMMARY
+249: ------------------------------------------------------------------------------
+249: Match:
+249:     None
+249: 
+249: Not run:
+249:     scc/GaAs_2_restart
+249: ------------------------------------------------------------------------------
+249: Status: FAIL
+249/406 Test #249: app/dftb+/scc/GaAs_2_restart .....................................***Failed    0.12 sec
+
+test 265
+        Start 265: app/dftb+/solvation/gbsa_param1
+
+265: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "solvation/gbsa_param1"
+265: Environment variables: 
+265:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+265: Test timeout computed to be: 10000000
+265: cp: cannot stat 'solvation/gbsa_param1/param_gbsa_methanol.txt': No such file or directory
+265: solvation/gbsa_param1:	Test script returned non-zero exit code: 1
+265:  deleting file 'autotest.tag'
+265:  TODO.
+265: 
+265: ==============================================================================
+265: TEST SUMMARY
+265: ------------------------------------------------------------------------------
+265: Match:
+265:     None
+265: 
+265: Not run:
+265:     solvation/gbsa_param1
+265: ------------------------------------------------------------------------------
+265: Status: FAIL
+265/406 Test #265: app/dftb+/solvation/gbsa_param1 ..................................***Failed    0.12 sec
+
+test 266
+        Start 266: app/dftb+/solvation/gbsa_param2
+
+266: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "solvation/gbsa_param2"
+266: Environment variables: 
+266:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+266: Test timeout computed to be: 10000000
+266: cp: cannot stat 'solvation/gbsa_param2/param_gbsa_ch2cl2.txt': No such file or directory
+266: solvation/gbsa_param2:	Test script returned non-zero exit code: 1
+266:  deleting file 'autotest.tag'
+266:  TODO.
+266: 
+266: ==============================================================================
+266: TEST SUMMARY
+266: ------------------------------------------------------------------------------
+266: Match:
+266:     None
+266: 
+266: Not run:
+266:     solvation/gbsa_param2
+266: ------------------------------------------------------------------------------
+266: Status: FAIL
+266/406 Test #266: app/dftb+/solvation/gbsa_param2 ..................................***Failed    0.12 sec
+
+test 267
+        Start 267: app/dftb+/solvation/gbsa_param3
+
+267: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "solvation/gbsa_param3"
+267: Environment variables: 
+267:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+267: Test timeout computed to be: 10000000
+267: cp: cannot stat 'solvation/gbsa_param3/param_gbsa_dmso.txt': No such file or directory
+267: solvation/gbsa_param3:	Test script returned non-zero exit code: 1
+267:  deleting file 'autotest.tag'
+267:  TODO.
+267: 
+267: ==============================================================================
+267: TEST SUMMARY
+267: ------------------------------------------------------------------------------
+267: Match:
+267:     None
+267: 
+267: Not run:
+267:     solvation/gbsa_param3
+267: ------------------------------------------------------------------------------
+267: Status: FAIL
+267/406 Test #267: app/dftb+/solvation/gbsa_param3 ..................................***Failed    0.17 sec
+
+test 289
+        Start 289: app/dftb+/non-scc/GaAs_2
+
+289: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "non-scc/GaAs_2"
+289: Environment variables: 
+289:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+289: Test timeout computed to be: 10000000
+289: cp: cannot stat 'non-scc/GaAs_2/As-As.skf': No such file or directory
+289: cp: cannot stat 'non-scc/GaAs_2/As-Ga.skf': No such file or directory
+289: cp: cannot stat 'non-scc/GaAs_2/Ga-As.skf': No such file or directory
+289: cp: cannot stat 'non-scc/GaAs_2/Ga-Ga.skf': No such file or directory
+289: non-scc/GaAs_2:	Test script returned non-zero exit code: 1
+289:  deleting file 'autotest.tag'
+289:  TODO.
+289: 
+289: ==============================================================================
+289: TEST SUMMARY
+289: ------------------------------------------------------------------------------
+289: Match:
+289:     None
+289: 
+289: Not run:
+289:     non-scc/GaAs_2
+289: ------------------------------------------------------------------------------
+289: Status: FAIL
+289/406 Test #289: app/dftb+/non-scc/GaAs_2 .........................................***Failed    0.08 sec
+
+test 290
+        Start 290: app/dftb+/scc/GaAs_2
+
+290: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "scc/GaAs_2"
+290: Environment variables: 
+290:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+290: Test timeout computed to be: 10000000
+290: scc/GaAs_2:	Test script returned non-zero exit code: 1
+290:  deleting file 'autotest.tag'
+290:  TODO.
+290: 
+290: ==============================================================================
+290: TEST SUMMARY
+290: ------------------------------------------------------------------------------
+290: Match:
+290:     None
+290: 
+290: Not run:
+290:     scc/GaAs_2
+290: ------------------------------------------------------------------------------
+290: Status: FAIL
+290/406 Test #290: app/dftb+/scc/GaAs_2 .............................................***Failed    0.07 sec
+
+test 291
+        Start 291: app/dftb+/scc/GaAs_2_customU
+
+291: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "scc/GaAs_2_customU"
+291: Environment variables: 
+291:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+291: Test timeout computed to be: 10000000
+291: scc/GaAs_2_customU:	Test script returned non-zero exit code: 1
+291:  deleting file 'autotest.tag'
+291:  TODO.
+291: 
+291: ==============================================================================
+291: TEST SUMMARY
+291: ------------------------------------------------------------------------------
+291: Match:
+291:     None
+291: 
+291: Not run:
+291:     scc/GaAs_2_customU
+291: ------------------------------------------------------------------------------
+291: Status: FAIL
+291/406 Test #291: app/dftb+/scc/GaAs_2_customU .....................................***Failed    0.07 sec
+
+test 297
+        Start 297: app/dftb+/onsite/Au13
+
+297: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "onsite/Au13"
+297: Environment variables: 
+297:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+297: Test timeout computed to be: 10000000
+297: onsite/Au13:	Test script returned non-zero exit code: 1
+297:  deleting file 'autotest.tag'
+297:  TODO.
+297: 
+297: ==============================================================================
+297: TEST SUMMARY
+297: ------------------------------------------------------------------------------
+297: Match:
+297:     None
+297: 
+297: Not run:
+297:     onsite/Au13
+297: ------------------------------------------------------------------------------
+297: Status: FAIL
+297/406 Test #297: app/dftb+/onsite/Au13 ............................................***Failed    0.07 sec
+
+test 298
+        Start 298: app/dftb+/onsite/Au13pSIC
+
+298: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "onsite/Au13pSIC"
+298: Environment variables: 
+298:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+298: Test timeout computed to be: 10000000
+298: onsite/Au13pSIC:	Test script returned non-zero exit code: 1
+298:  deleting file 'autotest.tag'
+298:  TODO.
+298: 
+298: ==============================================================================
+298: TEST SUMMARY
+298: ------------------------------------------------------------------------------
+298: Match:
+298:     None
+298: 
+298: Not run:
+298:     onsite/Au13pSIC
+298: ------------------------------------------------------------------------------
+298: Status: FAIL
+298/406 Test #298: app/dftb+/onsite/Au13pSIC ........................................***Failed    0.07 sec
+
+test 341
+        Start 341: app/dftb+/spin/GaAs_2
+
+341: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "spin/GaAs_2"
+341: Environment variables: 
+341:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+341: Test timeout computed to be: 10000000
+341: cp: cannot stat 'spin/GaAs_2/As-As.skf': No such file or directory
+341: cp: cannot stat 'spin/GaAs_2/As-Ga.skf': No such file or directory
+341: cp: cannot stat 'spin/GaAs_2/Ga-As.skf': No such file or directory
+341: cp: cannot stat 'spin/GaAs_2/Ga-Ga.skf': No such file or directory
+341: spin/GaAs_2:	Test script returned non-zero exit code: 1
+341:  deleting file 'autotest.tag'
+341:  TODO.
+341: 
+341: ==============================================================================
+341: TEST SUMMARY
+341: ------------------------------------------------------------------------------
+341: Match:
+341:     None
+341: 
+341: Not run:
+341:     spin/GaAs_2
+341: ------------------------------------------------------------------------------
+341: Status: FAIL
+341/406 Test #341: app/dftb+/spin/GaAs_2 ............................................***Failed    0.08 sec
+
+test 342
+        Start 342: app/dftb+/spin/GaAs-spin-ext
+
+342: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "spin/GaAs-spin-ext"
+342: Environment variables: 
+342:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+342: Test timeout computed to be: 10000000
+342: cp: cannot stat 'spin/GaAs-spin-ext/As-As.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/As-Ga1.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/As-Ga2.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/Ga1-As.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/Ga1-Ga1.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/Ga1-Ga2.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/Ga2-As.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/Ga2-Ga1.skf': No such file or directory
+342: cp: cannot stat 'spin/GaAs-spin-ext/Ga2-Ga2.skf': No such file or directory
+342: spin/GaAs-spin-ext:	Test script returned non-zero exit code: 1
+342:  deleting file 'autotest.tag'
+342:  TODO.
+342: 
+342: ==============================================================================
+342: TEST SUMMARY
+342: ------------------------------------------------------------------------------
+342: Match:
+342:     None
+342: 
+342: Not run:
+342:     spin/GaAs-spin-ext
+342: ------------------------------------------------------------------------------
+342: Status: FAIL
+342/406 Test #342: app/dftb+/spin/GaAs-spin-ext .....................................***Failed    0.09 sec
+
+test 343
+        Start 343: app/dftb+/spinorbit/As4S4
+
+343: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "spinorbit/As4S4"
+343: Environment variables: 
+343:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+343: Test timeout computed to be: 10000000
+343: cp: cannot stat 'spinorbit/As4S4/As-As.skf': No such file or directory
+343: cp: cannot stat 'spinorbit/As4S4/As-S.skf': No such file or directory
+343: cp: cannot stat 'spinorbit/As4S4/S-As.skf': No such file or directory
+343: spinorbit/As4S4:	Test script returned non-zero exit code: 1
+343:  deleting file 'autotest.tag'
+343:  TODO.
+343: 
+343: ==============================================================================
+343: TEST SUMMARY
+343: ------------------------------------------------------------------------------
+343: Match:
+343:     None
+343: 
+343: Not run:
+343:     spinorbit/As4S4
+343: ------------------------------------------------------------------------------
+343: Status: FAIL
+343/406 Test #343: app/dftb+/spinorbit/As4S4 ........................................***Failed    0.08 sec
+
+test 347
+        Start 347: app/dftb+/derivatives/GaAs_2
+
+347: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "derivatives/GaAs_2"
+347: Environment variables: 
+347:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+347: Test timeout computed to be: 10000000
+347: derivatives/GaAs_2:	Test script returned non-zero exit code: 1
+347:  deleting file 'autotest.tag'
+347:  TODO.
+347: 
+347: ==============================================================================
+347: TEST SUMMARY
+347: ------------------------------------------------------------------------------
+347: Match:
+347:     None
+347: 
+347: Not run:
+347:     derivatives/GaAs_2
+347: ------------------------------------------------------------------------------
+347: Status: FAIL
+347/406 Test #347: app/dftb+/derivatives/GaAs_2 .....................................***Failed    0.08 sec
+
+test 348
+        Start 348: app/dftb+/dftb+u/GaAs_2
+
+348: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "dftb+u/GaAs_2"
+348: Environment variables: 
+348:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+348: Test timeout computed to be: 10000000
+348: dftb+u/GaAs_2:	Test script returned non-zero exit code: 1
+348:  deleting file 'autotest.tag'
+348:  TODO.
+348: 
+348: ==============================================================================
+348: TEST SUMMARY
+348: ------------------------------------------------------------------------------
+348: Match:
+348:     None
+348: 
+348: Not run:
+348:     dftb+u/GaAs_2
+348: ------------------------------------------------------------------------------
+348: Status: FAIL
+348/406 Test #348: app/dftb+/dftb+u/GaAs_2 ..........................................***Failed    0.07 sec
+
+test 355
+        Start 355: app/dftb+/spinorbit/GaAs_2
+
+355: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "spinorbit/GaAs_2"
+355: Environment variables: 
+355:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+355: Test timeout computed to be: 10000000
+355: spinorbit/GaAs_2:	Test script returned non-zero exit code: 1
+355:  deleting file 'autotest.tag'
+355:  TODO.
+355: 
+355: ==============================================================================
+355: TEST SUMMARY
+355: ------------------------------------------------------------------------------
+355: Match:
+355:     None
+355: 
+355: Not run:
+355:     spinorbit/GaAs_2
+355: ------------------------------------------------------------------------------
+355: Status: FAIL
+355/406 Test #355: app/dftb+/spinorbit/GaAs_2 .......................................***Failed    0.07 sec
+
+test 365
+        Start 365: app/dftb+/spinorbit/EuN
+
+365: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "spinorbit/EuN"
+365: Environment variables: 
+365:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+365: Test timeout computed to be: 10000000
+365: spinorbit/EuN:	Test script returned non-zero exit code: 1
+365:  deleting file 'autotest.tag'
+365:  TODO.
+365: 
+365: ==============================================================================
+365: TEST SUMMARY
+365: ------------------------------------------------------------------------------
+365: Match:
+365:     None
+365: 
+365: Not run:
+365:     spinorbit/EuN
+365: ------------------------------------------------------------------------------
+365: Status: FAIL
+365/406 Test #365: app/dftb+/spinorbit/EuN ..........................................***Failed    0.07 sec
+
+test 369
+        Start 369: app/dftb+/spinorbit/EuN_customU
+
+369: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "spinorbit/EuN_customU"
+369: Environment variables: 
+369:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+369: Test timeout computed to be: 10000000
+369: spinorbit/EuN_customU:	Test script returned non-zero exit code: 1
+369:  deleting file 'autotest.tag'
+369:  TODO.
+369: 
+369: ==============================================================================
+369: TEST SUMMARY
+369: ------------------------------------------------------------------------------
+369: Match:
+369:     None
+369: 
+369: Not run:
+369:     spinorbit/EuN_customU
+369: ------------------------------------------------------------------------------
+369: Status: FAIL
+369/406 Test #369: app/dftb+/spinorbit/EuN_customU ..................................***Failed    0.07 sec
+
+test 374
+        Start 374: app/dftb+/geoopt/GaAs_8_latconst_lbfgs
+
+374: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "geoopt/GaAs_8_latconst_lbfgs"
+374: Environment variables: 
+374:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+374: Test timeout computed to be: 10000000
+374: geoopt/GaAs_8_latconst_lbfgs:	Test script returned non-zero exit code: 1
+374:  deleting file 'autotest.tag'
+374:  TODO.
+374: 
+374: ==============================================================================
+374: TEST SUMMARY
+374: ------------------------------------------------------------------------------
+374: Match:
+374:     None
+374: 
+374: Not run:
+374:     geoopt/GaAs_8_latconst_lbfgs
+374: ------------------------------------------------------------------------------
+374: Status: FAIL
+374/406 Test #374: app/dftb+/geoopt/GaAs_8_latconst_lbfgs ...........................***Failed    0.07 sec
+
+test 375
+        Start 375: app/dftb+/geoopt/GaAs_8_latconst
+
+375: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "geoopt/GaAs_8_latconst"
+375: Environment variables: 
+375:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+375: Test timeout computed to be: 10000000
+375: geoopt/GaAs_8_latconst:	Test script returned non-zero exit code: 1
+375:  deleting file 'autotest.tag'
+375:  TODO.
+375: 
+375: ==============================================================================
+375: TEST SUMMARY
+375: ------------------------------------------------------------------------------
+375: Match:
+375:     None
+375: 
+375: Not run:
+375:     geoopt/GaAs_8_latconst
+375: ------------------------------------------------------------------------------
+375: Status: FAIL
+375/406 Test #375: app/dftb+/geoopt/GaAs_8_latconst .................................***Failed    0.07 sec
+
+test 376
+        Start 376: app/dftb+/analysis/Ga4As4_ESP
+
+376: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/dftb+" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/dftb+/dftb+" "-G" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/dftb+/bin/globalpostrun.sh" "-s" "P,R,C,S" "analysis/Ga4As4_ESP"
+376: Environment variables: 
+376:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+376: Test timeout computed to be: 10000000
+376: analysis/Ga4As4_ESP:	Test script returned non-zero exit code: 1
+376:  deleting file 'autotest.tag'
+376:  TODO.
+376: 
+376: ==============================================================================
+376: TEST SUMMARY
+376: ------------------------------------------------------------------------------
+376: Match:
+376:     None
+376: 
+376: Not run:
+376:     analysis/Ga4As4_ESP
+376: ------------------------------------------------------------------------------
+376: Status: FAIL
+376/406 Test #376: app/dftb+/analysis/Ga4As4_ESP ....................................***Failed    0.07 sec
+
+test 406
+        Start 406: app/modes/C24O6H8_select
+
+406: Test command: /home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/modes/bin/autotest2 "-r" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/modes" "-w" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/test/app/modes" "-d" "/home/users/ntu/c230179/Desktop/dftbplus-25.1/test/app/modes/bin/tagdiff" "-P" "env OMP_NUM_THREADS=1" "-p" "/home/users/ntu/c230179/Desktop/dftb_builds/dftb_gcc_Release/app/modes/modes" "-s" "P,R,C,S" "C24O6H8_select"
+406: Environment variables: 
+406:  DFTBPLUS_PARAM_DIR=/home/users/ntu/c230179/Desktop/dftbplus-25.1/external
+406: Test timeout computed to be: 10000000
+406: C24O6H8_select:	 Match.
+406: 
+406: ==============================================================================
+406: TEST SUMMARY
+406: ------------------------------------------------------------------------------
+406: Match:
+406:     C24O6H8_select
+406: ------------------------------------------------------------------------------
+406: Status: OK
+406/406 Test #406: app/modes/C24O6H8_select .........................................   Passed    0.14 sec
+
+84% tests passed, 63 tests failed out of 406
+
+Total Test time (real) = 677.71 sec
+
+The following tests FAILED:
+	 73 - app/dftb+/input/unsorted_contcar (Failed)
