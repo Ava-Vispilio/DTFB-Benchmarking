@@ -15,7 +15,7 @@ cd "$PBS_O_WORKDIR" || exit $?
 # Configuration
 COMPILER="gcc"
 BUILD_TYPE="Release"
-DFTB_SOURCE="/home/users/ntu/c230179/Desktop/dftbplus-25.1/}"
+DFTB_SOURCE="/home/users/ntu/c230179/Desktop/dftbplus-25.1/"
 BUILD_DIR="/home/C230179/Desktop/dftb_builds}"
 BUILD_NAME="dftb_${COMPILER}_${BUILD_TYPE}"
 BUILD_PATH="${BUILD_DIR}/${BUILD_NAME}"
