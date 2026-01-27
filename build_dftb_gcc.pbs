@@ -1,0 +1,127 @@
+#!/bin/bash
+#PBS -N dftb_build_gcc
+#PBS -l select=1:ncpus=16:mem=64gb
+#PBS -l walltime=02:00:00
+#PBS -q normal
+#PBS -P <projectId>
+#PBS -j oe
+
+# DFTB+ Build Script for GCC Compiler
+# Minimal configuration - compiler flags only
+# Extensible for MPI, BLAS/LAPACK, OpenMP, GPU support later
+
+# Change to directory where job was submitted
+cd "$PBS_O_WORKDIR" || exit $?
+
+# Configuration
+COMPILER="gcc"
+BUILD_TYPE="Release"
+DFTB_SOURCE="${/home/users/ntu/c230179/Desktop/dftbplus-25.1/}"
+BUILD_DIR="${BUILD_DIR:-/home/C230179/Desktop/dftb_builds}"
+BUILD_NAME="dftb_${COMPILER}_${BUILD_TYPE}"
+BUILD_PATH="${BUILD_DIR}/${BUILD_NAME}"
+
+echo "=========================================="
+echo "DFTB+ Build Configuration - GCC"
+echo "=========================================="
+echo "Compiler: $COMPILER"
+echo "Build Type: $BUILD_TYPE"
+echo "Source Directory: $DFTB_SOURCE"
+echo "Build Directory: $BUILD_PATH"
+echo "=========================================="
+
+# Check if source directory exists
+if [ ! -d "$DFTB_SOURCE" ]; then
+    echo "Error: DFTB+ source directory not found: $DFTB_SOURCE"
+    echo "Please set DFTB_SOURCE environment variable or place source in $PBS_O_WORKDIR/Sources/DFTB+"
+    exit 1
+fi
+
+# Load GCC module
+echo "Loading GCC module..."
+module load gcc || {
+    echo "Warning: gcc module not found, using system GCC"
+}
+
+# Set compiler environment variables
+export CC=gcc
+export CXX=g++
+export FC=gfortran
+
+# GCC-specific compiler flags
+COMPILER_FLAGS="-O3 -march=native"
+CMAKE_C_FLAGS="$COMPILER_FLAGS"
+CMAKE_CXX_FLAGS="$COMPILER_FLAGS"
+CMAKE_Fortran_FLAGS="$COMPILER_FLAGS"
+
+# Create build directory
+mkdir -p "$BUILD_PATH"
+cd "$BUILD_PATH" || exit $?
+
+# Configure CMake
+# Build cmake command with proper quoting for flags with spaces
+CMAKE_ARGS=(
+    "-DCMAKE_BUILD_TYPE=$BUILD_TYPE"
+    "-DCMAKE_C_COMPILER=$CC"
+    "-DCMAKE_CXX_COMPILER=$CXX"
+    "-DCMAKE_Fortran_COMPILER=$FC"
+    "-DCMAKE_C_FLAGS=$CMAKE_C_FLAGS"
+    "-DCMAKE_CXX_FLAGS=$CMAKE_CXX_FLAGS"
+    "-DCMAKE_Fortran_FLAGS=$CMAKE_Fortran_FLAGS"
+)
+
+echo ""
+echo "CMake Configuration:"
+echo "  Build Type: $BUILD_TYPE"
+echo "  C Compiler: $CC"
+echo "  C++ Compiler: $CXX"
+echo "  Fortran Compiler: $FC"
+echo "  C Flags: $CMAKE_C_FLAGS"
+echo "  C++ Flags: $CMAKE_CXX_FLAGS"
+echo "  Fortran Flags: $CMAKE_Fortran_FLAGS"
+echo ""
+
+# Run CMake configuration
+echo "Running CMake configuration..."
+cmake "$DFTB_SOURCE" "${CMAKE_ARGS[@]}"
+
+if [ $? -ne 0 ]; then
+    echo "Error: CMake configuration failed"
+    exit 1
+fi
+
+# Build
+echo "Building DFTB+ with GCC..."
+echo "Using $NCPUS CPU cores for compilation"
+make -j${NCPUS:-16}
+
+if [ $? -ne 0 ]; then
+    echo "Error: Build failed"
+    exit 1
+fi
+
+# Verify executable exists
+if [ ! -f "$BUILD_PATH/dftb+" ]; then
+    echo "Warning: Executable dftb+ not found in expected location"
+    echo "Searching for executable..."
+    find "$BUILD_PATH" -name "dftb+" -type f 2>/dev/null || echo "Executable not found"
+else
+    echo "Executable found: $BUILD_PATH/dftb+"
+fi
+
+# Print build summary
+echo ""
+echo "=========================================="
+echo "Build Summary - GCC"
+echo "=========================================="
+echo "Build completed successfully!"
+echo "Build directory: $BUILD_PATH"
+if [ -f "$BUILD_PATH/dftb+" ]; then
+    echo "Executable: $BUILD_PATH/dftb+"
+    # Test version if possible
+    echo "Testing executable..."
+    "$BUILD_PATH/dftb+" --version 2>&1 | head -5 || echo "Version check not available"
+fi
+echo "=========================================="
+
+exit 0
