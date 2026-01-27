@@ -41,11 +41,35 @@ module load cmake || {
     exit 1
 }
 
-# Load GCC module
+# Load GCC module (DFTB+ requires GCC >= 12.2)
 echo "Loading GCC module..."
-module load gcc/12.2.0-nscc || {
-    echo "Warning: gcc module not found, using system GCC"
+# Try newer versions first, fallback to 12.2.0-nscc (minimum required)
+module load gcc/14.2-nscc || module load gcc/12.3.0-nscc || module load gcc/12.2.0-nscc || {
+    echo "Error: Failed to load GCC 12.2.0-nscc or newer"
+    echo "Available GCC modules:"
+    module avail gcc 2>&1 | grep -E "gcc/(12|13|14)" || echo "Please check available modules with: module avail gcc"
+    exit 1
 }
+
+# Verify GCC version meets requirements (>= 12.2)
+echo "Verifying GCC version..."
+GCC_VERSION=$(gcc --version | head -n1 | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n1)
+if [ -z "$GCC_VERSION" ]; then
+    GCC_VERSION=$(gcc --version | head -n1 | grep -oE '[0-9]+\.[0-9]+' | head -n1)
+fi
+echo "Loaded GCC version: $GCC_VERSION"
+
+GCC_MAJOR=$(echo $GCC_VERSION | cut -d. -f1)
+GCC_MINOR=$(echo $GCC_VERSION | cut -d. -f2)
+if [ "$GCC_MAJOR" -lt 12 ] || ([ "$GCC_MAJOR" -eq 12 ] && [ "$GCC_MINOR" -lt 2 ]); then
+    echo "Error: GCC version $GCC_VERSION is too old. DFTB+ requires GCC >= 12.2.0"
+    exit 1
+fi
+
+# Set compiler environment variables
+export CC=gcc
+export CXX=g++
+export FC=gfortran
 
 # Set compiler environment variables
 export CC=gcc
