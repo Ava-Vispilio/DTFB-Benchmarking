@@ -82,14 +82,30 @@ module load openblas/0.3.23 || {
 
 # Verify OpenBLAS is loaded and set up library paths
 echo "OpenBLAS module loaded"
+BLAS_LIBRARY_PATH=""
 if [ -n "$OPENBLAS_ROOT" ]; then
     echo "  OPENBLAS_ROOT: $OPENBLAS_ROOT"
     # Export library paths for CMake to find BLAS
     if [ -d "$OPENBLAS_ROOT/lib" ]; then
         export LD_LIBRARY_PATH="$OPENBLAS_ROOT/lib:${LD_LIBRARY_PATH:-}"
+        BLAS_LIBRARY_PATH="$OPENBLAS_ROOT/lib"
     fi
     if [ -d "$OPENBLAS_ROOT/lib64" ]; then
         export LD_LIBRARY_PATH="$OPENBLAS_ROOT/lib64:${LD_LIBRARY_PATH:-}"
+        if [ -z "$BLAS_LIBRARY_PATH" ]; then
+            BLAS_LIBRARY_PATH="$OPENBLAS_ROOT/lib64"
+        fi
+    fi
+fi
+
+# Find the OpenBLAS library file for CMake
+BLAS_LIBRARY=""
+if [ -n "$BLAS_LIBRARY_PATH" ]; then
+    # Try to find libopenblas.so (shared) or libopenblas.a (static)
+    if [ -f "$BLAS_LIBRARY_PATH/libopenblas.so" ]; then
+        BLAS_LIBRARY="$BLAS_LIBRARY_PATH/libopenblas.so"
+    elif [ -f "$BLAS_LIBRARY_PATH/libopenblas.a" ]; then
+        BLAS_LIBRARY="$BLAS_LIBRARY_PATH/libopenblas.a"
     fi
 fi
 
@@ -101,6 +117,12 @@ elif [ -f "$OPENBLAS_ROOT/include/openblas_config.h" ]; then
     if [ -n "$OPENBLAS_VERSION" ]; then
         echo "  OpenBLAS version: $OPENBLAS_VERSION"
     fi
+fi
+
+if [ -n "$BLAS_LIBRARY" ]; then
+    echo "  BLAS library found: $BLAS_LIBRARY"
+else
+    echo "  Warning: Could not locate OpenBLAS library file"
 fi
 
 # GCC-specific compiler flags
@@ -124,6 +146,11 @@ CMAKE_ARGS=(
     "-DCMAKE_CXX_FLAGS=$CMAKE_CXX_FLAGS"
     "-DCMAKE_Fortran_FLAGS=$CMAKE_Fortran_FLAGS"
 )
+
+# Add BLAS_LIBRARY if found (required by FindCustomBlas.cmake)
+if [ -n "$BLAS_LIBRARY" ]; then
+    CMAKE_ARGS+=("-DBLAS_LIBRARY=$BLAS_LIBRARY")
+fi
 
 echo ""
 echo "CMake Configuration:"
