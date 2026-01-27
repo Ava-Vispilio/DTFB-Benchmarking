@@ -43,7 +43,7 @@ module load cmake || {
 
 # Load GCC module
 echo "Loading GCC module..."
-module load gcc || {
+module load gcc/12.2.0-nscc || {
     echo "Warning: gcc module not found, using system GCC"
 }
 
