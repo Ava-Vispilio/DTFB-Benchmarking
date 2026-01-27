@@ -3,7 +3,6 @@
 #PBS -l select=1:ncpus=16:mem=64gb
 #PBS -l walltime=02:00:00
 #PBS -q normal
-#PBS -P <projectId>
 #PBS -j oe
 
 # DFTB+ Build Script for GCC Compiler
