@@ -80,10 +80,27 @@ module load openblas/0.3.23 || {
     exit 1
 }
 
-# Verify OpenBLAS is loaded
+# Verify OpenBLAS is loaded and set up library paths
 echo "OpenBLAS module loaded"
 if [ -n "$OPENBLAS_ROOT" ]; then
     echo "  OPENBLAS_ROOT: $OPENBLAS_ROOT"
+    # Export library paths for CMake to find BLAS
+    if [ -d "$OPENBLAS_ROOT/lib" ]; then
+        export LD_LIBRARY_PATH="$OPENBLAS_ROOT/lib:${LD_LIBRARY_PATH:-}"
+    fi
+    if [ -d "$OPENBLAS_ROOT/lib64" ]; then
+        export LD_LIBRARY_PATH="$OPENBLAS_ROOT/lib64:${LD_LIBRARY_PATH:-}"
+    fi
+fi
+
+# Display OpenBLAS version if available
+if command -v openblas_version &> /dev/null; then
+    echo "  OpenBLAS version: $(openblas_version 2>/dev/null || echo 'unknown')"
+elif [ -f "$OPENBLAS_ROOT/include/openblas_config.h" ]; then
+    OPENBLAS_VERSION=$(grep -E "^#define OPENBLAS_VERSION" "$OPENBLAS_ROOT/include/openblas_config.h" 2>/dev/null | awk '{print $3}' | tr -d '"')
+    if [ -n "$OPENBLAS_VERSION" ]; then
+        echo "  OpenBLAS version: $OPENBLAS_VERSION"
+    fi
 fi
 
 # GCC-specific compiler flags
